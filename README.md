@@ -14,11 +14,12 @@ A banking BI portfolio project with five native FineBI tabs backed by a reproduc
 
 The four shared controls retain month, product, region and channel when switching tabs. Clicking a loan reference opens Loan Details with the selected contract and month. Closing the dialog returns to the same registry, including its threshold and page.
 
+- **FineBI:** [Workbook migration ZIP](finebi/migration/Credit-Portfolio-Analytics.zip) · [Import instructions](finebi/README.md#import-the-workbook)
 - **Database:** [ER diagram and data dictionary](docs/data-dictionary.md) · [PostgreSQL DDL](database/001_schema.sql) · [Reporting views](database/003_views.sql)
 - **Semantics:** [Dataset grains and filter rules](finebi/README.md#semantic-layer) · [Metric formulas](docs/metrics.md) · [FineBI SQL and parameter catalog](finebi/readable-filters/datasets.json)
 - **Verification:** [FineBI navigation and registry checks](validation/finebi-browser-checks.json) · [SQL parity checks](finebi/readable-filters/validation.json)
 
-The FineBI workbook runs in the local FineBI installation. This repository provides the dataset SQL, build instructions, semantic model and screenshots to recreate it. The separate [FineReport/FineVIS template](dashboard/report/Portfolio_Overview.fvs) is importable into FineReport with a configured `CREDIT_PORTFOLIO` connection. See its [deployment guide](docs/local-overview.md).
+The FineBI migration ZIP contains the dashboard, its five tabs, shared filters, components and 28 SQL datasets. It references a PostgreSQL connection named `CREDIT_PORTFOLIO` that you configure on your own FineBI server. The repository also includes the separate [FineReport/FineVIS template](dashboard/report/Portfolio_Overview.fvs) and its [deployment guide](docs/local-overview.md).
 
 **All records are synthetic.** Customer labels are generated identifiers, not people. RUB is the single currency. The fixed reporting date is **October 31, 2026**; reporting history covers **November 2024–October 2026**, with an October 31, 2024 opening baseline and earlier origination/payment history from November 2023.
 
@@ -57,7 +58,7 @@ python3 src/database.py
 Initialization validates the fixture checksum and loads schema, data, views, indexes and comments in one transaction. It refuses an existing `credit` schema and never drops existing objects. The 37 MiB compressed fixture expands considerably; allow at least **2 GB free disk space** for restore, indexes and temporary files.
 
 4. Create your own reporting LOGIN role, then adapt `database/004_reporting_access.sql` to grant SELECT access. Configure a PostgreSQL connection named **CREDIT_PORTFOLIO** in FineBI. Example JDBC URL: `jdbc:postgresql://127.0.0.1:55433/credit_portfolio_demo`.
-5. Follow the [FineBI workbook setup](finebi/README.md) to register the datasets, build the five tabs and configure the registry jump.
+5. Follow the [FineBI import instructions](finebi/README.md#import-the-workbook) to deploy the workbook and verify the registry jump. The [manual setup](finebi/README.md#recreate-the-workbook) describes how to recreate the workbook from SQL.
 
 From a remote or containerized FineBI server, use a database hostname reachable from that server; localhost refers to the server itself.
 
@@ -88,7 +89,7 @@ data/generated/ Deterministic compressed COPY fixture and row-count/checksum man
 data/page-samples/ CSV output for the default report parameters
 queries/        One SQL file per FineReport dataset
 src/            Exact-money ledger, generator, loader, query renderer and verifier
-finebi/         Direct-query SQL, semantic catalog, bindings and workbook setup
+finebi/         Native workbook export, Direct SQL, semantic catalog and setup
 dashboard/      FineReport/FineVIS template, SQL datasets and installer
 tests/          Hand-calculated ledger tests and reproducibility integration test
 docs/           Model, metrics, methodology, dataset mapping and live catalog export

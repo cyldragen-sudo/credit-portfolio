@@ -10,6 +10,7 @@ __pycache__/
 .DS_Store
 *.log
 *.zip
+!finebi/migration/Credit-Portfolio-Analytics.zip
 .private/
 build/
 .superpowers/
