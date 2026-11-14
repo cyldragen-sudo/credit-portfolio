@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-07",
+  "workbook_id": "55f29d3962924a6692b2b3816cdafda6",
+  "status": "Complete: native Sales and Funnel tab, shared filters and navigation verified in saved FineBI workbook",
+  "overview_report_id": "f1e20436263842bb85acb6f4f88cb775",
+  "temporary_sales_shell_id": "e1b35b7ad3f5412e8a1a5618a612d39a",
+  "temporary_sales_shell_warning": "Renamed Overview Layout Backup; unpublished reference copy retained, separate from the Sales and Funnel native tab.",
+  "components": [
+    {
+      "name": "Submitted Applications",
+      "id": "0627e634843542fab9fc73e16ed75978"
+    },
+    {
+      "name": "Approval Rate",
+      "id": "c8dfe30e246542de9ed53deb63ef9d9d"
+    },
+    {
+      "name": "Approved to Funded",
+      "id": "e6d34df346bb4ec1a4623e67515e4c68"
+    },
+    {
+      "name": "MTD Funded Amount",
+      "id": "a1e5be5fd4e14ee8bd38b8022f755cf0"
+    },
+    {
+      "name": "Funded Loans",
+      "id": "1018c1d6e828471db14a23e1ec44659c"
+    },
+    {
+      "name": "Average Loan Amount",
+      "id": "31d1a20f7fd34705ac8eef5392bc30ab"
+    },
+    {
+      "name": "Application Funnel",
+      "id": "e6d92bbc1a3d425085dc5adb1ff18685"
+    },
+    {
+      "name": "Disbursement Trend (RUB m)",
+      "id": "b7e9986d64b14dcca3178d3c54419ec5"
+    },
+    {
+      "name": "Disbursements by Channel (RUB m)",
+      "id": "4eceb937f7ba4199b8d3025d4f6b0c2f"
+    },
+    {
+      "name": "Sales Plan vs Actual — All Channels",
+      "id": "9c364a72a5ad41059a4e2fc3c310c943"
+    },
+    {
+      "name": "Channel Funnel Performance",
+      "id": "152705cafecb4149bd6ac7238ea33910"
+    }
+  ],
+  "label_aware_sales_sources_installed": [
+    "Sales KPIs",
+    "Application Funnel",
+    "Disbursement Trend",
+    "Disbursements by Channel",
+    "Sales Plan vs Actual",
+    "Channel Funnel Performance"
+  ],
+  "analytical_checks": {
+    "default": {
+      "submitted_applications": 1654,
+      "approval_rate": "45.41%",
+      "conversion": "43.41%",
+      "funded_amount": "RUB 800.88 m",
+      "funded_loans": 400,
+      "average_amount": "RUB 2.00 m"
+    },
+    "historical_August_2025_Personal_Loan_Moscow_Online": {
+      "submitted_applications": 6,
+      "approval_rate": "83.33%",
+      "conversion": "100.00%",
+      "funded_amount": "RUB 6.66 m",
+      "funded_loans": 6,
+      "average_amount": "RUB 1.11 m"
+    }
+  },
+  "component_details": {
+    "funnel": "Native Funnel, custom Submitted / Approved / Funded order, value labels, Stage legend only; size slider hidden.",
+    "trend": "Native split line; month_end at day grain, value sum; value alias Disbursements (RUB m).",
+    "channels": "Native split column with label vertical and value horizontal; aliases Channel and Disbursements (RUB m).",
+    "plan_table": "Native detailed table, ordered product_name, loans_label, actual_label, plan_label, attainment_label. Aliases set to Product, Funded Loans, Actual (RUB m), Plan (RUB m), Attainment. All channels intentionally.",
+    "channel_table": "Native detailed table: Channel, Applications, Approval, Conversion, Days to Fund. All four default channel rows visible."
+  },
+  "remaining": [],
+  "browser": {
+    "browser_id": "2",
+    "deliverable_tab": "6",
+    "viewport_override_reset": true,
+    "editor_lock_released_via_native_back": true
+  },
+  "evidence": [
+    "sales-preview.png",
+    "sales-preview-bottom.png",
+    "overview-preview.png",
+    "historical-sales.png",
+    "historical-overview.png",
+    "sales-saved-view.png"
+  ],
+  "dashboard_name": "Credit Portfolio Analytics",
+  "tabs": [
+    "Overview",
+    "Sales and Funnel"
+  ],
+  "temporary_sales_shell_name": "Overview Layout Backup",
+  "navigation": "Native Overview and Sales and Funnel tabs inside report f1e20436263842bb85acb6f4f88cb775; four shared filters outside the Tab. Month, Product and Region bind eleven source parameters; Channel binds ten, excluding the all-channel plan.",
+  "validation": {
+    "default": "October 2026 / All Products / All Regions / All Channels: Sales KPIs 1,654 / 45.41% / 43.41% / RUB 800.88 m / 400 / RUB 2.00 m; funnel 1,654 / 751 / 326. Overview matches source.",
+    "historical": "August 2025 / Personal Loan / Moscow / Online: all six Sales and all six Overview KPIs matched source control-values.json. Funnel 6 / 5 / 5; Channel table Online 6 / 83.3% / 100.0% / 6.2 days. Plan remains all-channel 27 loans, RUB 21.74 m actual / RUB 24.14 m plan / 90.0%.",
+    "navigation": "Sales to Overview to Sales retained all four historical selections and matching figures. Saved workbook navigation verified again outside editor.",
+    "presentation": "Desktop theme retained, twelve duplicate KPI titles hidden, native funnel size legend removed, English aliases verified after reload. Plan columns resized, cohort/funding-date note below tables.",
+    "defaults_restored": true
+  },
+  "evidence_folder": "docs/screenshots/finebi",
+  "url": "http://localhost:37799/webroot/decision#/analysis/own/subject/55f29d3962924a6692b2b3816cdafda6/report/f1e20436263842bb85acb6f4f88cb775",
+  "navigation_extended": "2026-11-07: third Delinquency and Portfolio Quality tab added; shared source bindings now fifteen (Channel fourteen). All six directed paths checked; see quality-build-state.json.",
+  "later_shared_filter_extension": "Vintage Analysis added later on 2026-11-07: current global bindings 18 Date/Product/Region and 17 Channel; see finebi/vintage-build-state.json. Original checks above are delivery-time snapshots."
+}

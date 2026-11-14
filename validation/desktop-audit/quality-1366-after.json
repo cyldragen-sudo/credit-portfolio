@@ -1,0 +1,22 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 14,
+      "name": "Registry loan_reference1",
+      "renderedFontApprox": 9.955528259277344
+    }
+  ],
+  "overlaps": [],
+  "file": "quality-1366-after",
+  "notice": {
+    "bottom": 738,
+    "height": 60,
+    "left": 497.1953125,
+    "right": 1346,
+    "top": 678,
+    "width": 848.8046875,
+    "x": 497.1953125,
+    "y": 678
+  }
+}

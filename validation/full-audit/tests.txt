@@ -1,0 +1,55 @@
+test_buckets_reconcile_to_full_portfolio (test_delinquency.QualityTests) ... ok
+test_cards_match_independent_snapshot_and_ledger_sums (test_delinquency.QualityTests) ... ok
+test_empty_scope_clears_cards_matrix_and_registry (test_delinquency.QualityTests) ... ok
+test_historical_scope_matches_direct_rows (test_delinquency.QualityTests) ... ok
+test_matrix_retains_opening_cohort_and_terminal_states (test_delinquency.QualityTests) ... ok
+test_registry_numeric_parameters_reject_untrusted_text (test_delinquency.QualityTests) ... ok
+test_registry_pages_are_stable_disjoint_and_bounded (test_delinquency.QualityTests) ... ok
+test_threshold_changes_registry_only (test_delinquency.QualityTests) ... ok
+test_fixture_is_reproducible_and_refuses_overwrite (test_generator.GeneratorTests) ... ok
+test_calendar_and_principal_reconcile (test_ledger.LedgerTests) ... ok
+test_cure_pays_oldest_obligation (test_ledger.LedgerTests) ... ok
+test_future_payment_does_not_change_history (test_ledger.LedgerTests) ... ok
+test_partial_payment_leaves_interest_and_ages (test_ledger.LedgerTests) ... ok
+test_prepayment_cancels_future_interest (test_ledger.LedgerTests) ... ok
+test_reject_overpayment (test_ledger.LedgerTests) ... ok
+test_unpaid_due_day_is_not_overdue (test_ledger.LedgerTests) ... ok
+test_writeoff_is_separate_from_repayment (test_ledger.LedgerTests) ... ok
+test_both_tables_are_stable_disjoint_and_bounded (test_loan_details.LoanDetailsTests) ... ok
+test_historical_closure_and_operations_do_not_leak_future (test_loan_details.LoanDetailsTests) ... ok
+test_history_is_chronological_and_ends_at_selected_date (test_loan_details.LoanDetailsTests) ... ok
+test_missing_unselected_and_unissued_loans_are_empty (test_loan_details.LoanDetailsTests) ... ok
+test_reject_unknown_noninteger_and_negative_parameters (test_loan_details.LoanDetailsTests) ... ok
+test_schedule_uses_only_effective_contract_and_dated_allocations (test_loan_details.LoanDetailsTests) ... ok
+test_summary_matches_snapshot_and_cash_ledger (test_loan_details.LoanDetailsTests) ... ok
+test_written_off_cash_excludes_debt_extinguishment (test_loan_details.LoanDetailsTests) ... ok
+test_portable_report_has_live_native_bindings_and_no_credentials (test_native_report.NativeReportTests) ... ok
+test_empty_scope_has_no_ratios_or_stale_labels (test_overview.OverviewTests) ... ok
+test_historical_month_has_correct_cutoff (test_overview.OverviewTests) ... ok
+test_overview_totals_match_delivered_fixture (test_overview.OverviewTests) ... ok
+test_product_scope_matches_independent_balance (test_overview.OverviewTests) ... ok
+test_reject_untrusted_numeric_parameters (test_overview.OverviewTests) ... ok
+test_archive_excludes_private_data_and_build_products (test_package.PackageTests) ... ok
+test_reject_invalid_reporting_window (test_reports.ParameterTests) ... ok
+test_reject_untrusted_parameter_text (test_reports.ParameterTests) ... ok
+test_unissued_loan_has_no_historical_schedule (test_reports.ReportTests) ... ok
+test_vintage_keeps_original_cohort_denominators (test_reports.ReportTests) ... ok
+test_empty_scope_returns_null_ratios_and_empty_charts (test_sales.SalesTests) ... ok
+test_funding_matches_disbursement_ledger (test_sales.SalesTests) ... ok
+test_historical_cohort_matches_dated_events (test_sales.SalesTests) ... ok
+test_plan_ignores_channel_and_matches_target_grain (test_sales.SalesTests) ... ok
+test_scoped_flow_matches_independent_operation_join (test_sales.SalesTests) ... ok
+test_trend_stops_at_selected_month (test_sales.SalesTests) ... ok
+test_curves_are_monotonic_observed_and_bounded (test_vintage.VintageTests) ... ok
+test_empty_and_early_scopes_do_not_invent_zero_rates (test_vintage.VintageTests) ... ok
+test_filtered_history_recomputes_maturity_and_has_no_future_data (test_vintage.VintageTests) ... ok
+test_fixed_age_cards_pool_only_mature_cohorts (test_vintage.VintageTests) ... ok
+test_matrix_reconciles_to_original_cohorts_and_anniversaries (test_vintage.VintageTests) ... ok
+test_original_counts_keep_terminal_contracts (test_vintage.VintageTests) ... ok
+test_reject_unknown_or_noninteger_parameters (test_vintage.VintageTests) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 18.391s
+
+OK
+Built portable named-connection report: 5 pages, 1082 native widgets, 29 datasets, 10 native charts.

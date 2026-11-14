@@ -1,0 +1,84 @@
+- generic: CREDIT ANALYTICS
+- generic: Loan Details
+- generic: No loan selected
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: ← Back to registry
+- generic: PRINCIPAL BALANCE
+- generic: —
+- generic: Outstanding principal · RUB
+- generic: OVERDUE PRINCIPAL
+- generic: —
+- generic: Unpaid scheduled principal · RUB
+- generic: OVERDUE INTEREST
+- generic: —
+- generic: Unpaid scheduled interest · RUB
+- generic: DAYS PAST DUE
+- generic: —
+- generic: As of selected month end
+- generic: CONTRACT STATUS
+- generic: —
+- generic: Observed state on selected date
+- generic: CASH RECEIVED
+- generic: —
+- generic: Cumulative receipts · excludes write-offs
+- generic: ORIGINAL PRINCIPAL
+- generic: —
+- generic: ANNUAL RATE
+- generic: —
+- generic: ORIGINAL TERM
+- generic: —
+- generic: ISSUED
+- generic: —
+- generic: CONTRACTUAL MATURITY
+- generic: —
+- generic: OBSERVED CLOSE DATE
+- generic: —
+- generic: Select a contract in the loan registry.
+- generic: Principal history
+- generic: Month-end outstanding principal · RUB m
+- generic: Delinquency history
+- generic: Month-end days past due · days
+- generic: Operations
+- generic: Page 1 of 1 · 0 rows
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: DATE
+- generic: TYPE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: CASH, RUB
+- generic: Payment schedule
+- generic: Page 1 of 1 · 0 rows
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: "#"
+- generic: DUE DATE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: PAID, RUB
+- generic: WRITTEN OFF, RUB
+- generic: STATUS
+- generic: This loan is not available as of the selected date.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

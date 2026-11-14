@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "same_widget_ids": true,
+    "same_datasets": true,
+    "same_parameters": true,
+    "same_computes": true,
+    "same_events": true,
+    "same_formula_values": true
+  },
+  "widget_count": 784,
+  "portable_sha256": "0f34ad1bf8d45f988e739c2e1898c31f4830c8f1778c8e9b79c8c9993636b698"
+}

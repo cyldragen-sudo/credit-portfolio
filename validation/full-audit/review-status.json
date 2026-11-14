@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "readiness": "Share with caveats",
+  "product_changes": false,
+  "confirmed_numerical_defects": 0,
+  "confirmed_navigation_defects": 0,
+  "remaining_findings": [
+    {
+      "severity": "P2",
+      "location": "Vintage Analysis / narrow viewport",
+      "observation": "Fixed native canvas scales the dense matrix too small for practical reading.",
+      "proposed_fix": "Use a wide desktop view; a separate responsive/mobile layout is optional future work."
+    }
+  ],
+  "authentication_incident": "Expired session caused stale refresh and login redirect. After user sign-in, Apply was verified on all five pages, including revisiting Overview, with zero new console errors. The configuration discrepancy was not reproduced as a defect.",
+  "data_reconciliation": "passed",
+  "desktop_pages": 5,
+  "numeric_components": 49,
+  "kpi_components": 30,
+  "charts": 10,
+  "tables_or_matrices": 8,
+  "contract_attribute_panels": 1,
+  "base_ui_scopes": [
+    "default",
+    "filtered historical",
+    "empty"
+  ],
+  "navigation_directions": 20,
+  "filter_parameters_retained": 9,
+  "all_apply_buttons": "passed",
+  "all_pagers": "passed",
+  "registry_drill_return": "passed",
+  "reporting_role": "SELECT-only",
+  "review_scope_limit": "Filter/date/contract edge cases are sampled; all combinations and all loan IDs were not exhaustively rendered."
+}

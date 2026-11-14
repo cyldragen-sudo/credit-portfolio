@@ -1,0 +1,47 @@
+{
+  "runtime_detail_navigation_routes": [
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "shared_scope": [
+    "August 2025",
+    "Personal Loan",
+    "Moscow",
+    "Online"
+  ],
+  "selected_loan": "LN-0000954",
+  "registry_return": "Page 2 of 3 · 20 loans",
+  "operations_page_retained": "Page 2 of 2 · 10 rows",
+  "all_detail_routes_passed": true,
+  "notes": "A broader rapid-navigation audit encountered browser automation timeouts. The eight directions connecting Loan Details were observed with retained scope; all twenty common navigation bindings are checked by native tests."
+}

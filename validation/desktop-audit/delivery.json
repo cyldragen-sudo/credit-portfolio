@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "status": "share with compact-text readability caveats",
+  "completeness": "Complete",
+  "fixed": [
+    "P1 native trial notice obscured final registry/payment rows"
+  ],
+  "remaining_caveats": [
+    "Dense table text is small at1366x768; FullHD more comfortable"
+  ],
+  "portable_sha256": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+  "installed_sha256": "4c36d06b99f02d4532afa89be93906727ad90a71f554583d0b0ab741975eafd1",
+  "installed_matches_local": true,
+  "stories": 5,
+  "widgets": 784,
+  "datasets": 31,
+  "charts": 10,
+  "parameters": 11,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "mode": "AUTO"
+  },
+  "tests": 56,
+  "skipped": 0,
+  "runtime": {
+    "routes": 20,
+    "uniqueRoutes": 20,
+    "routesPassed": true,
+    "applyPages": 5,
+    "applyPassed": true,
+    "headlineComparisons": 30,
+    "pagerActions": 8,
+    "pagersPassed": true,
+    "drillPassed": true,
+    "visualCases": 10,
+    "visualPassed": true,
+    "consoleErrors": 0,
+    "viewportReset": true,
+    "defaultSliceRestored": true
+  },
+  "viewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "source_semantics_unchanged": true,
+  "fonts_unchanged": true,
+  "open_p2_page_units": 4,
+  "open_p1_findings": 0
+}

@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "viewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "cases": [
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 15,
+          "name": "balance_label 1",
+          "renderedFontApprox": 10.666701372931986
+        }
+      ],
+      "overlaps": [],
+      "file": "overview-1366-after",
+      "notice": {
+        "bottom": 738,
+        "height": 60,
+        "left": 497.1953125,
+        "right": 1346,
+        "top": 678,
+        "width": 848.8046875,
+        "x": 497.1953125,
+        "y": 678
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 16,
+          "name": "Plan actual_label1",
+          "renderedFontApprox": 11.07838199013158
+        }
+      ],
+      "overlaps": [],
+      "file": "sales-1366-after",
+      "notice": {
+        "bottom": 738,
+        "height": 60,
+        "left": 497.1953125,
+        "right": 1346,
+        "top": 678,
+        "width": 848.8046875,
+        "x": 497.1953125,
+        "y": 678
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 14,
+          "name": "Registry loan_reference1",
+          "renderedFontApprox": 9.955528259277344
+        }
+      ],
+      "overlaps": [],
+      "file": "quality-1366-after",
+      "notice": {
+        "bottom": 738,
+        "height": 60,
+        "left": 497.1953125,
+        "right": 1346,
+        "top": 678,
+        "width": 848.8046875,
+        "x": 497.1953125,
+        "y": 678
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 13,
+          "name": "Operations principal_label1",
+          "renderedFontApprox": 8.955551147460938
+        },
+        {
+          "fontCss": 13,
+          "name": "Payment schedule principal_label1",
+          "renderedFontApprox": 8.955551147460938
+        }
+      ],
+      "overlaps": [],
+      "file": "loan-default-1366-after",
+      "notice": {
+        "bottom": 738,
+        "height": 60,
+        "left": 497.1953125,
+        "right": 1346,
+        "top": 678,
+        "width": 848.8046875,
+        "x": 497.1953125,
+        "y": 678
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 38,
+          "name": "Vintage cell 0 0",
+          "renderedFontApprox": 26.71513921564276
+        }
+      ],
+      "overlaps": [],
+      "file": "vintage-1366-after",
+      "notice": {
+        "bottom": 738,
+        "height": 60,
+        "left": 497.1953125,
+        "right": 1346,
+        "top": 678,
+        "width": 848.8046875,
+        "x": 497.1953125,
+        "y": 678
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 15,
+          "name": "balance_label 1",
+          "renderedFontApprox": 15
+        }
+      ],
+      "overlaps": [],
+      "file": "overview-1920-after",
+      "notice": {
+        "bottom": 1050,
+        "height": 60,
+        "left": 1051.1953125,
+        "right": 1900,
+        "top": 990,
+        "width": 848.8046875,
+        "x": 1051.1953125,
+        "y": 990
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 16,
+          "name": "Plan actual_label1",
+          "renderedFontApprox": 15.578947368421051
+        }
+      ],
+      "overlaps": [],
+      "file": "sales-1920-after",
+      "notice": {
+        "bottom": 1050,
+        "height": 60,
+        "left": 1051.1953125,
+        "right": 1900,
+        "top": 990,
+        "width": 848.8046875,
+        "x": 1051.1953125,
+        "y": 990
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 14,
+          "name": "Registry loan_reference1",
+          "renderedFontApprox": 14
+        }
+      ],
+      "overlaps": [],
+      "file": "quality-1920-after",
+      "notice": {
+        "bottom": 1050,
+        "height": 60,
+        "left": 1051.1953125,
+        "right": 1900,
+        "top": 990,
+        "width": 848.8046875,
+        "x": 1051.1953125,
+        "y": 990
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 13,
+          "name": "Operations principal_label1",
+          "renderedFontApprox": 12.59375
+        },
+        {
+          "fontCss": 13,
+          "name": "Payment schedule principal_label1",
+          "renderedFontApprox": 12.59375
+        }
+      ],
+      "overlaps": [],
+      "file": "loan-default-1920-after",
+      "notice": {
+        "bottom": 1050,
+        "height": 60,
+        "left": 1051.1953125,
+        "right": 1900,
+        "top": 990,
+        "width": 848.8046875,
+        "x": 1051.1953125,
+        "y": 990
+      }
+    },
+    {
+      "clips": [],
+      "fonts": [
+        {
+          "fontCss": 38,
+          "name": "Vintage cell 0 0",
+          "renderedFontApprox": 37.56818181818182
+        }
+      ],
+      "overlaps": [],
+      "file": "vintage-1920-after",
+      "notice": {
+        "bottom": 1050,
+        "height": 60,
+        "left": 1051.1953125,
+        "right": 1900,
+        "top": 990,
+        "width": 848.8046875,
+        "x": 1051.1953125,
+        "y": 990
+      }
+    }
+  ]
+}

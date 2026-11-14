@@ -1,0 +1,10 @@
+{
+  "fixture_checksum_matches": true,
+  "full_fixture_loans": 12000,
+  "daily_snapshots": 5405234,
+  "unit_tests_passed": 13,
+  "database_reconciliations_passed": 15,
+  "dataset_execution_scopes": 45,
+  "temporary_postgresql_server_stopped": true,
+  "english_text_check_passed": true
+}

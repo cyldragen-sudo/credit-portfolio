@@ -1,0 +1,31 @@
+{
+  "allTwentyDirections": true,
+  "allFourSharedControlsChangedAndApplied": true,
+  "applyVerifiedOnAllFivePages": true,
+  "emptySelectionsOnAllFivePages": true,
+  "registryThreshold91": true,
+  "registryPagingSequence": [
+    1,
+    2,
+    1,
+    2
+  ],
+  "detailOperationsPaging": [
+    2,
+    1,
+    2
+  ],
+  "detailSchedulePaging": [
+    2,
+    1,
+    2
+  ],
+  "registryDrillLoan8259": true,
+  "drillResetsBothDetailPages": true,
+  "returnRetainsThreshold91AndRegistryPage2": true,
+  "allNineParamsCoveredByNavigation": true,
+  "desktop1440x900AllFivePages": true,
+  "narrowMatrixObserved": true,
+  "postAuthenticationConsoleErrors": 0,
+  "authenticationIncident": "Pre-auth stale refresh followed by login redirect; all Apply scenarios succeeded after sign-in; no template change."
+}

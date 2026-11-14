@@ -1,0 +1,97 @@
+- generic: CREDIT ANALYTICS
+- generic: Portfolio Overview
+- generic: Retail lending · Growth, composition and credit quality
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: PORTFOLIO BALANCE
+- generic: RUB 19.55 bn
+- generic: vs 30 Sep 2026
+- generic: MTD DISBURSEMENTS
+- generic: RUB 800.88 m
+- generic: October 2026 funding
+- generic: ACTIVE BORROWERS
+- generic: 7,573
+- generic: 10,555 active loans
+- generic: MONTHLY GROWTH
+- generic: +2.52%
+- generic: RUB 479.69 m change
+- generic: 31+ DPD EXPOSURE
+- generic: 6.94%
+- generic: RUB 1.36 bn exposure
+- generic: 91+ DPD EXPOSURE
+- generic: 1.39%
+- generic: RUB 1.43 m exposure
+- generic: Portfolio trend
+- generic: Outstanding principal · RUB bn · completed month ends
+- generic: Delinquency trend
+- generic: Whole-loan principal exposure · % of portfolio
+- generic: Product composition
+- generic: Outstanding principal · RUB bn
+- generic: Regional performance
+- generic: Origination region · balances in RUB bn · growth vs previous month end
+- generic: REGION
+- generic: BALANCE
+- generic: GROWTH
+- generic: BORROWERS
+- generic: 31+ DPD
+- generic: 91+ DPD
+- generic: Moscow
+- generic: "0.10"
+- generic: +4.35%
+- generic: "153"
+- generic: 4.58%
+- generic: 1.39%
+- generic: Tatarstan
+- generic: "3.28"
+- generic: +1.52%
+- generic: 1,652
+- generic: 8.74%
+- generic: 5.90%
+- generic: Krasnodar Region
+- generic: "3.27"
+- generic: +1.82%
+- generic: 1,656
+- generic: 4.50%
+- generic: 3.56%
+- generic: Novosibirsk Region
+- generic: "3.23"
+- generic: +1.57%
+- generic: 1,670
+- generic: 8.52%
+- generic: 5.46%
+- generic: Moscow
+- generic: "3.22"
+- generic: +3.12%
+- generic: 1,601
+- generic: 6.65%
+- generic: 4.65%
+- generic: Saint Petersburg
+- generic: "3.17"
+- generic: +5.46%
+- generic: 1,647
+- generic: 6.71%
+- generic: 5.22%
+- generic: End-of-day principal balances · Full-loan exposure by days past due
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

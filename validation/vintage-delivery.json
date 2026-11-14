@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-04",
+  "status": "verified",
+  "synthetic": true,
+  "stories": 4,
+  "native_widgets": 878,
+  "native_datasets": 24,
+  "native_charts": 8,
+  "default_vintage_metrics": {
+    "original_loans": 8759,
+    "original_amount": 18493170000.0,
+    "cohort_count": 24,
+    "mob3_cohorts": 21,
+    "mob3_loans": 7525,
+    "mob3_ratio": 0.011162790697674419,
+    "mob6_cohorts": 18,
+    "mob6_loans": 6308,
+    "mob6_ratio": 0.11715282181357008,
+    "mob12_cohorts": 12,
+    "mob12_loans": 3956,
+    "mob12_ratio": 0.18503538928210314,
+    "as_of_date": "2026-10-31",
+    "date_label": "31 Oct 2026",
+    "original_loans_label": "8,759",
+    "original_amount_label": "RUB 18.49 bn",
+    "cohort_count_label": "24",
+    "cohort_window_label": "Nov 2024 \u2013 Oct 2026",
+    "scope_note": "Original contract counts \u00b7 Closed and written-off loans remain in the denominator.",
+    "mob3_label": "1.12%",
+    "mob3_note": "21 mature cohorts \u00b7 7,525 loans",
+    "mob6_label": "11.72%",
+    "mob6_note": "18 mature cohorts \u00b7 6,308 loans",
+    "mob12_label": "18.50%",
+    "mob12_note": "12 mature cohorts \u00b7 3,956 loans"
+  },
+  "preview": {
+    "all_twelve_directed_navigation_paths": true,
+    "shared_filters_retained": true,
+    "registry_threshold_and_page_retained": true,
+    "historical_scope": [
+      "August 2025",
+      "Auto Loan",
+      "Moscow",
+      "Online"
+    ],
+    "historical_original_loans": 31,
+    "historical_cohorts": 10,
+    "historical_mob12": null,
+    "empty_scope": true,
+    "early_scope": "2024-11-30",
+    "explicit_url_reload": true,
+    "new_console_errors": 0
+  },
+  "review": {
+    "critical": 0,
+    "important": 0,
+    "independent_filtered_historical_cells": 120,
+    "observed_historical_cells_reconciled_to_daily_dpd": 45
+  },
+  "limitations": [
+    "MOB 1\u201312 visible; stored anniversary data supports longer horizons.",
+    "Curves sample every sixth available cohort, at most four series.",
+    "Fixed native canvas scales with the viewport; wide desktop viewing is recommended for the dense matrix.",
+    "Vendor FineVIS trial notice remains visible.",
+    "Loan Details has SQL only."
+  ]
+}

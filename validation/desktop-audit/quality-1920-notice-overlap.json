@@ -1,0 +1,94 @@
+{
+  "notice": {
+    "bottom": 1050,
+    "height": 60,
+    "left": 1051.1953125,
+    "right": 1900,
+    "top": 990,
+    "width": 848.8046875,
+    "x": 1051.1953125,
+    "y": 990
+  },
+  "overlaps": [
+    {
+      "name": "Registry balance_label8",
+      "overlapHeight": 7,
+      "overlapWidth": 70.0703125,
+      "rect": {
+        "bottom": 997,
+        "height": 16,
+        "left": 1128.9296875,
+        "right": 1199,
+        "top": 981,
+        "width": 70.0703125,
+        "x": 1128.9296875,
+        "y": 981
+      },
+      "text": "329,209.80"
+    },
+    {
+      "name": "Registry overdue_principal_label8",
+      "overlapHeight": 7,
+      "overlapWidth": 70.0703125,
+      "rect": {
+        "bottom": 997,
+        "height": 16,
+        "left": 1348.9296875,
+        "right": 1419,
+        "top": 981,
+        "width": 70.0703125,
+        "x": 1348.9296875,
+        "y": 981
+      },
+      "text": "150,525.20"
+    },
+    {
+      "name": "Registry overdue_interest_label8",
+      "overlapHeight": 7,
+      "overlapWidth": 70.0703125,
+      "rect": {
+        "bottom": 997,
+        "height": 16,
+        "left": 1568.9296875,
+        "right": 1639,
+        "top": 981,
+        "width": 70.0703125,
+        "x": 1568.9296875,
+        "y": 981
+      },
+      "text": "125,163.76"
+    },
+    {
+      "name": "Registry dpd_label8",
+      "overlapHeight": 7,
+      "overlapWidth": 23.359375,
+      "rect": {
+        "bottom": 997,
+        "height": 16,
+        "left": 1765.640625,
+        "right": 1789,
+        "top": 981,
+        "width": 23.359375,
+        "x": 1765.640625,
+        "y": 981
+      },
+      "text": "948"
+    },
+    {
+      "name": "Quality synthetic footer",
+      "overlapHeight": 10.5,
+      "overlapWidth": 211.484375,
+      "rect": {
+        "bottom": 1052.5,
+        "height": 13,
+        "left": 1672.515625,
+        "right": 1884,
+        "top": 1039.5,
+        "width": 211.484375,
+        "x": 1672.515625,
+        "y": 1039.5
+      },
+      "text": "DEMO · NOT REGULATORY REPORTING"
+    }
+  ]
+}

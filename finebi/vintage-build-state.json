@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-07",
+  "status": "Complete: native fourth tab, shared filters and navigation verified",
+  "workbook_id": "55f29d3962924a6692b2b3816cdafda6",
+  "report_id": "f1e20436263842bb85acb6f4f88cb775",
+  "tab_name": "Vintage Analysis",
+  "components": [
+    {
+      "name": "Original Loans",
+      "id": "ebaf434f7f0b4690916dba5246993c86"
+    },
+    {
+      "name": "Original Funded Amount",
+      "id": "ce5740970c6d4c159c04f24a534a1c4f"
+    },
+    {
+      "name": "Origination Cohorts",
+      "id": "4e4f02276e444beab3161c650804ea66"
+    },
+    {
+      "name": "Ever 31+ at MOB 3",
+      "id": "4883c63e9b834abca32b3e56a1074fbd"
+    },
+    {
+      "name": "Ever 31+ at MOB 6",
+      "id": "1373aed48eb34a7fa5240dd8173c7ac5"
+    },
+    {
+      "name": "Ever 31+ at MOB 12",
+      "id": "8157e130a6924a2e95ee4192d16e168c"
+    },
+    {
+      "name": "Vintage Matrix — Ever 31+ (%)",
+      "id": "54ec1765b0b948cdb993625ac1d63a33"
+    },
+    {
+      "name": "Cohort Curves — Ever 31+ (%)",
+      "id": "b31de87bb4664117bbb2afbc0350f0b9"
+    }
+  ],
+  "sources_installed": {
+    "Vintage KPIs": "3cc396016d284c08b2d3683a448301cf",
+    "Vintage Matrix": "944ce0c93d614cdfb274cf19f53a2648",
+    "Vintage Curves": "417af8c8a55e464ea3d40c4865be5438"
+  },
+  "filters": {
+    "shared": [
+      "As Of Month",
+      "Product",
+      "Region",
+      "Channel"
+    ],
+    "bindings": "Date/Product/Region: 18 SQL source parameters each; Channel: 17, excluding all-channel sales plan. All eight Vintage widgets controlled. Required Text parameters, English defaults.",
+    "defaults_restored": true,
+    "quality_local_threshold": "91+ DPD retained through Quality → Vintage → Quality; restored to 1+ DPD."
+  },
+  "matrix": "Native Color Table; cohort_month Year Month ascending, numeric mob converted to dimension with identical-value grouping (no intervals). All 24 cohorts × MOB 1–12. cell_label Text, fixed 12px black, original_loan_count tooltip aliased Original Loans. Immature/unavailable dashes distinct from observed 0.0%. Full-width desktop grid with native scrolling.",
+  "curves": "Native split line; numeric mob dimension with identical-value grouping ascending. SUM(value) for unique cohort/MOB points, already percentage points. series Color aliased Cohort. Observed points only; no future zeros. Minimum axis 0, maximum automatic.",
+  "population_notes": "Age-specific mob3/6/12_note bound to each respective KPI tooltip, alias Eligible Cohorts and Loans; visible methodology below chart explains different mature populations, original denominator, cohort window, dashes and curve sampling.",
+  "checks": {
+    "parity": "89 English-label/numeric dataset-scenario checks passed",
+    "controls": "outputs/finebi-vintage/control-values.json",
+    "default": [
+      "8,759",
+      "RUB 18.49 bn",
+      "24",
+      "1.12%",
+      "11.72%",
+      "18.50%"
+    ],
+    "historical_scope": "August 2025 / Personal Loan / Moscow / Online",
+    "historical": [
+      "81",
+      "RUB 64.42 m",
+      "10",
+      "0.00%",
+      "6.06%",
+      "—"
+    ],
+    "early_scope": "November 2024 / all segments",
+    "early": [
+      "295",
+      "RUB 649.27 m",
+      "1",
+      "—",
+      "—",
+      "—"
+    ],
+    "early_curves": "empty, no observed points",
+    "navigation": "All six new directed edges Vintage ↔ Overview/Sales/Quality preserve four historical shared selections; Quality-only threshold retained.",
+    "matrix_properties": "All ages numeric 1..12; cohort rows chronological. SQL bounds/count/null and age-specific pooled denominator reconciliations passed for default, historical and early scopes."
+  },
+  "evidence_folder": "docs/screenshots/finebi",
+  "editor_lock_released": true,
+  "viewport_override_reset": true,
+  "saved_view_verified": true,
+  "review": "Independent read-only final review found no Critical/Important issues. Reconciled 420 matrix cells and 52 curve points; reviewed five screenshots and SQL. Final saved view checked outside editor after native Back; temporary viewport reset.",
+  "url": "http://localhost:37799/webroot/decision#/analysis/own/subject/55f29d3962924a6692b2b3816cdafda6/report/f1e20436263842bb85acb6f4f88cb775"
+}

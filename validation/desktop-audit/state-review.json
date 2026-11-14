@@ -1,0 +1,1399 @@
+{
+  "date": "2026-11-04T22:57:09.634662+00:00",
+  "scope": "Read-only source and state-contract audit of current compact desktop build; no browser or data reconciliation",
+  "summary": {
+    "checks": 618,
+    "passed": 618,
+    "failed": [],
+    "pages": 5,
+    "widgets": 784,
+    "parameters": 11,
+    "datasets": 31,
+    "native_charts": 10,
+    "native_formulas": 430,
+    "computes": 521,
+    "directed_tabs": 20,
+    "guarded_drills": 8,
+    "pager_actions": 8,
+    "Apply_controls": 5,
+    "combos": 22
+  },
+  "artifact_sha256": {
+    "portable": "0f34ad1bf8d45f988e739c2e1898c31f4830c8f1778c8e9b79c8c9993636b698",
+    "private": "7c8cd775faf51953aed529af476f22b907f2366ad7b83b95a37ba56d0368e1f5",
+    "installed": "7c8cd775faf51953aed529af476f22b907f2366ad7b83b95a37ba56d0368e1f5"
+  },
+  "navigation": [
+    {
+      "source": "Portfolio Overview",
+      "widget": "Navigate to Sales and Funnel",
+      "target": "Sales and Funnel",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Portfolio Overview",
+      "widget": "Navigate to Delinquency and Portfolio Quality",
+      "target": "Delinquency and Portfolio Quality",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Portfolio Overview",
+      "widget": "Navigate to Vintage Analysis",
+      "target": "Vintage Analysis",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Portfolio Overview",
+      "widget": "Navigate to Loan Details",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Sales and Funnel",
+      "widget": "Navigate to Portfolio Overview",
+      "target": "Portfolio Overview",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Sales and Funnel",
+      "widget": "Navigate to Delinquency and Portfolio Quality",
+      "target": "Delinquency and Portfolio Quality",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Sales and Funnel",
+      "widget": "Navigate to Vintage Analysis",
+      "target": "Vintage Analysis",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Sales and Funnel",
+      "widget": "Navigate to Loan Details",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Navigate to Portfolio Overview",
+      "target": "Portfolio Overview",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Navigate to Sales and Funnel",
+      "target": "Sales and Funnel",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Navigate to Vintage Analysis",
+      "target": "Vintage Analysis",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Navigate to Loan Details",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Vintage Analysis",
+      "widget": "Navigate to Portfolio Overview",
+      "target": "Portfolio Overview",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Vintage Analysis",
+      "widget": "Navigate to Sales and Funnel",
+      "target": "Sales and Funnel",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Vintage Analysis",
+      "widget": "Navigate to Delinquency and Portfolio Quality",
+      "target": "Delinquency and Portfolio Quality",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Vintage Analysis",
+      "widget": "Navigate to Loan Details",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Loan Details",
+      "widget": "Navigate to Portfolio Overview",
+      "target": "Portfolio Overview",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Loan Details",
+      "widget": "Navigate to Sales and Funnel",
+      "target": "Sales and Funnel",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Loan Details",
+      "widget": "Navigate to Delinquency and Portfolio Quality",
+      "target": "Delinquency and Portfolio Quality",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Loan Details",
+      "widget": "Navigate to Vintage Analysis",
+      "target": "Vintage Analysis",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=$p_loan_id",
+        "p_operation_page": "=$p_operation_page",
+        "p_schedule_page": "=$p_schedule_page",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference1",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(1<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,1),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference2",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(2<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,2),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference3",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(3<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,3),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference4",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(4<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,4),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference5",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(5<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,5),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference6",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(6<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,6),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference7",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(7<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,7),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    },
+    {
+      "source": "Delinquency and Portfolio Quality",
+      "widget": "Registry loan_reference8",
+      "target": "Loan Details",
+      "parameter_count": 11,
+      "values": {
+        "p_date_key": "=$p_date_key",
+        "p_product_id": "=$p_product_id",
+        "p_region_id": "=$p_region_id",
+        "p_channel_id": "=$p_channel_id",
+        "p_min_dpd": "=$p_min_dpd",
+        "p_quality_page": "=$p_quality_page",
+        "p_loan_id": "=IF(8<=ROWCOUNT(\"quality_registry\"),VALUE(\"quality_registry\",2,8),0)",
+        "p_operation_page": "=1",
+        "p_schedule_page": "=1",
+        "p_vintage_page": "=$p_vintage_page",
+        "p_vintage_mob_start": "=$p_vintage_mob_start"
+      }
+    }
+  ],
+  "pagers": [
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Registry ← Previous",
+      "parameters": [
+        {
+          "name": "p_quality_page",
+          "type": "formula",
+          "value": "=VALUE(\"quality_kpis\",30,1)"
+        }
+      ]
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Registry Next →",
+      "parameters": [
+        {
+          "name": "p_quality_page",
+          "type": "formula",
+          "value": "=VALUE(\"quality_kpis\",31,1)"
+        }
+      ]
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Vintage ← Previous",
+      "parameters": [
+        {
+          "name": "p_vintage_page",
+          "type": "formula",
+          "value": "=VALUE(\"vintage_kpis\",29,1)"
+        }
+      ]
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Vintage Next →",
+      "parameters": [
+        {
+          "name": "p_vintage_page",
+          "type": "formula",
+          "value": "=VALUE(\"vintage_kpis\",30,1)"
+        }
+      ]
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Operations ← Previous",
+      "parameters": [
+        {
+          "name": "p_operation_page",
+          "type": "formula",
+          "value": "=VALUE(\"loan_kpis\",49,1)"
+        }
+      ]
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Operations Next →",
+      "parameters": [
+        {
+          "name": "p_operation_page",
+          "type": "formula",
+          "value": "=VALUE(\"loan_kpis\",50,1)"
+        }
+      ]
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Payment schedule ← Previous",
+      "parameters": [
+        {
+          "name": "p_schedule_page",
+          "type": "formula",
+          "value": "=VALUE(\"loan_kpis\",52,1)"
+        }
+      ]
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Payment schedule Next →",
+      "parameters": [
+        {
+          "name": "p_schedule_page",
+          "type": "formula",
+          "value": "=VALUE(\"loan_kpis\",53,1)"
+        }
+      ]
+    }
+  ],
+  "dictionaries": [
+    {
+      "page": "Portfolio Overview",
+      "widget": "As of selector",
+      "parameter": "p_date_key",
+      "dataset": "filter_date"
+    },
+    {
+      "page": "Portfolio Overview",
+      "widget": "Product selector",
+      "parameter": "p_product_id",
+      "dataset": "filter_product"
+    },
+    {
+      "page": "Portfolio Overview",
+      "widget": "Region selector",
+      "parameter": "p_region_id",
+      "dataset": "filter_region"
+    },
+    {
+      "page": "Portfolio Overview",
+      "widget": "Channel selector",
+      "parameter": "p_channel_id",
+      "dataset": "filter_channel"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "As of selector",
+      "parameter": "p_date_key",
+      "dataset": "filter_date"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Product selector",
+      "parameter": "p_product_id",
+      "dataset": "filter_product"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Region selector",
+      "parameter": "p_region_id",
+      "dataset": "filter_region"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Channel selector",
+      "parameter": "p_channel_id",
+      "dataset": "filter_channel"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "As of selector",
+      "parameter": "p_date_key",
+      "dataset": "filter_date"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Product selector",
+      "parameter": "p_product_id",
+      "dataset": "filter_product"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Region selector",
+      "parameter": "p_region_id",
+      "dataset": "filter_region"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Channel selector",
+      "parameter": "p_channel_id",
+      "dataset": "filter_channel"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Registry threshold · Apply to update selector",
+      "parameter": "p_min_dpd",
+      "dataset": "filter_min_dpd"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "As of selector",
+      "parameter": "p_date_key",
+      "dataset": "filter_date"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Product selector",
+      "parameter": "p_product_id",
+      "dataset": "filter_product"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Region selector",
+      "parameter": "p_region_id",
+      "dataset": "filter_region"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Channel selector",
+      "parameter": "p_channel_id",
+      "dataset": "filter_channel"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "MOB range · Apply to update selector",
+      "parameter": "p_vintage_mob_start",
+      "dataset": "filter_vintage_mob"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "As of selector",
+      "parameter": "p_date_key",
+      "dataset": "filter_date"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Product selector",
+      "parameter": "p_product_id",
+      "dataset": "filter_product"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Region selector",
+      "parameter": "p_region_id",
+      "dataset": "filter_region"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Channel selector",
+      "parameter": "p_channel_id",
+      "dataset": "filter_channel"
+    }
+  ],
+  "apply": [
+    {
+      "page": "Portfolio Overview",
+      "widget": "Apply filters",
+      "caption": "Apply",
+      "native": true
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Apply sales filters",
+      "caption": "Apply",
+      "native": true
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Apply quality filters",
+      "caption": "Apply",
+      "native": true
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Apply vintage filters",
+      "caption": "Apply",
+      "native": true
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Apply loan date",
+      "caption": "Apply",
+      "native": true
+    }
+  ],
+  "charts": [
+    {
+      "page": "Portfolio Overview",
+      "widget": "Portfolio trend",
+      "dataset": "balance_chart"
+    },
+    {
+      "page": "Portfolio Overview",
+      "widget": "Delinquency trend",
+      "dataset": "quality_chart"
+    },
+    {
+      "page": "Portfolio Overview",
+      "widget": "Product composition",
+      "dataset": "product_chart"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Application funnel",
+      "dataset": "sales_funnel_chart"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Disbursement trend",
+      "dataset": "sales_trend_chart"
+    },
+    {
+      "page": "Sales and Funnel",
+      "widget": "Sales by channel",
+      "dataset": "sales_channel_chart"
+    },
+    {
+      "page": "Delinquency and Portfolio Quality",
+      "widget": "Exposure by DPD bucket",
+      "dataset": "quality_buckets"
+    },
+    {
+      "page": "Vintage Analysis",
+      "widget": "Cohort curves",
+      "dataset": "vintage_curves"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Principal history",
+      "dataset": "loan_balance_chart"
+    },
+    {
+      "page": "Loan Details",
+      "widget": "Delinquency history",
+      "dataset": "loan_dpd_chart"
+    }
+  ],
+  "datasets": [
+    {
+      "name": "overview_kpis",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "3cb4273e7c16f0652cb5053c7d8280a417df828b59cc021e10372f03e01c85f3",
+      "source_sql_sha256": "92d51e008e224187f36c59ef976761bebc805db0ae5f25326c418e293ea74312"
+    },
+    {
+      "name": "overview_trend",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "7d0db61d59f9ff3741ce9b0cb6fc87d53ec155a55513a7d153b1807974ad1bfc",
+      "source_sql_sha256": "acd7a5a16982411be4e9c64f1ffca049005e2ff9f60789025979fc822e2e75f9"
+    },
+    {
+      "name": "balance_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "d7fe4b3deca7a7949e9998d10e0d22ec3db4ccdcf87a2a7dd2353f87bb335234",
+      "source_sql_sha256": "e29d061d9665c58b396261e50700111341129c1e8eb0d83d1cdc72170a1de74f"
+    },
+    {
+      "name": "quality_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "d78a85e5205dc154671391f468150c21f954583661c974005352b092368994a6",
+      "source_sql_sha256": "c260e228a4eb8383738024b48d5f5926b41f012b627dafcf9355a4308c46311b"
+    },
+    {
+      "name": "product_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "8405676d0a9eb4974eef11555a00230171c3662bfbbd161936db8b9817a6f821",
+      "source_sql_sha256": "b3dd871a2ea59bb320b1cf86e26936d4b66e8b3ec81c551a7c3af1d0188a868e"
+    },
+    {
+      "name": "region_table",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "4b92d73377cc255ddba3dec6b00ee35f510b14aa4e4efc2d6306d14e9a931de9",
+      "source_sql_sha256": "65ca5365779e63f5cf886eaae502cffac08aa5ce49972e313e64f9d6adb5bd34"
+    },
+    {
+      "name": "filter_date",
+      "parameters": [],
+      "sha256": "b57b9b2764450705a62416f4249a3a0e92bf1670f94c4a6ea79dae24fbcbb234",
+      "source_sql_sha256": "826f2c04eeffc780f35b08cd461cd9d23c1e8e5338ee49a683a4e9493c4c5a56"
+    },
+    {
+      "name": "filter_product",
+      "parameters": [],
+      "sha256": "5acdd49bade79c1b437ded6d0cf3ec9b1d5592763f77ff3c3a05aec708240eb4",
+      "source_sql_sha256": "6032d3319a81d20c4a45c76353e78b5881d3f47c52d28d513386299e2612973f"
+    },
+    {
+      "name": "filter_region",
+      "parameters": [],
+      "sha256": "07c09e7631c56a14f68cb4fbb8a19c8caaf7e32f4658209f1cbe2e512f55342b",
+      "source_sql_sha256": "64a6c18843841b3be4da10a2a28b1b30b41a3937903f40e38fcd0472adca618a"
+    },
+    {
+      "name": "filter_channel",
+      "parameters": [],
+      "sha256": "9d5b6e7093f6ed8aa921e368e0b8da89e32224f1516e6bc73c7d83b33a7f29a5",
+      "source_sql_sha256": "522b3112a2997eac1644cfa0a7ac7b0ebfe57fd78708a4b075a6ce582e207a90"
+    },
+    {
+      "name": "sales_kpis",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "d41cb8cb04f238ad92bc734d1d8f04413a503db1d3d4a16e71309c6a2dc0fc03",
+      "source_sql_sha256": "0625f13eb221c3a207c3d5753c9f6a7cb1ce209f2a42142b6d0cb8d3cc0e9e46"
+    },
+    {
+      "name": "sales_funnel_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "81cfbfc8706ce9df115fd947966286caaff177c039dc480d536576ba75fac6e6",
+      "source_sql_sha256": "375aba566eecf46e7a5aff1227d170778c77f6c57984ae0be60eea308db8027f"
+    },
+    {
+      "name": "sales_trend_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "a060e0ad0a642a68bf8dbee39e310cdc819266804f09e6742168477718f09bde",
+      "source_sql_sha256": "b83151add3637d3a69b29f3c4ac63f5c37c182e47d5a29e795e49fb672f44b65"
+    },
+    {
+      "name": "sales_channel_chart",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "5eaf6f21e239d24ecd6badbb5f969a2e578c15c2305a7f0483169fc0559b113e",
+      "source_sql_sha256": "b8fa4fa1a8b6b1d74d662343b047883cdb09c128cd32005bbbc9b468e9fa8d9d"
+    },
+    {
+      "name": "sales_plan_table",
+      "parameters": [
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "fb770616a9ba6e1b1d012da77a5f10c783afcb72f60ee96c11cbafd43a0c0d39",
+      "source_sql_sha256": "7369c2d1d87ac94310cecce07c7953f1d45472ea739d73109ddab1226a218566"
+    },
+    {
+      "name": "sales_channel_table",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "b6afad7195df20b007bb5cca75f148a8c6825782c6f00baf0cc3d7b55ec66e0b",
+      "source_sql_sha256": "88af2af7431cd6aab778ad93ba15d90c8aa421f862110182fcabf18f24f7d6e9"
+    },
+    {
+      "name": "quality_kpis",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_min_dpd",
+        "p_product_id",
+        "p_quality_page",
+        "p_region_id"
+      ],
+      "sha256": "b6e7b2c186a9e6e62171ad75e9dc353a168d54d2981a18ef7be26add9a6aeadb",
+      "source_sql_sha256": "7d3935431305d08401acc8196bbacf62026d6f01902eec1cc51772721b1a0d3b"
+    },
+    {
+      "name": "quality_buckets",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "e6b85e37c5fd014eb6f114e124b4e742b919531e9c18a119c98c2d527080a8a6",
+      "source_sql_sha256": "01331c4a64edea70f9e5d53a14f1a7f2a35a519d485d1d38562f2c0d19e6746d"
+    },
+    {
+      "name": "quality_transitions",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "e9b62649d671ceead6ecafaf3bbd825b323f19291e38d150b626befe74d5b163",
+      "source_sql_sha256": "ae209297728769e110cc37c2d891899b17cb66eb5683f02b16cdc728fd5de847"
+    },
+    {
+      "name": "quality_registry",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_min_dpd",
+        "p_product_id",
+        "p_quality_page",
+        "p_region_id"
+      ],
+      "sha256": "9cf3e331fb1b01f22cccc9579ec5d875ed5e214c6807a6d51cb98bccd036b165",
+      "source_sql_sha256": "3ed90537dfa6e65b13f04388cec5929d032a9dbccd6bf511a00d118942a263cb"
+    },
+    {
+      "name": "filter_min_dpd",
+      "parameters": [],
+      "sha256": "45f1672453eee920a66b1d32c0f58d3567e9803937e697a8d6d3df32c9da9c20",
+      "source_sql_sha256": "3c4356efab51bd49c96850523c22187180b952910dbe39662b95af189cce29c9"
+    },
+    {
+      "name": "vintage_kpis",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id",
+        "p_vintage_mob_start",
+        "p_vintage_page"
+      ],
+      "sha256": "baff3718e75785c9d6cf5bedc45673f0b7e169635bbc8ef1cf65c06298dae7ee",
+      "source_sql_sha256": "2d08294318b232d38905bab737eacd718ddb6f36e940e93e229a0f22ca489deb"
+    },
+    {
+      "name": "vintage_matrix",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "4248461d2a8d31b853c49beeab02410583c9a5cf2725adc7949f9565725b1253",
+      "source_sql_sha256": "94aa16c3e1e37581be5384abb6d73266978ed703156043965988349a79c2ebdb"
+    },
+    {
+      "name": "vintage_matrix_view",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id",
+        "p_vintage_mob_start",
+        "p_vintage_page"
+      ],
+      "sha256": "2cb3ec2b46f83f59d39ce1e4f0fbbd39105df94294202a7ba7013007c6ba4fe8",
+      "source_sql_sha256": "335c3b2a209bf288524d460a253616f7b3c841254f9acb4a1474ca3642c59feb"
+    },
+    {
+      "name": "vintage_curves",
+      "parameters": [
+        "p_channel_id",
+        "p_date_key",
+        "p_product_id",
+        "p_region_id"
+      ],
+      "sha256": "80c11b44eb0b793497457b28c896f4f934497d39324add144b3edfb439e4c3e4",
+      "source_sql_sha256": "cf3096f4489a75c8403e19b2f0e7eabd4bc5b7cb901f62d07ab6fb4e8b69eb66"
+    },
+    {
+      "name": "filter_vintage_mob",
+      "parameters": [],
+      "sha256": "ff5c8b4fa6c855c57565eeecf85a652f30f66cf48ecd9f983a107a1aefa34e5c",
+      "source_sql_sha256": "a79615b249aaac9d630048999c49903d183733cbd2ae0280b487c107a8e15b58"
+    },
+    {
+      "name": "loan_kpis",
+      "parameters": [
+        "p_date_key",
+        "p_loan_id",
+        "p_operation_page",
+        "p_schedule_page"
+      ],
+      "sha256": "190dbf78636c6b72bca3d00af405631980d528b0c67f853fed962af0275188f3",
+      "source_sql_sha256": "65eaac5904dcedfdce0108e3279060f7b2d69b29ba6c650bf4a77015d0bf8f7b"
+    },
+    {
+      "name": "loan_operations",
+      "parameters": [
+        "p_date_key",
+        "p_loan_id",
+        "p_operation_page",
+        "p_schedule_page"
+      ],
+      "sha256": "7923fc612012372310dc484e84d1e31be6e9ddffd87c0091edfbce242c71e8c3",
+      "source_sql_sha256": "af8e658e7e0251484688007e843f7ecf0c4bdde08034855bb961a439116ef31d"
+    },
+    {
+      "name": "loan_schedule",
+      "parameters": [
+        "p_date_key",
+        "p_loan_id",
+        "p_operation_page",
+        "p_schedule_page"
+      ],
+      "sha256": "a5dbd30fd129ff4812262d90f3046f5e61c6643b9e31304a1689e465c4ce9f59",
+      "source_sql_sha256": "6365ea899fd2d5500ec027ef89711308b669c7015208fa8c5090b38470da46de"
+    },
+    {
+      "name": "loan_balance_chart",
+      "parameters": [
+        "p_date_key",
+        "p_loan_id"
+      ],
+      "sha256": "2c25a1e85afbadfa5a5ee8c219061f7faa81ee651530441111e237571a975287",
+      "source_sql_sha256": "b8dde5b7f7ad665b52e73213dc77a42e5b28199eaa1c785b5541e247ec4ad91c"
+    },
+    {
+      "name": "loan_dpd_chart",
+      "parameters": [
+        "p_date_key",
+        "p_loan_id"
+      ],
+      "sha256": "04c7f47637c71041a80d6b303f465bd22bfd7b191c07cfa6aa54fc067be44ab8",
+      "source_sql_sha256": "929ffa17cfe00a7f3f1b171bd83f454345f10bea65049545a6eef286dd2f79e2"
+    }
+  ],
+  "findings": [],
+  "bounds_review": {
+    "quality_registry": "Both KPI and row SQL clamp quality page to [1,max(1,ceil(count/8))]; threshold lower bound 0; dictionary [0,1,31,91]",
+    "loan_tables": "Independent operation/schedule SQL and KPI pages clamp each separately to [1,max(1,ceil(own count/8))]; stable ordering operation_date DESC,operation_id DESC and installment_no",
+    "vintage": "KPI and matrix SQL clamp page to [1,max(1,ceil(cohort_count/6))]; MOB normalized to 7 when requested=7, otherwise 1; dictionary [1,7]",
+    "report_date": "Every dated dataset resolves exact allowed calendar month end between report_start and dataset as_of_date; unknown date yields empty scope",
+    "shared_dictionary": "Product/region/channel list dimension IDs plus 0 All sentinel; no custom text values"
+  },
+  "reused_prior_evidence": [
+    "validation/full-audit/interaction-checks.json",
+    "validation/desktop-restored/source-preservation.json",
+    "validation/desktop-restored/delivery.json"
+  ],
+  "coverage_limits": [
+    "No fresh live browser interaction in this source-only subtask; UI/runtime coverage belongs to parent audit.",
+    "Prior full-audit navigation evidence covered nine parameters and predates the two Vintage state parameters; current source proves all eleven, but prior browser receipt alone does not.",
+    "No broad numerical reconciliation rerun; prior independent source audits reused.",
+    "Native Apply refresh semantics depend on FineReport runtime; source confirms native query-button controls and parameter-linked controllers, not a fresh interactive refresh."
+  ],
+  "check_groups": {
+    "five_pages_eleven_parameters": {
+      "checked": 1,
+      "passed": 1,
+      "failures": [],
+      "detail": {
+        "pages": [
+          "Portfolio Overview",
+          "Sales and Funnel",
+          "Delinquency and Portfolio Quality",
+          "Vintage Analysis",
+          "Loan Details"
+        ],
+        "parameters": {
+          "p_date_key": 20261031,
+          "p_product_id": 0,
+          "p_region_id": 0,
+          "p_channel_id": 0,
+          "p_min_dpd": 1,
+          "p_quality_page": 1,
+          "p_loan_id": 0,
+          "p_operation_page": 1,
+          "p_schedule_page": 1,
+          "p_vintage_page": 1,
+          "p_vintage_mob_start": 1
+        }
+      }
+    },
+    "formula_compute": {
+      "checked": 430,
+      "passed": 430,
+      "failures": []
+    },
+    "combo": {
+      "checked": 22,
+      "passed": 22,
+      "failures": []
+    },
+    "action_compute": {
+      "checked": 37,
+      "passed": 37,
+      "failures": []
+    },
+    "tab_retains_11": {
+      "checked": 20,
+      "passed": 20,
+      "failures": []
+    },
+    "single_parameter_pager": {
+      "checked": 8,
+      "passed": 8,
+      "failures": []
+    },
+    "guarded_drill": {
+      "checked": 8,
+      "passed": 8,
+      "failures": []
+    },
+    "return_retains_11": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "all_20_unique_directed_tabs": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "eight_guarded_registry_drills": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "native_apply_once_per_page": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "four_independent_two_button_pagers": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "all_compute_entries_reachable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": [],
+      "detail": {
+        "computes": 521,
+        "mapped_references": 521
+      }
+    },
+    "all_widget_compute_owners_exist": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "native_VALUE_column_indices_valid": {
+      "checked": 1,
+      "passed": 1,
+      "failures": [],
+      "detail": {
+        "VALUE_references": 432
+      }
+    },
+    "native_chart": {
+      "checked": 10,
+      "passed": 10,
+      "failures": []
+    },
+    "portable_store_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "portable_nonconnection_xml_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "portable_chart_assets_equal_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_store_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_nonconnection_xml_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_chart_assets_equal_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "installed_store_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "installed_nonconnection_xml_equals_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "installed_chart_assets_equal_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_and_installed_identical_bytes": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "dataset_sql_matches_source": {
+      "checked": 31,
+      "passed": 31,
+      "failures": []
+    },
+    "dataset_parameter_contract": {
+      "checked": 31,
+      "passed": 31,
+      "failures": []
+    },
+    "portable_uses_only_named_connections": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "fresh_builder_equals_portable_semantics": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    }
+  },
+  "source_locations": {
+    "all_11_state_parameters": "dashboard/build_report.py:26",
+    "shared_transition_and_compute_binding": "dashboard/build_report.py:166",
+    "guarded_drill": "dashboard/build_report.py:180",
+    "all_20_tabs": "dashboard/build_report.py:184",
+    "single_parameter_pagers": "dashboard/build_report.py:196",
+    "return_to_registry": "dashboard/loan_page.py:22",
+    "dictionary_and_value_compute_binding": "dashboard/build_report.py:95",
+    "native_chart_binding": "dashboard/build_report.py:164",
+    "SQL_registry_bounds": "dashboard/sql/quality_registry.sql:16",
+    "SQL_vintage_bounds": "dashboard/sql/vintage_matrix_view.sql:28",
+    "SQL_detail_bounds": "dashboard/sql/loan_kpis.sql:57"
+  }
+}

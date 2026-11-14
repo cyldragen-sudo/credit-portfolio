@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-04",
+  "start_utc": "20:07:22",
+  "deadline_utc": "20:37:22",
+  "revision": "60de963c38996798586cccbd4cff88e45de194a177eed0a09ff878d985aaf4e4",
+  "pages": [
+    {
+      "page": 1,
+      "title": "Portfolio Overview",
+      "charts": [
+        "Portfolio trend",
+        "Delinquency trend",
+        "Product composition"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_headings": [
+        "CREDIT ANALYTICS",
+        "SYNTHETIC DATA  /  RUB",
+        "AS OF",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "PORTFOLIO BALANCE",
+        "MTD DISBURSEMENTS",
+        "ACTIVE BORROWERS",
+        "MONTHLY GROWTH",
+        "31+ DPD EXPOSURE",
+        "91+ DPD EXPOSURE",
+        "REGION",
+        "BALANCE",
+        "GROWTH",
+        "BORROWERS",
+        "31+ DPD",
+        "91+ DPD",
+        "DEMO \u00b7 NOT REGULATORY REPORTING"
+      ]
+    },
+    {
+      "page": 2,
+      "title": "Sales and Funnel",
+      "charts": [
+        "Application funnel",
+        "Disbursement trend",
+        "Sales by channel"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_headings": [
+        "CREDIT ANALYTICS",
+        "SYNTHETIC DATA  /  RUB",
+        "AS OF",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "DISBURSEMENTS",
+        "FUNDED LOANS",
+        "AVG FUNDED AMOUNT",
+        "APPLICATIONS",
+        "APPROVAL RATE",
+        "APPROVED TO FUNDED",
+        "ALL CHANNELS",
+        "PRODUCT",
+        "LOANS",
+        "ACTUAL",
+        "ATTAINMENT",
+        "CHANNEL",
+        "SUBMITTED",
+        "APPROVAL",
+        "FUNDED / APPROVED",
+        "AVG DAYS",
+        "DEMO \u00b7 NOT REGULATORY REPORTING"
+      ]
+    },
+    {
+      "page": 3,
+      "title": "Delinquency and Portfolio Quality",
+      "charts": [
+        "Exposure by DPD bucket"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector",
+        "Registry threshold \u00b7 Apply to update selector"
+      ],
+      "kpi_headings": [
+        "CREDIT ANALYTICS",
+        "SYNTHETIC DATA  /  RUB",
+        "AS OF",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "OVERDUE PRINCIPAL",
+        "OVERDUE INTEREST",
+        "31+ DPD EXPOSURE",
+        "91+ DPD EXPOSURE",
+        "PAST-DUE LOANS",
+        "MONTHLY WRITE-OFFS",
+        "FROM / TO",
+        "REGISTRY THRESHOLD \u00b7 APPLY TO UPDATE",
+        "CUSTOMER",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "BALANCE, RUB",
+        "OVERDUE P., RUB",
+        "OVERDUE I., RUB",
+        "DEMO \u00b7 NOT REGULATORY REPORTING"
+      ]
+    },
+    {
+      "page": 4,
+      "title": "Vintage Analysis",
+      "charts": [
+        "Cohort curves"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_headings": [
+        "CREDIT ANALYTICS",
+        "SYNTHETIC DATA  /  RUB",
+        "AS OF",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "ORIGINAL LOANS",
+        "ORIGINAL FUNDED AMOUNT",
+        "ORIGINATION COHORTS",
+        "EVER 31+ \u00b7 MOB 3",
+        "EVER 31+ \u00b7 MOB 6",
+        "EVER 31+ \u00b7 MOB 12",
+        "COHORT",
+        "LOANS",
+        "DEMO \u00b7 NOT REGULATORY REPORTING"
+      ]
+    },
+    {
+      "page": 5,
+      "title": "Loan Details",
+      "charts": [
+        "Principal history",
+        "Delinquency history"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_headings": [
+        "CREDIT ANALYTICS",
+        "SYNTHETIC DATA  /  RUB",
+        "AS OF",
+        "PRODUCT",
+        "REGION",
+        "CHANNEL",
+        "PRINCIPAL BALANCE",
+        "OVERDUE PRINCIPAL",
+        "OVERDUE INTEREST",
+        "DAYS PAST DUE",
+        "CONTRACT STATUS",
+        "CASH RECEIVED",
+        "ORIGINAL PRINCIPAL",
+        "ANNUAL RATE",
+        "ORIGINAL TERM",
+        "ISSUED",
+        "CONTRACTUAL MATURITY",
+        "OBSERVED CLOSE DATE",
+        "PRINCIPAL, RUB",
+        "INTEREST, RUB",
+        "CASH, RUB",
+        "DUE DATE",
+        "PRINCIPAL, RUB",
+        "INTEREST, RUB",
+        "PAID, RUB",
+        "WRITTEN OFF, RUB",
+        "STATUS",
+        "DEMO \u00b7 NOT REGULATORY REPORTING"
+      ]
+    }
+  ],
+  "datasets": [
+    "overview_kpis",
+    "overview_trend",
+    "balance_chart",
+    "quality_chart",
+    "product_chart",
+    "region_table",
+    "filter_date",
+    "filter_product",
+    "filter_region",
+    "filter_channel",
+    "sales_kpis",
+    "sales_funnel_chart",
+    "sales_trend_chart",
+    "sales_channel_chart",
+    "sales_plan_table",
+    "sales_channel_table",
+    "quality_kpis",
+    "quality_buckets",
+    "quality_transitions",
+    "quality_registry",
+    "filter_min_dpd",
+    "vintage_kpis",
+    "vintage_matrix",
+    "vintage_curves",
+    "loan_kpis",
+    "loan_operations",
+    "loan_schedule",
+    "loan_balance_chart",
+    "loan_dpd_chart"
+  ]
+}

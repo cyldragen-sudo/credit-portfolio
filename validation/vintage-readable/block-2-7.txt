@@ -1,0 +1,120 @@
+- generic: CREDIT ANALYTICS
+- generic: Vintage Analysis
+- generic: Retail lending · Compare origination cohorts at the same age
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: ORIGINAL LOANS
+- generic: 8,759
+- generic: All contracts in selected cohorts
+- generic: ORIGINAL FUNDED AMOUNT
+- generic: RUB 18.49 bn
+- generic: Original principal · RUB
+- generic: ORIGINATION COHORTS
+- generic: "24"
+- generic: Nov 2024 – Oct 2026
+- generic: EVER 31+ · MOB 3
+- generic: 1.12%
+- generic: 21 mature cohorts · 7,525 loans
+- generic: EVER 31+ · MOB 6
+- generic: 11.72%
+- generic: 18 mature cohorts · 6,308 loans
+- generic: EVER 31+ · MOB 12
+- generic: 18.50%
+- generic: 12 mature cohorts · 3,956 loans
+- generic: Ever 31+ by origination cohort
+- generic: Cumulative % of original loans · complete monthly anniversaries
+- generic: MOB RANGE · APPLY TO UPDATE
+- generic: MOB 7–12
+- generic: 
+- generic: COHORT
+- generic: LOANS
+- generic: M7
+- generic: M8
+- generic: M9
+- generic: M10
+- generic: M11
+- generic: M12
+- generic: Apr 26
+- generic: "392"
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Mar 26
+- generic: "396"
+- generic: 14.4%
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Feb 26
+- generic: "358"
+- generic: 14.2%
+- generic: 14.2%
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Jan 26
+- generic: "344"
+- generic: 19.5%
+- generic: 20.6%
+- generic: 20.9%
+- generic: —
+- generic: —
+- generic: —
+- generic: Dec 25
+- generic: "502"
+- generic: 13.7%
+- generic: 19.3%
+- generic: 21.5%
+- generic: 21.7%
+- generic: —
+- generic: —
+- generic: Nov 25
+- generic: "360"
+- generic: 15.3%
+- generic: 15.3%
+- generic: 18.1%
+- generic: 18.1%
+- generic: 18.1%
+- generic: —
+- generic: ← Previous 1
+- generic: Next → 3
+- generic: Cohorts 7–12 of 24
+- generic: — = immature or unavailable · values rounded to 0.1% · newest first
+- generic: Cohort curves
+- generic: Ever 31+ · % of original loans · observed anniversaries only
+- generic: Read cohorts at equal age
+- generic: Each rate counts loans that ever reached 31+ DPD.
+- generic: A cell waits until every loan reaches that anniversary.
+- generic: MOB cards pool mature cohorts using original loan counts.
+- generic: Curves sample every sixth available cohort, oldest first.
+- generic: Cumulative ever delinquency is not a current loss rate.
+- generic: Original contract counts · Closed and written-off loans remain in the denominator.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

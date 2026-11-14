@@ -1,0 +1,153 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_region_id=999&p_loan_id=999999".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_region_id=999&p_loan_id=999999
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					129 container
+						130 text CREDIT ANALYTICS
+					131 container
+						132 text Sales and Funnel
+					133 container
+						134 text Retail lending · Origination, conversion and sales performance
+					135 container
+						136 text SYNTHETIC DATA  /  RUB
+					225 container
+						226 text 31 Oct 2026
+					137 container
+						138 text Overview
+					139 container
+						140 text Sales and Funnel
+					141 container
+						142 text Portfolio Quality
+					143 container
+						144 text Vintage Analysis
+					145 container
+						146 text Loan Details
+					147 container
+						148 text AS OF
+					227 container
+						228 container
+							229 container
+								230 text October 2026
+							231 text 
+					149 container
+						150 text PRODUCT
+					232 container
+						233 container
+							234 container
+								235 text All Products
+							236 text 
+					151 container
+						152 text REGION
+					237 container
+						238 container
+							239 container
+								240 text 999
+							241 text 
+					153 container
+						154 text CHANNEL
+					242 container
+						243 container
+							244 container
+								245 text All Channels
+							246 text 
+					155 container
+						156 text Apply
+					157 container
+						158 text Selected month
+					159 container
+						160 text DISBURSEMENTS
+					247 container
+						248 text RUB 0.00 m
+					161 container
+						162 text Funded during selected month
+					163 container
+						164 text FUNDED LOANS
+					249 container
+						250 text 0
+					165 container
+						166 text Funded-date sales population
+					167 container
+						168 text AVG FUNDED AMOUNT
+					251 container
+						252 text —
+					169 container
+						170 text Per funded loan
+					171 container
+						172 text APPLICATIONS
+					253 container
+						254 text 0
+					173 container
+						174 text Submitted during selected month
+					175 container
+						176 text APPROVAL RATE
+					255 container
+						256 text —
+					257 container
+						258 text 0 approved applications
+					177 container
+						178 text APPROVED TO FUNDED
+					259 container
+						260 text —
+					261 container
+						262 text 0 funded from submission cohort
+					179 container
+						180 text Application funnel
+					181 container
+						182 text Submitted in selected month · Outcomes at month end
+					263 container
+						264 text Submitted: 0   ·   Approved: 0   ·   Funded: 0
+					265 container
+						266 text Declined: 0   ·   Withdrawn: 0   ·   In progress: 0
+					267 container
+						268 text Avg time to funding: —
+					183 container
+						184 text Disbursement trend
+					185 container
+						186 text Funded-date volumes · RUB m · completed month ends
+					187 container
+						188 text Sales by channel
+					189 container
+						190 text Funded during selected month · RUB m
+					191 container
+						192 text Monthly plan vs actual
+					193 container
+						194 text ALL CHANNELS
+					195 container
+						196 text Selected month, product and region · RUB m · channel filter does not apply
+					197 container
+						198 text PRODUCT
+					199 container
+						200 text LOANS
+					201 container
+						202 text ACTUAL
+					203 container
+						204 text PLAN
+					205 container
+						206 text ATTAINMENT
+					207 container
+						208 text Targets are synthetic monthly amounts; compare actuals within the same target scope.
+					209 container
+						210 text Channel conversion
+					211 container
+						212 text Submission cohort · selected month · outcomes through report date
+					213 container
+						214 text CHANNEL
+					215 container
+						216 text SUBMITTED
+					217 container
+						218 text APPROVAL
+					219 container
+						220 text FUNDED / APPROVED
+					221 container
+						222 text AVG DAYS
+					269 container
+						270 text No sales or applications match the selected filters.
+					223 container
+						224 text DEMO · NOT REGULATORY REPORTING
+			126 text You are using an unregistered function FineVis Visualization Dashboard.
+		127 button alert, ID: data-sentinel-button
+			128 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_region_id=999&p_loan_id=999999

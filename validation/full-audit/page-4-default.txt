@@ -1,0 +1,734 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_loan_id=2170".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_loan_id=2170
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					374 container
+						375 text CREDIT ANALYTICS
+					376 container
+						377 text Vintage Analysis
+					378 container
+						379 text Retail lending · Compare origination cohorts at the same age
+					380 container
+						381 text SYNTHETIC DATA  /  RUB
+					472 container
+						473 text 31 Oct 2026
+					382 container
+						383 text Overview
+					384 container
+						385 text Sales and Funnel
+					386 container
+						387 text Portfolio Quality
+					388 container
+						389 text Vintage Analysis
+					390 container
+						391 text Loan Details
+					392 container
+						393 text AS OF
+					474 container
+						475 container
+							476 container
+								815 text October 2026
+							816 text 
+					394 container
+						395 text PRODUCT
+					479 container
+						480 container
+							481 container
+								482 text All Products
+							483 text 
+					396 container
+						397 text REGION
+					484 container
+						485 container
+							486 container
+								487 text All Regions
+							488 text 
+					398 container
+						399 text CHANNEL
+					489 container
+						490 container
+							491 container
+								492 text All Channels
+							493 text 
+					400 container
+						401 text Apply
+					402 container
+						403 text Month-end reporting
+					404 container
+						405 text ORIGINAL LOANS
+					494 container
+						495 text 8,759
+					406 container
+						407 text All contracts in selected cohorts
+					408 container
+						409 text ORIGINAL FUNDED AMOUNT
+					496 container
+						497 text RUB 18.49 bn
+					410 container
+						411 text Original principal · RUB
+					412 container
+						413 text ORIGINATION COHORTS
+					498 container
+						499 text 24
+					500 container
+						501 text Nov 2024 – Oct 2026
+					414 container
+						415 text EVER 31+ · MOB 3
+					502 container
+						503 text 1.12%
+					504 container
+						505 text 21 mature cohorts · 7,525 loans
+					416 container
+						417 text EVER 31+ · MOB 6
+					506 container
+						507 text 11.72%
+					508 container
+						509 text 18 mature cohorts · 6,308 loans
+					418 container
+						419 text EVER 31+ · MOB 12
+					510 container
+						511 text 18.50%
+					512 container
+						513 text 12 mature cohorts · 3,956 loans
+					420 container
+						421 text Ever 31+ by origination cohort
+					422 container
+						423 text Cumulative % of original loans · MOB = completed monthly anniversary
+					424 container
+						425 text COHORT
+					426 container
+						427 text LOANS
+					428 container
+						429 text M1
+					430 container
+						431 text M2
+					432 container
+						433 text M3
+					434 container
+						435 text M4
+					436 container
+						437 text M5
+					438 container
+						439 text M6
+					440 container
+						441 text M7
+					442 container
+						443 text M8
+					444 container
+						445 text M9
+					446 container
+						447 text M10
+					448 container
+						449 text M11
+					450 container
+						451 text M12
+					514 container
+						515 text Oct 26
+					516 container
+						517 text 400
+					518 container
+						519 text —
+					520 container
+						521 text —
+					522 container
+						523 text —
+					524 container
+						525 text —
+					526 container
+						527 text —
+					528 container
+						529 text —
+					530 container
+						531 text —
+					532 container
+						533 text —
+					534 container
+						535 text —
+					536 container
+						537 text —
+					538 container
+						539 text —
+					540 container
+						541 text —
+					542 container
+						543 text Sep 26
+					544 container
+						545 text 416
+					546 container
+						547 text 0.0%
+					548 container
+						549 text —
+					550 container
+						551 text —
+					552 container
+						553 text —
+					554 container
+						555 text —
+					556 container
+						557 text —
+					558 container
+						559 text —
+					560 container
+						561 text —
+					562 container
+						563 text —
+					564 container
+						565 text —
+					566 container
+						567 text —
+					568 container
+						569 text —
+					570 container
+						571 text Aug 26
+					572 container
+						573 text 418
+					574 container
+						575 text 0.0%
+					576 container
+						577 text 0.0%
+					578 container
+						579 text —
+					580 container
+						581 text —
+					582 container
+						583 text —
+					584 container
+						585 text —
+					586 container
+						587 text —
+					588 container
+						589 text —
+					590 container
+						591 text —
+					592 container
+						593 text —
+					594 container
+						595 text —
+					596 container
+						597 text —
+					598 container
+						599 text Jul 26
+					600 container
+						601 text 423
+					602 container
+						603 text 0.0%
+					604 container
+						605 text 0.0%
+					606 container
+						607 text 0.0%
+					608 container
+						609 text —
+					610 container
+						611 text —
+					612 container
+						613 text —
+					614 container
+						615 text —
+					616 container
+						617 text —
+					618 container
+						619 text —
+					620 container
+						621 text —
+					622 container
+						623 text —
+					624 container
+						625 text —
+					626 container
+						627 text Jun 26
+					628 container
+						629 text 398
+					630 container
+						631 text 0.0%
+					632 container
+						633 text 0.0%
+					634 container
+						635 text 2.0%
+					636 container
+						637 text 2.0%
+					638 container
+						639 text —
+					640 container
+						641 text —
+					642 container
+						643 text —
+					644 container
+						645 text —
+					646 container
+						647 text —
+					648 container
+						649 text —
+					650 container
+						651 text —
+					652 container
+						653 text —
+					654 container
+						655 text May 26
+					656 container
+						657 text 396
+					658 container
+						659 text 0.0%
+					660 container
+						661 text 0.0%
+					662 container
+						663 text 0.8%
+					664 container
+						665 text 5.3%
+					666 container
+						667 text 5.3%
+					668 container
+						669 text —
+					670 container
+						671 text —
+					672 container
+						673 text —
+					674 container
+						675 text —
+					676 container
+						677 text —
+					678 container
+						679 text —
+					680 container
+						681 text —
+					682 container
+						683 text Apr 26
+					684 container
+						685 text 392
+					686 container
+						687 text 0.0%
+					688 container
+						689 text 0.0%
+					690 container
+						691 text 0.0%
+					692 container
+						693 text 5.9%
+					694 container
+						695 text 9.7%
+					696 container
+						697 text 9.7%
+					698 container
+						699 text —
+					700 container
+						701 text —
+					702 container
+						703 text —
+					704 container
+						705 text —
+					706 container
+						707 text —
+					708 container
+						709 text —
+					710 container
+						711 text Mar 26
+					712 container
+						713 text 396
+					714 container
+						715 text 0.0%
+					716 container
+						717 text 0.0%
+					718 container
+						719 text 3.8%
+					720 container
+						721 text 4.0%
+					722 container
+						723 text 11.9%
+					724 container
+						725 text 14.1%
+					726 container
+						727 text 14.4%
+					728 container
+						729 text —
+					730 container
+						731 text —
+					732 container
+						733 text —
+					734 container
+						735 text —
+					736 container
+						737 text —
+					738 container
+						739 text Feb 26
+					740 container
+						741 text 358
+					742 container
+						743 text 0.0%
+					744 container
+						745 text 0.0%
+					746 container
+						747 text 0.0%
+					748 container
+						749 text 6.7%
+					750 container
+						751 text 6.7%
+					752 container
+						753 text 12.6%
+					754 container
+						755 text 14.2%
+					756 container
+						757 text 14.2%
+					758 container
+						759 text —
+					760 container
+						761 text —
+					762 container
+						763 text —
+					764 container
+						765 text —
+					766 container
+						767 text Jan 26
+					768 container
+						769 text 344
+					770 container
+						771 text 0.0%
+					772 container
+						773 text 0.0%
+					774 container
+						775 text 2.3%
+					776 container
+						777 text 2.9%
+					778 container
+						779 text 12.2%
+					780 container
+						781 text 13.1%
+					782 container
+						783 text 19.5%
+					784 container
+						785 text 20.6%
+					786 container
+						787 text 20.9%
+					788 container
+						789 text —
+					790 container
+						791 text —
+					792 container
+						793 text —
+					817 container
+						818 text Dec 25
+					819 container
+						820 text 502
+					821 container
+						822 text 0.0%
+					823 container
+						824 text 0.0%
+					825 container
+						826 text 0.0%
+					827 container
+						828 text 5.6%
+					829 container
+						830 text 5.6%
+					831 container
+						832 text 13.7%
+					833 container
+						834 text 13.7%
+					835 container
+						836 text 19.3%
+					837 container
+						838 text 21.5%
+					839 container
+						840 text 21.7%
+					841 container
+						842 text —
+					843 container
+						844 text —
+					845 container
+						846 text Nov 25
+					847 container
+						848 text 360
+					849 container
+						850 text 0.0%
+					851 container
+						852 text 0.0%
+					853 container
+						854 text 2.2%
+					855 container
+						856 text 2.2%
+					857 container
+						858 text 8.9%
+					859 container
+						860 text 8.9%
+					861 container
+						862 text 15.3%
+					863 container
+						864 text 15.3%
+					865 container
+						866 text 18.1%
+					867 container
+						868 text 18.1%
+					869 container
+						870 text 18.1%
+					871 container
+						872 text —
+					873 container
+						874 text Oct 25
+					875 container
+						876 text 362
+					877 container
+						878 text 0.0%
+					879 container
+						880 text 0.0%
+					881 container
+						882 text 0.3%
+					883 container
+						884 text 4.1%
+					885 container
+						886 text 5.2%
+					887 container
+						888 text 10.5%
+					889 container
+						890 text 10.8%
+					891 container
+						892 text 15.5%
+					893 container
+						894 text 15.5%
+					895 container
+						896 text 18.5%
+					897 container
+						898 text 18.5%
+					899 container
+						900 text 18.5%
+					901 container
+						902 text Sep 25
+					903 container
+						904 text 341
+					905 container
+						906 text 0.0%
+					907 container
+						908 text 0.0%
+					909 container
+						910 text 0.0%
+					911 container
+						912 text 4.1%
+					913 container
+						914 text 9.7%
+					915 container
+						916 text 9.7%
+					917 container
+						918 text 17.0%
+					919 container
+						920 text 17.0%
+					921 container
+						922 text 20.8%
+					923 container
+						924 text 20.8%
+					925 container
+						926 text 20.8%
+					927 container
+						928 text 20.8%
+					929 container
+						930 text Aug 25
+					931 container
+						932 text 326
+					933 container
+						934 text 0.0%
+					935 container
+						936 text 0.0%
+					937 container
+						938 text 3.7%
+					939 container
+						940 text 4.3%
+					941 container
+						942 text 12.9%
+					943 container
+						944 text 16.0%
+					945 container
+						946 text 16.3%
+					947 container
+						948 text 20.6%
+					949 container
+						950 text 20.6%
+					951 container
+						952 text 22.1%
+					953 container
+						954 text 22.1%
+					955 container
+						956 text 22.1%
+					957 container
+						958 text Jul 25
+					959 container
+						960 text 348
+					961 container
+						962 text 0.0%
+					963 container
+						964 text 0.0%
+					965 container
+						966 text 0.0%
+					967 container
+						968 text 6.9%
+					969 container
+						970 text 7.5%
+					971 container
+						972 text 12.9%
+					973 container
+						974 text 16.4%
+					975 container
+						976 text 16.7%
+					977 container
+						978 text 20.1%
+					979 container
+						980 text 20.1%
+					981 container
+						982 text 20.1%
+					983 container
+						984 text 20.1%
+					985 container
+						986 text Jun 25
+					987 container
+						988 text 310
+					989 container
+						990 text 0.0%
+					991 container
+						992 text 0.0%
+					993 container
+						994 text 2.3%
+					995 container
+						996 text 2.3%
+					997 container
+						998 text 9.4%
+					999 container
+						1000 text 9.4%
+					1001 container
+						1002 text 14.2%
+					1003 container
+						1004 text 14.2%
+					1005 container
+						1006 text 14.2%
+					1007 container
+						1008 text 15.5%
+					1009 container
+						1010 text 15.5%
+					1011 container
+						1012 text 15.5%
+					1013 container
+						1014 text May 25
+					1015 container
+						1016 text 301
+					1017 container
+						1018 text 0.0%
+					1019 container
+						1020 text 0.0%
+					1021 container
+						1022 text 1.7%
+					1023 container
+						1024 text 6.6%
+					1025 container
+						1026 text 6.6%
+					1027 container
+						1028 text 14.3%
+					1029 container
+						1030 text 14.6%
+					1031 container
+						1032 text 16.9%
+					1033 container
+						1034 text 18.6%
+					1035 container
+						1036 text 18.6%
+					1037 container
+						1038 text 18.6%
+					1039 container
+						1040 text 18.6%
+					1041 container
+						1042 text Apr 25
+					1043 container
+						1044 text 338
+					1045 container
+						1046 text 0.0%
+					1047 container
+						1048 text 0.0%
+					1049 container
+						1050 text 0.0%
+					1051 container
+						1052 text 6.2%
+					1053 container
+						1054 text 10.1%
+					1055 container
+						1056 text 10.1%
+					1057 container
+						1058 text 17.8%
+					1059 container
+						1060 text 17.8%
+					1061 container
+						1062 text 19.2%
+					1063 container
+						1064 text 19.2%
+					1065 container
+						1066 text 19.2%
+					1067 container
+						1068 text 19.2%
+					1069 container
+						1070 text Mar 25
+					1071 container
+						1072 text 336
+					1073 container
+						1074 text 0.0%
+					1075 container
+						1076 text 0.0%
+					1077 container
+						1078 text 2.1%
+					1079 container
+						1080 text 2.4%
+					1081 container
+						1082 text 9.8%
+					1083 container
+						1084 text 13.1%
+					1085 container
+						1086 text 13.4%
+					1087 container
+						1088 text 18.8%
+					1089 container
+						1090 text 19.0%
+					1091 container
+						1092 text 19.9%
+					1093 container
+						1094 text 19.9%
+					1095 container
+						1096 text 19.9%
+					1097 container
+						1098 text Feb 25
+					452 container
+						453 text 0.0% = observed zero after rounding · — = immature or unavailable · newest cohorts first
+					454 container
+						455 text Cohort curves
+					456 container
+						457 text Ever 31+ · % of original loans · observed anniversaries only
+					794 container
+						795 container
+							796 image
+								797 text M1
+								798 text M2
+								799 text M3
+								800 text M4
+								801 text M5
+								802 text M6
+								803 text M7
+								804 text M8
+								805 text M9
+								806 text 0
+								807 text 5
+								808 text 10
+								809 text 15
+								810 text 20
+								811 text Nov 24
+								812 text May 25
+					458 container
+						459 text Read cohorts at equal age
+					460 container
+						461 text Each rate counts loans that ever reached 31+ DPD.
+					462 container
+						463 text A cell waits until every loan reaches that anniversary.
+					464 container
+						465 text MOB cards pool mature cohorts using original loan counts.
+					466 container
+						467 text Curves sample every sixth available cohort, oldest first.
+					468 container
+						469 text Cumulative ever delinquency is not a current loss rate.
+					813 container
+						814 text Original contract counts · Closed and written-off loans remain in the denominator.
+					470 container
+						471 text DEMO · NOT REGULATORY REPORTING
+			371 text You are using an unregistered function FineVis Visualization Dashboard.
+		372 button alert, ID: data-sentinel-button
+			373 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_loan_id=2170

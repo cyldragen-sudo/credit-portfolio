@@ -1,0 +1,69 @@
+- generic: CREDIT ANALYTICS
+- generic: Sales and Funnel
+- generic: Retail lending · Origination, conversion and sales performance
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: "999"
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Selected month
+- generic: DISBURSEMENTS
+- generic: RUB 0.00 m
+- generic: Funded during selected month
+- generic: FUNDED LOANS
+- generic: "0"
+- generic: Funded-date sales population
+- generic: AVG FUNDED AMOUNT
+- generic: —
+- generic: Per funded loan
+- generic: APPLICATIONS
+- generic: "0"
+- generic: Submitted during selected month
+- generic: APPROVAL RATE
+- generic: —
+- generic: 0 approved applications
+- generic: APPROVED TO FUNDED
+- generic: —
+- generic: 0 funded from submission cohort
+- generic: Application funnel
+- generic: Submitted in selected month · Outcomes at month end
+- generic: "Submitted: 0 · Approved: 0 · Funded: 0"
+- generic: "Declined: 0 · Withdrawn: 0 · In progress: 0"
+- generic: "Avg time to funding: —"
+- generic: Disbursement trend
+- generic: Funded-date volumes · RUB m · completed month ends
+- generic: Sales by channel
+- generic: Funded during selected month · RUB m
+- generic: Monthly plan vs actual
+- generic: ALL CHANNELS
+- generic: Selected month, product and region · RUB m · channel filter does not apply
+- generic: PRODUCT
+- generic: LOANS
+- generic: ACTUAL
+- generic: PLAN
+- generic: ATTAINMENT
+- generic: Targets are synthetic monthly amounts; compare actuals within the same target scope.
+- generic: Channel conversion
+- generic: Submission cohort · selected month · outcomes through report date
+- generic: CHANNEL
+- generic: SUBMITTED
+- generic: APPROVAL
+- generic: FUNDED / APPROVED
+- generic: AVG DAYS
+- generic: No sales or applications match the selected filters.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

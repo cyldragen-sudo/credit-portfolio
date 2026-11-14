@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-07",
+  "status": "Complete: native third tab, shared filters, registry threshold and navigation verified",
+  "workbook_id": "55f29d3962924a6692b2b3816cdafda6",
+  "report_id": "f1e20436263842bb85acb6f4f88cb775",
+  "tab_name": "Delinquency and Portfolio Quality",
+  "url": "http://localhost:37799/webroot/decision#/analysis/own/subject/55f29d3962924a6692b2b3816cdafda6/report/f1e20436263842bb85acb6f4f88cb775",
+  "components": [
+    {
+      "name": "Overdue Principal",
+      "id": "c4726baf304c46c793c16ab3161e469c"
+    },
+    {
+      "name": "Overdue Interest",
+      "id": "2889e0d78f3b430c8b27dd5838e4ba9d"
+    },
+    {
+      "name": "Quality 31+ DPD Exposure",
+      "id": "2ac1485297424acabc48429a757982e2"
+    },
+    {
+      "name": "Quality 91+ DPD Exposure",
+      "id": "0685a1013578407483a2d5e916ffbfca"
+    },
+    {
+      "name": "Past-due Loans",
+      "id": "edcd4dd4df7a453da312aff66e7b8f81"
+    },
+    {
+      "name": "Monthly Write-offs",
+      "id": "918207455ea04b358ed14c190b4a5ef8"
+    },
+    {
+      "name": "DPD Bucket Exposure (RUB bn)",
+      "id": "c9dee04b11584e7698996a30c9b4c336"
+    },
+    {
+      "name": "Monthly DPD Transitions — Share and Loans",
+      "id": "bac8c9347a674a4d9937a9f647ffada3"
+    },
+    {
+      "name": "Loan Registry — RUB",
+      "id": "d5ac7fd8648f4e1097aec43d4f083e6e"
+    }
+  ],
+  "sources_installed": {
+    "Portfolio Quality KPIs": "8a900d38a4bd4dddbc61011a5dc0381a",
+    "DPD Bucket Exposure": "973dd9f35e5743eeb6eea77d8d8ad1ba",
+    "DPD Transition Matrix": "d8573f71f4a14d35ab970628fbc28f6e",
+    "Loan Registry": "73185127a27748619ea9a6cebea069ff"
+  },
+  "filters": {
+    "shared": [
+      "As Of Month",
+      "Product",
+      "Region",
+      "Channel"
+    ],
+    "global_bindings": "Date/Product/Region: 15 SQL source parameters each; Channel: 14, excluding all-channel sales plan. All nine new quality widgets included in global control scope.",
+    "registry_threshold": "Text label from Filter - Minimum DPD, required single selection, default 1+ DPD. p_min_dpd bound only to Loan Registry; control range only Loan Registry — RUB.",
+    "defaults_restored": true
+  },
+  "matrix": "Native Color Table, to_bucket horizontal, row_label vertical, cell_label Text, loan_count tooltip. No color aggregation, all seven states shown in natural order. Each cell includes row share and loan count; opening-loan counts in row labels, dashes for zero denominators. Fixed 12px black text, full rows/columns visible.",
+  "registry": "Native detailed table, all matching rows, 100 rows per page plus vertical scrolling. Fields: Loan / Customer / Product / Region / Channel / Balance / Principal Overdue / Interest Overdue / DPD. Amounts in full RUB. SQL order DPD descending, balance descending, loan ID ascending retained. All nine columns fit desktop width.",
+  "checks": {
+    "default_kpis": [
+      "RUB 185.88 m",
+      "RUB 168.53 m",
+      "6.94%",
+      "4.95%",
+      "1,268",
+      "RUB 25.50 m"
+    ],
+    "historical_scope": "August 2025 / Personal Loan / Moscow / Online",
+    "historical_kpis": [
+      "RUB 0.76 m",
+      "RUB 0.62 m",
+      "4.58%",
+      "1.39%",
+      "20",
+      "RUB 0.00 m"
+    ],
+    "historical_registry_91": {
+      "rows": 2,
+      "references": [
+        "LN-0011359",
+        "LN-0010387"
+      ]
+    },
+    "threshold_isolation": "Default 91+ DPD returned 473 registry rows and five pages; summary cards, buckets and matrix unchanged.",
+    "pagination": "91+ page 1 → 2 → 1 verified; page 2 starts LN-0006929 matching source row 101.",
+    "empty_registry": "November 2024 / Mortgage / Novosibirsk Region / Partner / 91+ DPD: 0 rows, no error; zero opening matrix rows show dashes.",
+    "navigation": "All six directed edges among Overview, Sales and Quality checked under the historical scope; all four shared controls and local 91+ registry threshold retained.",
+    "parity": "89 English-label and numeric fallback dataset/scenario checks passed; additional bucket sum, matrix row population and registry completeness checks passed.",
+    "display_format": "Exposure chart uses fixed three decimal places in RUB bn; historical preview verified without scientific notation."
+  },
+  "evidence_folder": "docs/screenshots/finebi",
+  "control_values": "outputs/finebi-quality/control-values.json",
+  "later_scope": "Loan Details does not exist in FineBI yet; registry drill-through will be configured with the later requested Details page.",
+  "editor_lock_released": true,
+  "viewport_override_reset": true,
+  "saved_view_verified": true,
+  "review": "Independent read-only review found no material issues; bounded Quality source checks and both final screenshots reviewed.",
+  "later_shared_filter_extension": "Vintage Analysis added later on 2026-11-07: current global bindings 18 Date/Product/Region and 17 Channel; see finebi/vintage-build-state.json. Original checks above are delivery-time snapshots."
+}

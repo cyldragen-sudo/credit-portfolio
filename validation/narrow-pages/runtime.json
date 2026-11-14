@@ -1,0 +1,288 @@
+{
+  "status": "Passed; final screenshot and text-overflow repetition completed after normal sign-in",
+  "checks": [
+    {
+      "check": "registry next/previous",
+      "passed": true
+    },
+    {
+      "check": "registry loan 2170 drill",
+      "passed": true
+    },
+    {
+      "check": "transition percentage/count line breaks",
+      "passed": true
+    },
+    {
+      "check": "schedule next page",
+      "passed": true
+    },
+    {
+      "check": "schedule previous and saved registry return",
+      "passed": true
+    },
+    {
+      "check": "sales-640",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "overview-640",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "quality-640",
+      "passed": true,
+      "stats": {
+        "height": 900,
+        "maxWidgetRight": 628,
+        "offsetWidth": 640,
+        "overflowX": "hidden",
+        "scrollHeight": 2200,
+        "scrollWidth": 640,
+        "top": 0,
+        "width": 634
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "details no selected loan shows empty state",
+      "passed": true
+    },
+    {
+      "check": "loan-640",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "overview-722",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "sales-722",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "quality-722",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "loan-722",
+      "passed": true,
+      "stats": {
+        "height": 1030,
+        "maxWidgetRight": 708.4609375,
+        "offsetWidth": 722,
+        "overflowX": "hidden",
+        "scrollHeight": 2482,
+        "scrollWidth": 722,
+        "top": 0,
+        "width": 716
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "overview-1440",
+      "passed": true,
+      "stats": {
+        "height": 900,
+        "maxWidgetRight": 1413,
+        "offsetWidth": 1440,
+        "overflowX": "hidden",
+        "scrollHeight": 4950,
+        "scrollWidth": 1440,
+        "top": 0,
+        "width": 1434
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "sales-1440",
+      "passed": true,
+      "stats": {
+        "height": 900,
+        "maxWidgetRight": 1413,
+        "offsetWidth": 1440,
+        "overflowX": "hidden",
+        "scrollHeight": 4950,
+        "scrollWidth": 1440,
+        "top": 0,
+        "width": 1434
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "quality-1440",
+      "passed": true,
+      "stats": {
+        "height": 900,
+        "maxWidgetRight": 1413,
+        "offsetWidth": 1440,
+        "overflowX": "hidden",
+        "scrollHeight": 4950,
+        "scrollWidth": 1440,
+        "top": 0,
+        "width": 1434
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "loan-1440",
+      "passed": true,
+      "stats": {
+        "height": 900,
+        "maxWidgetRight": 1413,
+        "offsetWidth": 1440,
+        "overflowX": "hidden",
+        "scrollHeight": 4950,
+        "scrollWidth": 1440,
+        "top": 0,
+        "width": 1434
+      },
+      "textOverflow": []
+    },
+    {
+      "check": "Overview Apply historical filters",
+      "passed": true,
+      "expected": [
+        "August 2025",
+        "Personal Loan",
+        "Moscow",
+        "Online",
+        "RUB 102.45 m",
+        "4.58%"
+      ]
+    },
+    {
+      "check": "Sales preserved historical filters",
+      "passed": true
+    },
+    {
+      "check": "Quality preserved historical filters and metrics",
+      "passed": true
+    },
+    {
+      "check": "Quality threshold Apply changes registry only",
+      "passed": true
+    },
+    {
+      "check": "Loan Details retains historical return context",
+      "passed": true
+    },
+    {
+      "check": "Return retains historical filters and 91+ registry threshold",
+      "passed": true
+    },
+    {
+      "check": "Vintage range 7–12 and page 2 survive round trip through details and registry",
+      "passed": true
+    },
+    {
+      "check": "Operations and schedule page independently for loan 954",
+      "passed": true
+    },
+    {
+      "check": "Unknown region URL resets to All Regions when Apply normalizes dictionary selection",
+      "passed": true
+    },
+    {
+      "check": "Unknown scope Overview empty state",
+      "passed": true
+    },
+    {
+      "check": "Unknown scope Sales empty state",
+      "passed": true
+    },
+    {
+      "check": "Unknown scope Quality no stale registry IDs",
+      "passed": true
+    },
+    {
+      "check": "Unknown scope Vintage empty state",
+      "passed": true
+    },
+    {
+      "check": "vintage-722",
+      "passed": true,
+      "textOverflow": []
+    },
+    {
+      "check": "Post-login Apply refreshes September overview to RUB 19.07 bn",
+      "passed": true
+    },
+    {
+      "check": "Post-login navigation retains September reporting date",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "notes": [
+    "An expired login interrupted final repetition; user signed in and navigation/Apply were repeated successfully.",
+    "Width checks use usable client width and actual native widget edges; the six-pixel vertical scrollbar gutter is excluded.",
+    "Unknown diagnostic region IDs show empty data initially; Apply normalizes unsupported dictionary IDs to an available selection."
+  ]
+}

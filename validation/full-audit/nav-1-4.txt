@@ -1,0 +1,455 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2".
+0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2
+	1 container
+		2 container root
+			3 container preview
+				4 container
+					5 container
+						6 text CREDIT ANALYTICS
+					7 container
+						8 text Vintage Analysis
+					9 container
+						10 text Retail lending · Compare origination cohorts at the same age
+					11 container
+						12 text SYNTHETIC DATA  /  RUB
+					13 container
+						14 text 31 Aug 2025
+					15 container
+						16 text Overview
+					17 container
+						18 text Sales and Funnel
+					19 container
+						20 text Portfolio Quality
+					21 container
+						22 text Vintage Analysis
+					23 container
+						24 text Loan Details
+					25 container
+						26 text AS OF
+					27 container
+						28 container
+							29 container
+								30 text August 2025
+							31 text 
+					32 container
+						33 text PRODUCT
+					34 container
+						35 container
+							36 container
+								37 text Personal Loan
+							38 text 
+					39 container
+						40 text REGION
+					41 container
+						42 container
+							43 container
+								44 text Moscow
+							45 text 
+					46 container
+						47 text CHANNEL
+					48 container
+						49 container
+							50 container
+								51 text Online
+							52 text 
+					53 container
+						54 text Apply
+					55 container
+						56 text Month-end reporting
+					57 container
+						58 text ORIGINAL LOANS
+					59 container
+						60 text 81
+					61 container
+						62 text All contracts in selected cohorts
+					63 container
+						64 text ORIGINAL FUNDED AMOUNT
+					65 container
+						66 text RUB 64.42 m
+					67 container
+						68 text Original principal · RUB
+					69 container
+						70 text ORIGINATION COHORTS
+					71 container
+						72 text 10
+					73 container
+						74 text Nov 2024 – Aug 2025
+					75 container
+						76 text EVER 31+ · MOB 3
+					77 container
+						78 text 0.00%
+					79 container
+						80 text 7 mature cohorts · 60 loans
+					81 container
+						82 text EVER 31+ · MOB 6
+					83 container
+						84 text 6.06%
+					85 container
+						86 text 4 mature cohorts · 33 loans
+					87 container
+						88 text EVER 31+ · MOB 12
+					89 container
+						90 text —
+					91 container
+						92 text 0 mature cohorts · 0 loans
+					93 container
+						94 text Ever 31+ by origination cohort
+					95 container
+						96 text Cumulative % of original loans · MOB = completed monthly anniversary
+					97 container
+						98 text COHORT
+					99 container
+						100 text LOANS
+					101 container
+						102 text M1
+					103 container
+						104 text M2
+					105 container
+						106 text M3
+					107 container
+						108 text M4
+					109 container
+						110 text M5
+					111 container
+						112 text M6
+					113 container
+						114 text M7
+					115 container
+						116 text M8
+					117 container
+						118 text M9
+					119 container
+						120 text M10
+					121 container
+						122 text M11
+					123 container
+						124 text M12
+					125 container
+						126 text Aug 25
+					127 container
+						128 text 6
+					129 container
+						130 text —
+					131 container
+						132 text —
+					133 container
+						134 text —
+					135 container
+						136 text —
+					137 container
+						138 text —
+					139 container
+						140 text —
+					141 container
+						142 text —
+					143 container
+						144 text —
+					145 container
+						146 text —
+					147 container
+						148 text —
+					149 container
+						150 text —
+					151 container
+						152 text —
+					153 container
+						154 text Jul 25
+					155 container
+						156 text 10
+					157 container
+						158 text 0.0%
+					159 container
+						160 text —
+					161 container
+						162 text —
+					163 container
+						164 text —
+					165 container
+						166 text —
+					167 container
+						168 text —
+					169 container
+						170 text —
+					171 container
+						172 text —
+					173 container
+						174 text —
+					175 container
+						176 text —
+					177 container
+						178 text —
+					179 container
+						180 text —
+					181 container
+						182 text Jun 25
+					183 container
+						184 text 5
+					185 container
+						186 text 0.0%
+					187 container
+						188 text 0.0%
+					189 container
+						190 text —
+					191 container
+						192 text —
+					193 container
+						194 text —
+					195 container
+						196 text —
+					197 container
+						198 text —
+					199 container
+						200 text —
+					201 container
+						202 text —
+					203 container
+						204 text —
+					205 container
+						206 text —
+					207 container
+						208 text —
+					209 container
+						210 text May 25
+					211 container
+						212 text 5
+					213 container
+						214 text 0.0%
+					215 container
+						216 text 0.0%
+					217 container
+						218 text 0.0%
+					219 container
+						220 text —
+					221 container
+						222 text —
+					223 container
+						224 text —
+					225 container
+						226 text —
+					227 container
+						228 text —
+					229 container
+						230 text —
+					231 container
+						232 text —
+					233 container
+						234 text —
+					235 container
+						236 text —
+					237 container
+						238 text Apr 25
+					239 container
+						240 text 13
+					241 container
+						242 text 0.0%
+					243 container
+						244 text 0.0%
+					245 container
+						246 text 0.0%
+					247 container
+						248 text 23.1%
+					249 container
+						250 text —
+					251 container
+						252 text —
+					253 container
+						254 text —
+					255 container
+						256 text —
+					257 container
+						258 text —
+					259 container
+						260 text —
+					261 container
+						262 text —
+					263 container
+						264 text —
+					265 container
+						266 text Mar 25
+					267 container
+						268 text 9
+					269 container
+						270 text 0.0%
+					271 container
+						272 text 0.0%
+					273 container
+						274 text 0.0%
+					275 container
+						276 text 0.0%
+					277 container
+						278 text 0.0%
+					279 container
+						280 text —
+					281 container
+						282 text —
+					283 container
+						284 text —
+					285 container
+						286 text —
+					287 container
+						288 text —
+					289 container
+						290 text —
+					291 container
+						292 text —
+					293 container
+						294 text Feb 25
+					295 container
+						296 text 7
+					297 container
+						298 text 0.0%
+					299 container
+						300 text 0.0%
+					301 container
+						302 text 0.0%
+					303 container
+						304 text 0.0%
+					305 container
+						306 text 0.0%
+					307 container
+						308 text 14.3%
+					309 container
+						310 text —
+					311 container
+						312 text —
+					313 container
+						314 text —
+					315 container
+						316 text —
+					317 container
+						318 text —
+					319 container
+						320 text —
+					321 container
+						322 text Jan 25
+					323 container
+						324 text 4
+					325 container
+						326 text 0.0%
+					327 container
+						328 text 0.0%
+					329 container
+						330 text 0.0%
+					331 container
+						332 text 0.0%
+					333 container
+						334 text 0.0%
+					335 container
+						336 text 0.0%
+					337 container
+						338 text 0.0%
+					339 container
+						340 text —
+					341 container
+						342 text —
+					343 container
+						344 text —
+					345 container
+						346 text —
+					347 container
+						348 text —
+					349 container
+						350 text Dec 24
+					351 container
+						352 text 13
+					353 container
+						354 text 0.0%
+					355 container
+						356 text 0.0%
+					357 container
+						358 text 0.0%
+					359 container
+						360 text 0.0%
+					361 container
+						362 text 0.0%
+					363 container
+						364 text 7.7%
+					365 container
+						366 text 7.7%
+					367 container
+						368 text 7.7%
+					369 container
+						370 text —
+					371 container
+						372 text —
+					373 container
+						374 text —
+					375 container
+						376 text —
+					377 container
+						378 text Nov 24
+					379 container
+						380 text 9
+					381 container
+						382 text 0.0%
+					383 container
+						384 text 0.0%
+					385 container
+						386 text 0.0%
+					387 container
+						388 text 0.0%
+					389 container
+						390 text 0.0%
+					391 container
+						392 text 0.0%
+					393 container
+						394 text 0.0%
+					395 container
+						396 text 0.0%
+					397 container
+						398 text 0.0%
+					399 container
+						400 text —
+					401 container
+						402 text —
+					403 container
+						404 text —
+					405 container
+						406 text 0.0% = observed zero after rounding · — = immature or unavailable · newest cohorts first
+					407 container
+						408 text Cohort curves
+					409 container
+						410 text Ever 31+ · % of original loans · observed anniversaries only
+					411 container
+						412 container
+							413 image
+								414 text M1
+								415 text M2
+								416 text M3
+								417 text M4
+								418 text M5
+								419 text M6
+								420 text M7
+								421 text M8
+								422 text M9
+								423 text 0
+								424 text 0.2
+								425 text 0.4
+								426 text 0.6
+								427 text 0.8
+								428 text 1
+								429 text 1.2
+								430 text 1.4
+								431 text Nov 24
+								432 text May 25
+					433 container
+						434 text Read cohorts at equal age
+					435 container
+						436 text Each rate counts loans that ever reached 31+ DPD.
+					437 container
+						438 text A cell waits until every loan reaches that anniversary.
+					439 container
+						440 text MOB cards pool mature cohorts using original loan counts.
+					441 container
+						442 text Curves sample every sixth available cohort, oldest first.
+					443 container
+						444 text Cumulative ever delinquency is not a current loss rate.
+					445 container
+						446 text Original contract counts · Closed and written-off loans remain in the denominator.
+					447 container
+						448 text DEMO · NOT REGULATORY REPORTING
+			449 text You are using an unregistered function FineVis Visualization Dashboard.
+		450 button alert, ID: data-sentinel-button
+			451 image alert
+
+The focused UI element is 0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2

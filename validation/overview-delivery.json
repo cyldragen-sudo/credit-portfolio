@@ -1,0 +1,18 @@
+{
+  "automated_tests_passed": 20,
+  "native_datasets_jdbc_verified": 10,
+  "native_widgets": 107,
+  "native_charts": 3,
+  "filter_controls": 4,
+  "local_database_running": true,
+  "overview_default_observed": true,
+  "combined_filters_observed": true,
+  "historical_cutoff_observed": true,
+  "empty_state_observed": true,
+  "desktop_layout_checked": "1440x900",
+  "viewport_restored": true,
+  "vendor_trial_notice_preserved": true,
+  "other_projects_modified": false,
+  "portable_connection": "CREDIT_PORTFOLIO",
+  "local_connection_scope": "Protected report-specific SELECT-only JDBC"
+}

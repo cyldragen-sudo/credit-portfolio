@@ -1,0 +1,44 @@
+[
+  {
+    "to": "Overview",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": null,
+    "registry": null
+  },
+  {
+    "to": "Sales and Funnel",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=2&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": null,
+    "registry": null
+  },
+  {
+    "to": "Portfolio Quality",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=3&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": true,
+    "registry": "Page 1 of 1 · 1 loans"
+  },
+  {
+    "to": "Sales and Funnel",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=2&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": null,
+    "registry": null
+  },
+  {
+    "to": "Overview",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": null,
+    "registry": null
+  },
+  {
+    "to": "Portfolio Quality",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=3&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "filters": true,
+    "threshold": true,
+    "registry": "Page 1 of 1 · 1 loans"
+  }
+]

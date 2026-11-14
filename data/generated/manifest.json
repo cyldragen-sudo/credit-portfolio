@@ -1,0 +1,37 @@
+{
+  "generator_version": "1.0.0",
+  "seed": 20261104,
+  "is_synthetic": true,
+  "history_start": "2023-11-01",
+  "report_start": "2024-11-01",
+  "as_of_date": "2026-10-31",
+  "currency": "RUB",
+  "rows": {
+    "dataset_run": 1,
+    "region": 6,
+    "branch": 18,
+    "product": 3,
+    "channel": 4,
+    "calendar": 10227,
+    "customer": 15000,
+    "application": 19200,
+    "application_event": 50724,
+    "loan": 12000,
+    "simulation_scenario": 12000,
+    "payment_schedule": 783336,
+    "loan_operation": 179767,
+    "payment_allocation": 395315,
+    "loan_snapshot": 5405234,
+    "loan_month_age": 190355,
+    "sales_plan": 1296
+  },
+  "scenarios": {
+    "ON_TIME": 6830,
+    "EARLY_SETTLEMENT": 1443,
+    "SHORT_DELAY": 1461,
+    "CURE": 1239,
+    "WRITE_OFF": 373,
+    "PERSISTENT_ARREARS": 654
+  },
+  "fixture_sha256": "ebabcdd5884da516f9c64d3ef3358e4d9c97489e359dd6de4d63ca2f2b576d80"
+}

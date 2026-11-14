@@ -1,0 +1,287 @@
+{
+  "1": {
+    "title": "Portfolio Overview",
+    "cards": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "dataset": "overview_kpis",
+        "column": "portfolio_label",
+        "row": 1
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "dataset": "overview_kpis",
+        "column": "funding_label",
+        "row": 1
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "dataset": "overview_kpis",
+        "column": "borrowers_label",
+        "row": 1
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "dataset": "overview_kpis",
+        "column": "growth_label",
+        "row": 1
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "dataset": "overview_kpis",
+        "column": "ratio_31_label",
+        "row": 1
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "dataset": "overview_kpis",
+        "column": "ratio_91_label",
+        "row": 1
+      }
+    ],
+    "charts": [
+      {
+        "name": "Portfolio trend",
+        "dataset": "balance_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      },
+      {
+        "name": "Delinquency trend",
+        "dataset": "quality_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      },
+      {
+        "name": "Product composition",
+        "dataset": "product_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      }
+    ]
+  },
+  "2": {
+    "title": "Sales and Funnel",
+    "cards": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "dataset": "sales_kpis",
+        "column": "funded_amount_label",
+        "row": 1
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "dataset": "sales_kpis",
+        "column": "funded_loans_label",
+        "row": 1
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "dataset": "sales_kpis",
+        "column": "average_amount_label",
+        "row": 1
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "dataset": "sales_kpis",
+        "column": "applications_label",
+        "row": 1
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "dataset": "sales_kpis",
+        "column": "approval_label",
+        "row": 1
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "dataset": "sales_kpis",
+        "column": "conversion_label",
+        "row": 1
+      }
+    ],
+    "charts": [
+      {
+        "name": "Application funnel",
+        "dataset": "sales_funnel_chart",
+        "value": "value",
+        "series": "label",
+        "category": "None"
+      },
+      {
+        "name": "Disbursement trend",
+        "dataset": "sales_trend_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      },
+      {
+        "name": "Sales by channel",
+        "dataset": "sales_channel_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      }
+    ]
+  },
+  "3": {
+    "title": "Delinquency and Portfolio Quality",
+    "cards": [
+      {
+        "widget": "Quality OVERDUE PRINCIPAL value",
+        "dataset": "quality_kpis",
+        "column": "overdue_principal_label",
+        "row": 1
+      },
+      {
+        "widget": "Quality OVERDUE INTEREST value",
+        "dataset": "quality_kpis",
+        "column": "overdue_interest_label",
+        "row": 1
+      },
+      {
+        "widget": "Quality 31+ DPD EXPOSURE value",
+        "dataset": "quality_kpis",
+        "column": "ratio31_label",
+        "row": 1
+      },
+      {
+        "widget": "Quality 91+ DPD EXPOSURE value",
+        "dataset": "quality_kpis",
+        "column": "ratio91_label",
+        "row": 1
+      },
+      {
+        "widget": "Quality PAST-DUE LOANS value",
+        "dataset": "quality_kpis",
+        "column": "past_due_loans_label",
+        "row": 1
+      },
+      {
+        "widget": "Quality MONTHLY WRITE-OFFS value",
+        "dataset": "quality_kpis",
+        "column": "writeoff_label",
+        "row": 1
+      }
+    ],
+    "charts": [
+      {
+        "name": "Exposure by DPD bucket",
+        "dataset": "quality_buckets",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      }
+    ]
+  },
+  "4": {
+    "title": "Vintage Analysis",
+    "cards": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "dataset": "vintage_kpis",
+        "column": "original_loans_label",
+        "row": 1
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "dataset": "vintage_kpis",
+        "column": "original_amount_label",
+        "row": 1
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "dataset": "vintage_kpis",
+        "column": "cohort_count_label",
+        "row": 1
+      },
+      {
+        "widget": "Vintage EVER 31+ \u00b7 MOB 3 value",
+        "dataset": "vintage_kpis",
+        "column": "mob3_label",
+        "row": 1
+      },
+      {
+        "widget": "Vintage EVER 31+ \u00b7 MOB 6 value",
+        "dataset": "vintage_kpis",
+        "column": "mob6_label",
+        "row": 1
+      },
+      {
+        "widget": "Vintage EVER 31+ \u00b7 MOB 12 value",
+        "dataset": "vintage_kpis",
+        "column": "mob12_label",
+        "row": 1
+      }
+    ],
+    "charts": [
+      {
+        "name": "Cohort curves",
+        "dataset": "vintage_curves",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      }
+    ]
+  },
+  "5": {
+    "title": "Loan Details",
+    "cards": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "dataset": "loan_kpis",
+        "column": "balance_label",
+        "row": 1
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "dataset": "loan_kpis",
+        "column": "overdue_principal_label",
+        "row": 1
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "dataset": "loan_kpis",
+        "column": "overdue_interest_label",
+        "row": 1
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "dataset": "loan_kpis",
+        "column": "dpd_label",
+        "row": 1
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "dataset": "loan_kpis",
+        "column": "status_label",
+        "row": 1
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "dataset": "loan_kpis",
+        "column": "cash_label",
+        "row": 1
+      }
+    ],
+    "charts": [
+      {
+        "name": "Principal history",
+        "dataset": "loan_balance_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      },
+      {
+        "name": "Delinquency history",
+        "dataset": "loan_dpd_chart",
+        "value": "value",
+        "series": "series",
+        "category": "label"
+      }
+    ]
+  }
+}

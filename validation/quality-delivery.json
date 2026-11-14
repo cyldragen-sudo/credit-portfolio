@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-04",
+  "status": "verified",
+  "synthetic": true,
+  "stories": 3,
+  "native_widgets": 447,
+  "native_charts": 7,
+  "native_datasets": 21,
+  "default_quality_metrics": {
+    "portfolio_balance": 19550693343.27,
+    "overdue_principal": 185878893.27,
+    "overdue_interest": 168526708.29,
+    "exposure_31_plus": 1357400315.29,
+    "exposure_91_plus": 967154822.67,
+    "active_loans": 10555,
+    "past_due_loans": 1268,
+    "registry_total": 1268,
+    "registry_page_count": 159,
+    "registry_page_no": 1,
+    "as_of_date": "2026-10-31",
+    "previous_date": "2026-09-30",
+    "month_start": "2026-10-01",
+    "monthly_writeoffs": 25499741.53,
+    "dpd_31_plus_ratio": 0.06942977885524773,
+    "dpd_91_plus_ratio": 0.049469080491865366,
+    "overdue_principal_label": "RUB 185.88 m",
+    "overdue_interest_label": "RUB 168.53 m",
+    "writeoff_label": "RUB 25.50 m",
+    "exposure31_note": "RUB 1.36 bn full-loan exposure",
+    "exposure91_note": "RUB 967.15 m full-loan exposure",
+    "ratio31_label": "6.94%",
+    "ratio91_label": "4.95%",
+    "past_due_loans_label": "1,268",
+    "active_loans_note": "10,555 active contracts in scope",
+    "date_label": "31 Oct 2026",
+    "writeoff_note": "Oct 2026 \u00b7 principal written off",
+    "transition_note": "30 Sep 2026 \u2192 31 Oct 2026 \u00b7 Opening cohort \u00b7 % and count",
+    "registry_page_label": "Page 1 of 159   \u00b7   1,268 loans",
+    "registry_prev_page": 1,
+    "registry_next_page": 2,
+    "registry_note": "Ordered by DPD, principal balance and loan ID \u00b7 amounts in RUB",
+    "scope_note": "Full-loan exposure includes overdue principal. Registry threshold affects the loan list only."
+  },
+  "preview": {
+    "repeated_paging": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "threshold_91_contracts": 473,
+    "threshold_91_pages": 60,
+    "all_six_directed_navigation_paths": true,
+    "shared_filters_retained": true,
+    "registry_threshold_retained": true,
+    "registry_page_retained": true,
+    "historical_scope": [
+      "August 2025",
+      "Auto Loan",
+      "Moscow",
+      "Online"
+    ],
+    "empty_scope": true,
+    "oversized_request_clamps_to_page": 159,
+    "new_console_errors": 0
+  },
+  "limitations": [
+    "Vendor FineVIS trial notice remains visible.",
+    "Vintage Analysis and Loan Details have SQL only."
+  ]
+}

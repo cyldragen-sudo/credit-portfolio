@@ -1,0 +1,16 @@
+{
+  "routes": 20,
+  "uniqueRoutes": 20,
+  "routesPassed": true,
+  "applyPages": 5,
+  "applyPassed": true,
+  "headlineComparisons": 30,
+  "pagerActions": 8,
+  "pagersPassed": true,
+  "drillPassed": true,
+  "visualCases": 10,
+  "visualPassed": true,
+  "consoleErrors": 0,
+  "viewportReset": true,
+  "defaultSliceRestored": true
+}

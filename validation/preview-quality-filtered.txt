@@ -1,0 +1,140 @@
+- generic: CREDIT ANALYTICS
+- generic: Delinquency and Portfolio Quality
+- generic: Retail lending · Past-due balances, migrations and contract review
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Aug 2025
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: AS OF
+- generic: August 2025
+- generic: 
+- generic: PRODUCT
+- generic: Auto Loan
+- generic: 
+- generic: REGION
+- generic: Moscow
+- generic: 
+- generic: CHANNEL
+- generic: Online
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 0.77 m
+- generic: Unpaid scheduled principal
+- generic: OVERDUE INTEREST
+- generic: RUB 0.68 m
+- generic: Unpaid scheduled interest
+- generic: 31+ DPD EXPOSURE
+- generic: 4.81%
+- generic: RUB 6.25 m full-loan exposure
+- generic: 91+ DPD EXPOSURE
+- generic: 2.69%
+- generic: RUB 3.49 m full-loan exposure
+- generic: PAST-DUE LOANS
+- generic: "7"
+- generic: 57 active contracts in scope
+- generic: MONTHLY WRITE-OFFS
+- generic: RUB 0.00 m
+- generic: Aug 2025 · principal written off
+- generic: Exposure by DPD bucket
+- generic: Full outstanding principal · RUB bn · active contracts
+- generic: Monthly transitions
+- generic: 31 Jul 2025 → 31 Aug 2025 · Opening cohort · % and count
+- generic: FROM / TO
+- generic: "0"
+- generic: 1-30
+- generic: 31-60
+- generic: 61-90
+- generic: 91+
+- generic: Closed
+- generic: Written Off
+- generic: 0 (49)
+- generic: 98.0% · 48
+- generic: 2.0% · 1
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 1-30 (4)
+- generic: 0%
+- generic: 100.0% · 4
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 31-60 (1)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 1
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 61-90 (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: 91+ (1)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 1
+- generic: 0%
+- generic: 0%
+- generic: Closed (4)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 4
+- generic: 0%
+- generic: Written Off (1)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 1
+- generic: Diagonal = unchanged state · 0% = no transitions · — = no opening contracts
+- generic: Loan registry
+- generic: Page 1 of 1 · 1 loans
+- generic: Ordered by DPD, principal balance and loan ID · amounts in RUB
+- generic: REGISTRY THRESHOLD · APPLY TO UPDATE
+- generic: 91+ DPD
+- generic: 
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LN-0011275
+- generic: Customer 013855
+- generic: Auto Loan
+- generic: Moscow
+- generic: Online
+- generic: 3,492,034.73
+- generic: 315,441.95
+- generic: 472,316.15
+- generic: "298"
+- generic: Full-loan exposure includes overdue principal. Registry threshold affects the loan list only.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

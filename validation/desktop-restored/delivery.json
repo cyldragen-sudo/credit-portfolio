@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "layout": "Compact desktop",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "adaptive_mode": "AUTO"
+  },
+  "stories": 5,
+  "widgets": 784,
+  "datasets": 31,
+  "charts": 10,
+  "parameters": 11,
+  "tests": 55,
+  "tests_passed": 55,
+  "tests_skipped": 0,
+  "runtime_checks": 23,
+  "runtime_passed": true,
+  "tested_viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "portable_sha256": "0f34ad1bf8d45f988e739c2e1898c31f4830c8f1778c8e9b79c8c9993636b698",
+  "installed_sha256": "7c8cd775faf51953aed529af476f22b907f2366ad7b83b95a37ba56d0368e1f5",
+  "installed_matches_local_build": true,
+  "source_preservation": "Datasets, parameters, computes, formula values, widget IDs and events match the original compact build",
+  "review": "Fresh read-only review: no actionable findings",
+  "retained_fixes": [
+    "Vintage six-by-six paged matrix",
+    "Native Apply fontStyle",
+    "Wrapped explanatory notes",
+    "Desktop typography",
+    "Background paint ordering"
+  ]
+}

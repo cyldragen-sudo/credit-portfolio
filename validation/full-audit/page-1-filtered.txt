@@ -1,0 +1,224 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					6 container
+						7 text CREDIT ANALYTICS
+					8 container
+						9 text Portfolio Overview
+					10 container
+						11 text Retail lending · Growth, composition and credit quality
+					12 container
+						13 text SYNTHETIC DATA  /  RUB
+					14 container
+						15 text 31 Aug 2025
+					16 container
+						17 text AS OF
+					18 container
+						19 container
+							20 container
+								257 text August 2025
+							258 text 
+					23 container
+						24 text PRODUCT
+					25 container
+						26 container
+							27 container
+								259 text Personal Loan
+							260 text 
+					30 container
+						31 text REGION
+					32 container
+						33 container
+							34 container
+								261 text Moscow
+							262 text 
+					37 container
+						38 text CHANNEL
+					39 container
+						40 container
+							41 container
+								263 text Online
+							264 text 
+					44 container
+						45 text Apply
+					46 container
+						47 text Month-end reporting
+					48 container
+						49 text PORTFOLIO BALANCE
+					50 container
+						51 text RUB 102.45 m
+					52 container
+						53 text vs 31 Jul 2025
+					54 container
+						55 text MTD DISBURSEMENTS
+					56 container
+						57 text RUB 6.66 m
+					58 container
+						59 text August 2025 funding
+					60 container
+						61 text ACTIVE BORROWERS
+					62 container
+						63 text 153
+					64 container
+						65 text 155 active loans
+					66 container
+						67 text MONTHLY GROWTH
+					68 container
+						69 text +4.35%
+					70 container
+						71 text RUB 4.27 m change
+					72 container
+						73 text 31+ DPD EXPOSURE
+					74 container
+						75 text 4.58%
+					76 container
+						77 text RUB 4.70 m exposure
+					78 container
+						79 text 91+ DPD EXPOSURE
+					80 container
+						81 text 1.39%
+					82 container
+						83 text RUB 1.43 m exposure
+					84 container
+						85 text Portfolio trend
+					86 container
+						87 text Outstanding principal · RUB bn · completed month ends
+					88 container
+						89 container
+							90 image
+								265 text Nov 24
+								266 text Jan 25
+								267 text Mar 25
+								268 text May 25
+								269 text Jul 25
+								96 text Sep 25
+								97 text Nov 25
+								98 text Jan 26
+								99 text Mar 26
+								100 text May 26
+								101 text Jul 26
+								102 text Sep 26
+								270 text Dec 24
+								271 text Feb 25
+								272 text Apr 25
+								273 text Jun 25
+								274 text Aug 25
+								275 text 0
+								104 text 5
+								105 text 10
+								106 text 15
+								107 text 20
+								108 text 25
+								276 text 0.02
+								277 text 0.04
+								278 text 0.06
+								279 text 0.08
+								280 text 0.1
+								281 text 0.12
+					109 container
+						110 text Delinquency trend
+					111 container
+						112 text Whole-loan principal exposure · % of portfolio
+					113 container
+						114 container
+							115 image
+								282 text Nov 24
+								283 text Jan 25
+								284 text Mar 25
+								285 text May 25
+								286 text Jul 25
+								121 text Sep 25
+								122 text Nov 25
+								123 text Jan 26
+								124 text Mar 26
+								125 text May 26
+								126 text Jul 26
+								127 text Sep 26
+								287 text Dec 24
+								288 text Feb 25
+								289 text Apr 25
+								290 text Jun 25
+								291 text Aug 25
+								292 text 0
+								293 text 2
+								294 text 4
+								295 text 6
+								132 text 8
+								296 text 1
+								297 text 3
+								298 text 5
+								299 text 31+ DPD
+								300 text 91+ DPD
+					135 container
+						136 text Product composition
+					137 container
+						138 text Outstanding principal · RUB bn
+					139 container
+						140 container
+							141 image
+								142 text Mortgage
+								143 text Auto Loan
+								301 text Personal Loan
+								302 text 0
+								146 text 2
+								147 text 4
+								148 text 6
+								149 text 8
+								150 text 10
+								151 text 12
+								303 text 0.02
+								304 text 0.04
+								305 text 0.06
+								306 text 0.08
+								307 text 0.1
+								308 text 0.12
+					152 container
+						153 text Regional performance
+					154 container
+						155 text Origination region · balances in RUB bn · growth vs previous month end
+					156 container
+						157 text REGION
+					158 container
+						159 text BALANCE
+					160 container
+						161 text GROWTH
+					162 container
+						163 text BORROWERS
+					164 container
+						165 text 31+ DPD
+					166 container
+						167 text 91+ DPD
+					168 container
+						169 text Moscow
+					170 container
+						171 text 0.10
+					172 container
+						173 text +4.35%
+					174 container
+						175 text 153
+					176 container
+						177 text 4.58%
+					178 container
+						179 text 1.39%
+					240 container
+						241 text End-of-day principal balances · Full-loan exposure by days past due
+					242 container
+						243 text DEMO · NOT REGULATORY REPORTING
+					244 container
+						245 text Overview
+					246 container
+						247 text Sales and Funnel
+					248 container
+						249 text Portfolio Quality
+					250 container
+						251 text Vintage Analysis
+					252 container
+						253 text Loan Details
+			254 text You are using an unregistered function FineVis Visualization Dashboard.
+		255 button alert, ID: data-sentinel-button
+			256 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs

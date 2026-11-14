@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "status": "verified",
+  "installed_sha256": "faa61cdecd9024073991ec4255ddd1d9a654c3fe727913b70c80e8f411d9bbc4",
+  "stories": 5,
+  "native_widgets": 784,
+  "native_datasets": 31,
+  "native_charts": 10,
+  "retained_parameters": 11,
+  "visible_cohorts": 6,
+  "visible_mob_columns": 6,
+  "source_cohorts": 24,
+  "source_mob_ages": 12,
+  "all_288_source_cells_accessible": true,
+  "eight_runtime_blocks_match_database": true,
+  "historical_partial_block_cells": 24,
+  "empty_view_clears_cells": true,
+  "cohort_page_clamps_after_filter": true,
+  "matrix_text_design_px": 38,
+  "tested_widths": [
+    640,
+    722,
+    1440
+  ],
+  "roundtrip_pages": [
+    "Overview",
+    "Sales and Funnel",
+    "Portfolio Quality",
+    "Loan Details"
+  ],
+  "matrix_view_state_retained": true,
+  "browser_errors": [],
+  "tests_passed": 54,
+  "metric_policy_unchanged": true,
+  "read_only_database_unchanged": true,
+  "limitations": [
+    "This fixed native canvas composition is verified for desktop panes at least640px wide. Smaller phone screens require a separate layout.",
+    "Only6cohorts and6MOBages are visible at once; all24\u00d712 are accessible using bounded pages and the age selector.",
+    "Vendor FineVIS trial notice remains visible."
+  ],
+  "review": "Fresh source review and follow-up after native row-expression correction found no Critical/Important defects."
+}

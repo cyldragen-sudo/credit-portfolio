@@ -1,0 +1,132 @@
+- generic: CREDIT ANALYTICS
+- generic: Sales and Funnel
+- generic: Retail lending · Origination, conversion and sales performance
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Selected month
+- generic: DISBURSEMENTS
+- generic: RUB 800.88 m
+- generic: Funded during selected month
+- generic: FUNDED LOANS
+- generic: "400"
+- generic: Funded-date sales population
+- generic: AVG FUNDED AMOUNT
+- generic: RUB 2.00 m
+- generic: Per funded loan
+- generic: APPLICATIONS
+- generic: 1,654
+- generic: Submitted during selected month
+- generic: APPROVAL RATE
+- generic: 45.41%
+- generic: 751 approved applications
+- generic: APPROVED TO FUNDED
+- generic: 43.41%
+- generic: 326 funded from submission cohort
+- generic: Application funnel
+- generic: Submitted in selected month · Outcomes at month end
+- generic: "Submitted: 1654 · Approved: 751 · Funded: 326"
+- generic: "Declined: 116 · Withdrawn: 60 · In progress: 1152"
+- generic: "Avg time to funding: 5.5 days"
+- generic: Disbursement trend
+- generic: Funded-date volumes · RUB m · completed month ends
+- generic: Sales by channel
+- generic: Funded during selected month · RUB m
+- generic: Monthly plan vs actual
+- generic: ALL CHANNELS
+- generic: Selected month, product and region · RUB m · channel filter does not apply
+- generic: PRODUCT
+- generic: LOANS
+- generic: ACTUAL
+- generic: PLAN
+- generic: ATTAINMENT
+- generic: Personal Loan
+- generic: "256"
+- generic: "204.93"
+- generic: "203.72"
+- generic: 100.6%
+- generic: Auto Loan
+- generic: "89"
+- generic: "205.95"
+- generic: "207.65"
+- generic: 99.2%
+- generic: Mortgage
+- generic: "55"
+- generic: "390.00"
+- generic: "409.35"
+- generic: 95.3%
+- generic: Targets are synthetic monthly amounts; compare actuals within the same target scope.
+- generic: Channel conversion
+- generic: Submission cohort · selected month · outcomes through report date
+- generic: CHANNEL
+- generic: SUBMITTED
+- generic: APPROVAL
+- generic: FUNDED / APPROVED
+- generic: AVG DAYS
+- generic: Branch
+- generic: "451"
+- generic: 45.7%
+- generic: 45.6%
+- generic: "5.6"
+- generic: Online
+- generic: "400"
+- generic: 44.8%
+- generic: 43.0%
+- generic: "5.3"
+- generic: Mobile App
+- generic: "405"
+- generic: 44.7%
+- generic: 42.5%
+- generic: "5.4"
+- generic: Partner
+- generic: "398"
+- generic: 46.5%
+- generic: 42.2%
+- generic: "5.7"
+- generic: Submission cohorts and funded-date sales are separate populations. Recent applications may still be in progress.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: PRODUCT
+- generic: LOANS
+- generic: ACTUAL
+- generic: PLAN
+- generic: ATTAINMENT
+- generic: PRODUCT
+- generic: LOANS
+- generic: ACTUAL
+- generic: PLAN
+- generic: ATTAINMENT
+- generic: CHANNEL
+- generic: SUBMITTED
+- generic: APPROVAL
+- generic: FUNDED / APPROVED
+- generic: AVG DAYS
+- generic: CHANNEL
+- generic: SUBMITTED
+- generic: APPROVAL
+- generic: FUNDED / APPROVED
+- generic: AVG DAYS
+- generic: CHANNEL
+- generic: SUBMITTED
+- generic: APPROVAL
+- generic: FUNDED / APPROVED
+- generic: AVG DAYS
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

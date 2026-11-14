@@ -1,0 +1,160 @@
+- generic: CREDIT ANALYTICS
+- generic: Loan Details
+- generic: LN-0000038 · Customer 001140 · Personal Loan
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: ← Back to registry
+- generic: PRINCIPAL BALANCE
+- generic: RUB 0.00
+- generic: Outstanding principal · RUB
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 0.00
+- generic: Unpaid scheduled principal · RUB
+- generic: OVERDUE INTEREST
+- generic: RUB 0.00
+- generic: Unpaid scheduled interest · RUB
+- generic: DAYS PAST DUE
+- generic: "0"
+- generic: As of selected month end
+- generic: CONTRACT STATUS
+- generic: Written Off
+- generic: Observed state on selected date
+- generic: CASH RECEIVED
+- generic: RUB 151,340.06
+- generic: Cumulative receipts · excludes write-offs
+- generic: ORIGINAL PRINCIPAL
+- generic: RUB 1,460,000.00
+- generic: ANNUAL RATE
+- generic: 21.90%
+- generic: ORIGINAL TERM
+- generic: 24 months
+- generic: ISSUED
+- generic: 30 Oct 2025
+- generic: CONTRACTUAL MATURITY
+- generic: 30 Oct 2027
+- generic: OBSERVED CLOSE DATE
+- generic: 28 Aug 2026
+- generic: "Novosibirsk Region · Novosibirsk Region Branch 03 · Online · Origination risk: High"
+- generic: Principal history
+- generic: Month-end outstanding principal · RUB m
+- generic: Delinquency history
+- generic: Month-end days past due · days
+- generic: Operations
+- generic: Page 1 of 1 · 4 rows
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: DATE
+- generic: TYPE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: CASH, RUB
+- generic: 28 Aug 26
+- generic: Write Off
+- generic: 1,361,055.23
+- generic: 153,790.44
+- generic: "0.00"
+- generic: 30 Dec 25
+- generic: Repayment
+- generic: 49,919.74
+- generic: 25,750.29
+- generic: 75,670.03
+- generic: 30 Nov 25
+- generic: Repayment
+- generic: 49,025.03
+- generic: 26,645.00
+- generic: 75,670.03
+- generic: 30 Oct 25
+- generic: Disbursement
+- generic: 1,460,000.00
+- generic: "0.00"
+- generic: "0.00"
+- generic: Payment schedule
+- generic: Page 1 of 3 · 24 rows
+- generic: ← Previous 1
+- generic: Next → 2
+- generic: "#"
+- generic: DUE DATE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: PAID, RUB
+- generic: WRITTEN OFF, RUB
+- generic: STATUS
+- generic: "1"
+- generic: 30 Nov 25
+- generic: 49,025.03
+- generic: 26,645.00
+- generic: 75,670.03
+- generic: "0.00"
+- generic: Settled
+- generic: "2"
+- generic: 30 Dec 25
+- generic: 49,919.74
+- generic: 25,750.29
+- generic: 75,670.03
+- generic: "0.00"
+- generic: Settled
+- generic: "3"
+- generic: 30 Jan 26
+- generic: 50,830.77
+- generic: 24,839.26
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: "4"
+- generic: 28 Feb 26
+- generic: 51,758.43
+- generic: 23,911.60
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: "5"
+- generic: 30 Mar 26
+- generic: 52,703.02
+- generic: 22,967.01
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: "6"
+- generic: 30 Apr 26
+- generic: 53,664.86
+- generic: 22,005.17
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: "7"
+- generic: 30 May 26
+- generic: 54,644.24
+- generic: 21,025.79
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: "8"
+- generic: 30 Jun 26
+- generic: 55,641.50
+- generic: 20,028.53
+- generic: "0.00"
+- generic: 75,670.03
+- generic: Settled
+- generic: Contract follows loan ID and As of; portfolio filters are retained for return.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

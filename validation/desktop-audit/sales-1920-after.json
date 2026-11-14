@@ -1,0 +1,22 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 16,
+      "name": "Plan actual_label1",
+      "renderedFontApprox": 15.578947368421051
+    }
+  ],
+  "overlaps": [],
+  "file": "sales-1920-after",
+  "notice": {
+    "bottom": 1050,
+    "height": 60,
+    "left": 1051.1953125,
+    "right": 1900,
+    "top": 990,
+    "width": 848.8046875,
+    "x": 1051.1953125,
+    "y": 990
+  }
+}

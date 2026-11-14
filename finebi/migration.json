@@ -1,0 +1,149 @@
+{
+  "destination": "http://localhost:37799/webroot/decision#/",
+  "workbook_name": "Credit Portfolio Analytics",
+  "workbook_id": "55f29d3962924a6692b2b3816cdafda6",
+  "connection_name": "CREDIT_PORTFOLIO",
+  "source_database": "credit_portfolio_demo",
+  "database_role": "credit_report_user",
+  "status": "Five native tabs verified in saved FineBI report. Key figures reconciled with PostgreSQL, all directed tab transitions checked, and three registry jumps verified.",
+  "pages": [
+    "Portfolio Overview",
+    "Sales and Funnel",
+    "Delinquency and Portfolio Quality",
+    "Vintage Analysis",
+    "Loan Details"
+  ],
+  "requirements": [
+    "Native FineBI components",
+    "English report interface",
+    "Desktop composition",
+    "Existing synthetic source and validated metric definitions",
+    "Shared filters and loan drill-through"
+  ],
+  "dataset_count": 28,
+  "overview": {
+    "report_id": "f1e20436263842bb85acb6f4f88cb775",
+    "url": "http://localhost:37799/webroot/decision#/analysis/own/subject/55f29d3962924a6692b2b3816cdafda6/report/f1e20436263842bb85acb6f4f88cb775",
+    "desktop_canvas": {
+      "width": 1280,
+      "height": 900,
+      "preview": "fit width"
+    },
+    "components": 10,
+    "filters": [
+      "As Of Month",
+      "Product",
+      "Region",
+      "Channel"
+    ],
+    "filter_behavior": "Shared English controls update immediately. Month binds 23 SQL sources, Product and Region 18 each, and Channel 17. Contract details follow loan ID and month.",
+    "ui_validation": [
+      "default October 2026 / all segments",
+      "August 2025 / Personal Loan / Moscow / Online"
+    ],
+    "editor_lock_released": true,
+    "evidence_folder": "docs/screenshots/finebi",
+    "label_parameter_sources": [
+      "overview_kpis",
+      "balance_chart",
+      "quality_chart",
+      "product_chart",
+      "region_table"
+    ],
+    "tab_name": "Overview",
+    "dashboard_name": "Credit Portfolio Analytics"
+  },
+  "remaining": [],
+  "sales_build_state": "finebi/sales-build-state.json",
+  "sales": {
+    "report_id": "f1e20436263842bb85acb6f4f88cb775",
+    "tab_name": "Sales and Funnel",
+    "components": 11,
+    "ui_validation": [
+      "October 2026 / all segments",
+      "August 2025 / Personal Loan / Moscow / Online",
+      "both tab navigation directions retain filters",
+      "saved view outside editor"
+    ],
+    "editor_lock_released": true,
+    "evidence_folder": "docs/screenshots/finebi"
+  },
+  "quality": {
+    "report_id": "f1e20436263842bb85acb6f4f88cb775",
+    "tab_name": "Delinquency and Portfolio Quality",
+    "components": 9,
+    "local_filter": "Registry Threshold; only Loan Registry",
+    "ui_validation": [
+      "default October 2026 / all segments",
+      "historical August 2025 / Personal Loan / Moscow / Online",
+      "91+ threshold isolation, registry page 1 / 2 / 1",
+      "valid empty registry scope",
+      "all six directed tab navigation paths preserve shared filters and local threshold",
+      "saved view outside editor"
+    ],
+    "editor_lock_released": true,
+    "evidence_folder": "docs/screenshots/finebi"
+  },
+  "quality_build_state": "finebi/quality-build-state.json",
+  "vintage_build_state": "finebi/vintage-build-state.json",
+  "vintage": {
+    "report_id": "f1e20436263842bb85acb6f4f88cb775",
+    "tab_name": "Vintage Analysis",
+    "components": 8,
+    "text_notes": 1,
+    "ui_validation": [
+      "October 2026 / all segments",
+      "August 2025 / Personal Loan / Moscow / Online",
+      "November 2024 / all segments: immature rates and empty curves",
+      "All six new directed Vintage navigation edges retain shared filters",
+      "Quality-only registry threshold retained"
+    ],
+    "evidence_folder": "docs/screenshots/finebi",
+    "editor_lock_released": true,
+    "viewport_override_reset": true,
+    "saved_view_verified": true
+  },
+  "loan_details": {
+    "tab_name": "Loan Details",
+    "report_id": "f1e20436263842bb85acb6f4f88cb775",
+    "components": 12,
+    "sources": [
+      "Loan Details KPIs",
+      "Loan Balance History",
+      "Loan DPD History",
+      "Loan Operations",
+      "Loan Payment Schedule"
+    ],
+    "drill_through": "The registry row supplies the actual loan ID and requested filter values through a FineBI Jump to the authenticated preview in a full-screen dialog. The saved default inner tab is Loan Details. Closing the dialog returns to the original registry.",
+    "ui_validation": [
+      "LN-0011359 and LN-0010387 under August 2025 / Personal Loan / Moscow / Online / 91+ DPD",
+      "LN-0002170 through the saved view under October 2026 / all segments / 1+ DPD",
+      "Return to the filtered registry and no-selection state"
+    ],
+    "sql_validation": "89 dataset/scenario checks. Matched contract cards, chart endpoints, cash and operation/schedule counts to read-only SQL.",
+    "editor_lock_released": true,
+    "evidence_folder": "docs/screenshots/finebi"
+  },
+  "full_audit": {
+    "date": "2026-11-14",
+    "evidence_folder": "docs/screenshots/finebi",
+    "navigation_edges": 20,
+    "historical_scope": [
+      "August 2025",
+      "Personal Loan",
+      "Moscow",
+      "Online"
+    ],
+    "registry_threshold": "91+ DPD",
+    "verified_jump_ids": [
+      11359,
+      10387,
+      6929
+    ],
+    "registry_page_2_retained": true,
+    "browser_receipt": "validation/finebi-browser-checks.json",
+    "default_controls_restored": true,
+    "ui_coverage": "Key metrics and sampled chart/table values on default and historical scopes, empty registry, and immature cohorts.",
+    "presentation_note": "Long Origination text in Contract Terms can require horizontal scrolling."
+  }
+}

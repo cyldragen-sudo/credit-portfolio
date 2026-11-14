@@ -1,0 +1,264 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_loan_id=2170".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_loan_id=2170
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					374 container
+						375 text CREDIT ANALYTICS
+					376 container
+						377 text Sales and Funnel
+					378 container
+						379 text Retail lending · Origination, conversion and sales performance
+					380 container
+						381 text SYNTHETIC DATA  /  RUB
+					478 container
+						479 text 31 Aug 2025
+					382 container
+						383 text Overview
+					384 container
+						385 text Sales and Funnel
+					386 container
+						387 text Portfolio Quality
+					388 container
+						389 text Vintage Analysis
+					390 container
+						391 text Loan Details
+					392 container
+						393 text AS OF
+					394 container
+						395 container
+							480 container
+								622 text August 2025
+							623 text 
+					396 container
+						397 text PRODUCT
+					398 container
+						399 container
+							483 container
+								484 text All Products
+							485 text 
+					400 container
+						401 text REGION
+					402 container
+						403 container
+							486 container
+								487 text All Regions
+							488 text 
+					404 container
+						405 text CHANNEL
+					406 container
+						407 container
+							489 container
+								490 text All Channels
+							491 text 
+					408 container
+						409 text Apply
+					410 container
+						411 text Selected month
+					412 container
+						413 text DISBURSEMENTS
+					492 container
+						493 text RUB 709.27 m
+					414 container
+						415 text Funded during selected month
+					416 container
+						417 text FUNDED LOANS
+					494 container
+						495 text 326
+					418 container
+						419 text Funded-date sales population
+					420 container
+						421 text AVG FUNDED AMOUNT
+					496 container
+						497 text RUB 2.18 m
+					422 container
+						423 text Per funded loan
+					424 container
+						425 text APPLICATIONS
+					498 container
+						499 text 511
+					426 container
+						427 text Submitted during selected month
+					428 container
+						429 text APPROVAL RATE
+					500 container
+						501 text 70.45%
+					502 container
+						503 text 360 approved applications
+					430 container
+						431 text APPROVED TO FUNDED
+					504 container
+						505 text 76.11%
+					506 container
+						507 text 274 funded from submission cohort
+					432 container
+						433 text Application funnel
+					434 container
+						435 text Submitted in selected month · Outcomes at month end
+					508 container
+						509 text Submitted: 511   ·   Approved: 360   ·   Funded: 274
+					510 container
+						511 text Declined: 96   ·   Withdrawn: 56   ·   In progress: 85
+					512 container
+						513 text Avg time to funding: 5.9 days
+					436 container
+						437 text Disbursement trend
+					438 container
+						439 text Funded-date volumes · RUB m · completed month ends
+					514 container
+						515 container
+							516 image
+								624 text Nov 24
+								625 text Jan 25
+								626 text Mar 25
+								627 text May 25
+								628 text Jul 25
+								522 text Sep 25
+								523 text Nov 25
+								524 text Jan 26
+								525 text Mar 26
+								526 text May 26
+								527 text Jul 26
+								528 text Sep 26
+								629 text Dec 24
+								630 text Feb 25
+								631 text Apr 25
+								632 text Jun 25
+								633 text Aug 25
+								634 text 0
+								635 text 200
+								636 text 400
+								637 text 600
+								638 text 800
+								639 text 1000
+								535 text 1200
+					440 container
+						441 text Sales by channel
+					442 container
+						443 text Funded during selected month · RUB m
+					536 container
+						537 container
+							538 image
+								640 text Branch
+								641 text Mobile App
+								642 text Online
+								643 text Partner
+								644 text 0
+								645 text 50
+								646 text 100
+								647 text 150
+								648 text 200
+								649 text 250
+								549 text 300
+					444 container
+						445 text Monthly plan vs actual
+					446 container
+						447 text ALL CHANNELS
+					448 container
+						449 text Selected month, product and region · RUB m · channel filter does not apply
+					450 container
+						451 text PRODUCT
+					452 container
+						453 text LOANS
+					454 container
+						455 text ACTUAL
+					456 container
+						457 text PLAN
+					458 container
+						459 text ATTAINMENT
+					550 container
+						551 text Personal Loan
+					552 container
+						553 text 182
+					554 container
+						555 text 144.57
+					556 container
+						557 text 149.42
+					558 container
+						559 text 96.8%
+					560 container
+						561 text Auto Loan
+					562 container
+						563 text 97
+					564 container
+						565 text 229.00
+					566 container
+						567 text 244.25
+					568 container
+						569 text 93.8%
+					570 container
+						571 text Mortgage
+					572 container
+						573 text 47
+					574 container
+						575 text 335.70
+					576 container
+						577 text 334.20
+					578 container
+						579 text 100.4%
+					460 container
+						461 text Targets are synthetic monthly amounts; compare actuals within the same target scope.
+					462 container
+						463 text Channel conversion
+					464 container
+						465 text Submission cohort · selected month · outcomes through report date
+					466 container
+						467 text CHANNEL
+					468 container
+						469 text SUBMITTED
+					470 container
+						471 text APPROVAL
+					472 container
+						473 text FUNDED / APPROVED
+					474 container
+						475 text AVG DAYS
+					580 container
+						581 text Branch
+					582 container
+						583 text 160
+					584 container
+						585 text 72.5%
+					586 container
+						587 text 81.0%
+					588 container
+						589 text 6.1
+					590 container
+						591 text Online
+					592 container
+						593 text 116
+					594 container
+						595 text 69.8%
+					596 container
+						597 text 79.0%
+					598 container
+						599 text 6.2
+					600 container
+						601 text Mobile App
+					602 container
+						603 text 120
+					604 container
+						605 text 70.8%
+					606 container
+						607 text 74.1%
+					608 container
+						609 text 5.7
+					610 container
+						611 text Partner
+					612 container
+						613 text 115
+					614 container
+						615 text 67.8%
+					616 container
+						617 text 67.9%
+					618 container
+						619 text 5.6
+					620 container
+						621 text Submission cohorts and funded-date sales are separate populations. Recent applications may still be in progress.
+					476 container
+						477 text DEMO · NOT REGULATORY REPORTING
+			371 text You are using an unregistered function FineVis Visualization Dashboard.
+		372 button alert, ID: data-sentinel-button
+			373 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_loan_id=2170

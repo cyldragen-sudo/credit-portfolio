@@ -1,0 +1,19 @@
+{
+  "installed_sha256": "60de963c38996798586cccbd4cff88e45de194a177eed0a09ff878d985aaf4e4",
+  "stories": 5,
+  "charts": 10,
+  "datasets": 29,
+  "widgets": 1082,
+  "common_links": 20,
+  "retained_parameters": 9,
+  "compute_references_complete": true,
+  "portable_archive_integrity": true,
+  "embedded_credentials_excluded": true,
+  "reader_access": {
+    "database": "credit_portfolio_demo",
+    "read_only": "on",
+    "can_select": true,
+    "can_update": false,
+    "schema_create": false
+  }
+}

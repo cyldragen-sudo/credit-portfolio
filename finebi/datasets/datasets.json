@@ -1,0 +1,664 @@
+[
+  {
+    "name": "Filter - As Of Month",
+    "key": "filter_date",
+    "page": "Shared Filters",
+    "file": "sql/filter_date.sql",
+    "parameters": {},
+    "purpose": "Reporting month dropdown; id is YYYYMMDD, label is English month and year."
+  },
+  {
+    "name": "Filter - Product",
+    "key": "filter_product",
+    "page": "Shared Filters",
+    "file": "sql/filter_product.sql",
+    "parameters": {},
+    "purpose": "Product dropdown; id 0 means All Products."
+  },
+  {
+    "name": "Filter - Region",
+    "key": "filter_region",
+    "page": "Shared Filters",
+    "file": "sql/filter_region.sql",
+    "parameters": {},
+    "purpose": "Region dropdown; id 0 means All Regions."
+  },
+  {
+    "name": "Filter - Channel",
+    "key": "filter_channel",
+    "page": "Shared Filters",
+    "file": "sql/filter_channel.sql",
+    "parameters": {},
+    "purpose": "Channel dropdown; id 0 means All Channels."
+  },
+  {
+    "name": "Filter - Minimum DPD",
+    "key": "filter_min_dpd",
+    "page": "Shared Filters",
+    "file": "sql/filter_min_dpd.sql",
+    "parameters": {},
+    "purpose": "Registry threshold dropdown: 0, 1, 31, 91."
+  },
+  {
+    "name": "Overview KPIs",
+    "key": "overview_kpis",
+    "page": "Portfolio Overview",
+    "file": "sql/overview_kpis.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row: principal balance, MTD disbursements, borrowers, monthly growth and DPD exposure ratios."
+  },
+  {
+    "name": "Portfolio Balance Trend",
+    "key": "balance_chart",
+    "page": "Portfolio Overview",
+    "file": "sql/balance_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per month; sort_date, label, series, value in RUB bn."
+  },
+  {
+    "name": "Delinquency Trend",
+    "key": "quality_chart",
+    "page": "Portfolio Overview",
+    "file": "sql/quality_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per month and DPD threshold; value in percentage points (6.94 means 6.94%)."
+  },
+  {
+    "name": "Portfolio Product Composition",
+    "key": "product_chart",
+    "page": "Portfolio Overview",
+    "file": "sql/product_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per product; label, series, value in RUB bn."
+  },
+  {
+    "name": "Regional Performance",
+    "key": "region_table",
+    "page": "Portfolio Overview",
+    "file": "sql/region_table.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per region; balances in RUB and ratios as fractions; balance_label is in RUB bn."
+  },
+  {
+    "name": "Sales KPIs",
+    "key": "sales_kpis",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_kpis.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row: current-month applications, approvals, disbursements and conversion."
+  },
+  {
+    "name": "Application Funnel",
+    "key": "sales_funnel_chart",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_funnel_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per stage; sort by stage; label, series, value in application counts."
+  },
+  {
+    "name": "Disbursement Trend",
+    "key": "sales_trend_chart",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_trend_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per month; sort by month_end; value in RUB m."
+  },
+  {
+    "name": "Disbursements by Channel",
+    "key": "sales_channel_chart",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_channel_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per channel; value in RUB m."
+  },
+  {
+    "name": "Sales Plan vs Actual",
+    "key": "sales_plan_table",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_plan_table.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      }
+    },
+    "purpose": "One row per product; funded and planned amounts in RUB; intentionally ignores Channel."
+  },
+  {
+    "name": "Channel Funnel Performance",
+    "key": "sales_channel_table",
+    "page": "Sales and Funnel",
+    "file": "sql/sales_channel_table.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per channel; application counts and formatted approval/conversion labels."
+  },
+  {
+    "name": "Portfolio Quality KPIs",
+    "key": "quality_kpis",
+    "page": "Delinquency and Portfolio Quality",
+    "file": "sql/quality_kpis.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      },
+      "p_min_dpd": {
+        "type": "Number",
+        "default": 1,
+        "label": "Minimum DPD"
+      }
+    },
+    "purpose": "One row: overdue amounts, 31+/91+ ratios, past-due contracts, write-offs and registry count."
+  },
+  {
+    "name": "DPD Bucket Exposure",
+    "key": "quality_buckets",
+    "page": "Delinquency and Portfolio Quality",
+    "file": "sql/quality_buckets.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per DPD bucket; value in RUB bn; active_loans is the contract count."
+  },
+  {
+    "name": "DPD Transition Matrix",
+    "key": "quality_transitions",
+    "page": "Delinquency and Portfolio Quality",
+    "file": "sql/quality_transitions.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per from/to bucket; pivot by from_bucket and to_bucket; transition_ratio is a fraction."
+  },
+  {
+    "name": "Loan Registry",
+    "key": "quality_registry",
+    "page": "Delinquency and Portfolio Quality",
+    "file": "sql/quality_registry.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      },
+      "p_min_dpd": {
+        "type": "Number",
+        "default": 1,
+        "label": "Minimum DPD"
+      }
+    },
+    "purpose": "All matching active contracts, ordered by DPD descending then balance and loan ID; amounts in RUB."
+  },
+  {
+    "name": "Vintage KPIs",
+    "key": "vintage_kpis",
+    "page": "Vintage Analysis",
+    "file": "sql/vintage_kpis.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row: original contract count and amount, cohort count and pooled mature MOB 3/6/12 ever-31+ ratios."
+  },
+  {
+    "name": "Vintage Matrix",
+    "key": "vintage_matrix",
+    "page": "Vintage Analysis",
+    "file": "sql/vintage_matrix.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "One row per cohort and MOB 1-12; ever_ratio is a fraction; immature cells remain NULL."
+  },
+  {
+    "name": "Vintage Curves",
+    "key": "vintage_curves",
+    "page": "Vintage Analysis",
+    "file": "sql/vintage_curves.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_product_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Product"
+      },
+      "p_region_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Region"
+      },
+      "p_channel_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Channel"
+      }
+    },
+    "purpose": "Four source-selected six-month-spaced cohorts (when available); value in percentage points; sort by mob."
+  },
+  {
+    "name": "Loan Details KPIs",
+    "key": "loan_kpis",
+    "page": "Loan Details",
+    "file": "sql/loan_kpis.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_loan_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Loan ID"
+      }
+    },
+    "purpose": "One row with identity, balances, status and totals; follows Loan ID and As Of Month."
+  },
+  {
+    "name": "Loan Balance History",
+    "key": "loan_balance_chart",
+    "page": "Loan Details",
+    "file": "sql/loan_balance_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_loan_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Loan ID"
+      }
+    },
+    "purpose": "One row per observed month for the selected loan; value in RUB m."
+  },
+  {
+    "name": "Loan DPD History",
+    "key": "loan_dpd_chart",
+    "page": "Loan Details",
+    "file": "sql/loan_dpd_chart.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_loan_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Loan ID"
+      }
+    },
+    "purpose": "One row per observed month for the selected loan; value in days."
+  },
+  {
+    "name": "Loan Operations",
+    "key": "loan_operations",
+    "page": "Loan Details",
+    "file": "sql/loan_operations.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_loan_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Loan ID"
+      }
+    },
+    "purpose": "All operations for the selected loan through the selected cutoff; amounts in RUB."
+  },
+  {
+    "name": "Loan Payment Schedule",
+    "key": "loan_schedule",
+    "page": "Loan Details",
+    "file": "sql/loan_schedule.sql",
+    "parameters": {
+      "p_date_key": {
+        "type": "Number",
+        "default": 20261031,
+        "label": "As Of Month"
+      },
+      "p_loan_id": {
+        "type": "Number",
+        "default": 0,
+        "label": "Loan ID"
+      }
+    },
+    "purpose": "All effective installments for the selected loan; historical paid, written-off and overdue amounts in RUB."
+  }
+]

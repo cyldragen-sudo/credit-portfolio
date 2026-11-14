@@ -1,0 +1,177 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_region_id=999&p_loan_id=999999".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_region_id=999&p_loan_id=999999
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					129 container
+						130 text CREDIT ANALYTICS
+					131 container
+						132 text Loan Details
+					231 container
+						232 text No loan selected
+					133 container
+						134 text SYNTHETIC DATA  /  RUB
+					233 container
+						234 text 31 Oct 2026
+					135 container
+						136 text Overview
+					137 container
+						138 text Sales and Funnel
+					139 container
+						140 text Portfolio Quality
+					141 container
+						142 text Vintage Analysis
+					143 container
+						144 text Loan Details
+					145 container
+						146 text AS OF
+					235 container
+						236 container
+							237 container
+								238 text October 2026
+							239 text 
+					147 container
+						148 text PRODUCT
+					240 container
+						241 container
+							242 container
+								243 text All Products
+							244 text 
+					149 container
+						150 text REGION
+					245 container
+						246 container
+							247 container
+								248 text 999
+							249 text 
+					151 container
+						152 text CHANNEL
+					250 container
+						251 container
+							252 container
+								253 text All Channels
+							254 text 
+					153 container
+						154 text Apply
+					155 container
+						156 text ← Back to registry
+					157 container
+						158 text PRINCIPAL BALANCE
+					255 container
+						256 text —
+					159 container
+						160 text Outstanding principal · RUB
+					161 container
+						162 text OVERDUE PRINCIPAL
+					257 container
+						258 text —
+					163 container
+						164 text Unpaid scheduled principal · RUB
+					165 container
+						166 text OVERDUE INTEREST
+					259 container
+						260 text —
+					167 container
+						168 text Unpaid scheduled interest · RUB
+					169 container
+						170 text DAYS PAST DUE
+					261 container
+						262 text —
+					171 container
+						172 text As of selected month end
+					173 container
+						174 text CONTRACT STATUS
+					263 container
+						264 text —
+					175 container
+						176 text Observed state on selected date
+					177 container
+						178 text CASH RECEIVED
+					265 container
+						266 text —
+					179 container
+						180 text Cumulative receipts · excludes write-offs
+					181 container
+						182 text ORIGINAL PRINCIPAL
+					267 container
+						268 text —
+					183 container
+						184 text ANNUAL RATE
+					269 container
+						270 text —
+					185 container
+						186 text ORIGINAL TERM
+					271 container
+						272 text —
+					187 container
+						188 text ISSUED
+					273 container
+						274 text —
+					189 container
+						190 text CONTRACTUAL MATURITY
+					275 container
+						276 text —
+					191 container
+						192 text OBSERVED CLOSE DATE
+					277 container
+						278 text —
+					279 container
+						280 text Select a contract in the loan registry.
+					193 container
+						194 text Principal history
+					195 container
+						196 text Month-end outstanding principal · RUB m
+					197 container
+						198 text Delinquency history
+					199 container
+						200 text Month-end days past due · days
+					201 container
+						202 text Operations
+					281 container
+						282 text Page 1 of 1 · 0 rows
+					283 container
+						284 text ← Previous 1
+					285 container
+						286 text Next → 1
+					203 container
+						204 text DATE
+					205 container
+						206 text TYPE
+					207 container
+						208 text PRINCIPAL, RUB
+					209 container
+						210 text INTEREST, RUB
+					211 container
+						212 text CASH, RUB
+					213 container
+						214 text Payment schedule
+					287 container
+						288 text Page 1 of 1 · 0 rows
+					289 container
+						290 text ← Previous 1
+					291 container
+						292 text Next → 1
+					215 container
+						216 text #
+					217 container
+						218 text DUE DATE
+					219 container
+						220 text PRINCIPAL, RUB
+					221 container
+						222 text INTEREST, RUB
+					223 container
+						224 text PAID, RUB
+					225 container
+						226 text WRITTEN OFF, RUB
+					227 container
+						228 text STATUS
+					293 container
+						294 text This loan is not available as of the selected date.
+					229 container
+						230 text DEMO · NOT REGULATORY REPORTING
+			126 text You are using an unregistered function FineVis Visualization Dashboard.
+		127 button alert, ID: data-sentinel-button
+			128 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_region_id=999&p_loan_id=999999

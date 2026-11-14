@@ -1,0 +1,33 @@
+After notice-clearance repair: {'checks': 870, 'passed': 870, 'failures': [], 'inherited_previous_checks': 618, 'native_test_suite': '4 tests passed in 1.108 seconds'}
+No actionable source/state-contract finding. Exact normalized store equality confirms only intended vertical geometry changed; all prior 618 invariants remain applicable. 20 tab actions, 8 guarded drills, return, 8 isolated pagers and 521 compute links rechecked. Native test suite 4/4 passed.
+[
+  {
+    "section": "Registry",
+    "data_cells": 72,
+    "last_box_bottom_canvas": 902.2,
+    "bottom_at_1366x768": 641.564,
+    "assumed_notice_top_1366x768": 678,
+    "box_clearance_px": 36.436,
+    "min_font_unchanged": 14
+  },
+  {
+    "section": "Operations",
+    "data_cells": 40,
+    "last_box_bottom_canvas": 908.75,
+    "bottom_at_1366x768": 646.222,
+    "assumed_notice_top_1366x768": 678,
+    "box_clearance_px": 31.778,
+    "min_font_unchanged": 13
+  },
+  {
+    "section": "Payment schedule",
+    "data_cells": 56,
+    "last_box_bottom_canvas": 908.75,
+    "bottom_at_1366x768": 646.222,
+    "assumed_notice_top_1366x768": 678,
+    "box_clearance_px": 31.778,
+    "min_font_unchanged": 13
+  }
+]
+Fonts, text/control heights, x-grid, bindings, SQL, parameters and chart assets unchanged. Private and installed bytes match. Current source build matches delivered portable semantics.
+Limits: actual glyph/notice interaction belongs to lead browser verification; source review does not assert fresh visual pass.

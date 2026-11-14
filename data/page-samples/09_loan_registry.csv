@@ -1,0 +1,201 @@
+loan_id,loan_reference,customer_label,product_name,channel_name,region_name,principal_balance,overdue_principal,overdue_interest,dpd,dpd_bucket,loan_status
+2170,LN-0002170,Customer 012868,Personal Loan,Online,Krasnodar Region,268047.59,258087.52,75497.27,991,91+,Active
+9183,LN-0009183,Customer 005886,Personal Loan,Branch,Krasnodar Region,575915.74,553442.47,201704.45,981,91+,Active
+3011,LN-0003011,Customer 009953,Personal Loan,Branch,Tatarstan,1080123.99,1037050.51,366455.09,973,91+,Active
+362,LN-0000362,Customer 001310,Personal Loan,Mobile App,Moscow,1426396.10,1321171.49,400183.71,966,91+,Active
+9519,LN-0009519,Customer 008907,Personal Loan,Online,Saint Petersburg,1123186.35,513556.68,427029.24,966,91+,Active
+10957,LN-0010957,Customer 012604,Mortgage,Online,Krasnodar Region,5681753.77,329855.94,1253053.50,962,91+,Active
+5781,LN-0005781,Customer 007741,Auto Loan,Online,Krasnodar Region,1117668.70,417845.06,318941.18,959,91+,Active
+4223,LN-0004223,Customer 001540,Personal Loan,Branch,Novosibirsk Region,329209.80,150525.20,125163.76,948,91+,Active
+8259,LN-0008259,Customer 008364,Personal Loan,Mobile App,Krasnodar Region,1395084.91,818787.95,721542.61,945,91+,Active
+10676,LN-0010676,Customer 000887,Personal Loan,Partner,Tatarstan,93482.26,93482.26,24930.90,945,91+,Active
+8170,LN-0008170,Customer 003594,Mortgage,Partner,Tatarstan,10528169.53,2005905.60,2106699.79,927,91+,Active
+10074,LN-0010074,Customer 010255,Personal Loan,Branch,Krasnodar Region,657606.70,631995.11,173807.11,916,91+,Active
+9209,LN-0009209,Customer 003845,Personal Loan,Branch,Novosibirsk Region,131750.26,80226.72,42928.98,902,91+,Active
+3653,LN-0003653,Customer 004219,Personal Loan,Online,Saint Petersburg,777388.87,777388.87,133841.98,886,91+,Active
+11657,LN-0011657,Customer 003796,Auto Loan,Branch,Novosibirsk Region,2942097.44,1275901.06,1182858.44,885,91+,Active
+1851,LN-0001851,Customer 003368,Auto Loan,Online,Saint Petersburg,2098330.52,923586.31,540687.29,885,91+,Active
+7006,LN-0007006,Customer 006105,Auto Loan,Branch,Tatarstan,3155539.15,1328064.25,1045184.68,883,91+,Active
+2868,LN-0002868,Customer 000606,Personal Loan,Online,Novosibirsk Region,723213.45,610916.03,240722.04,883,91+,Active
+7509,LN-0007509,Customer 000329,Mortgage,Branch,Sverdlovsk Region,5834071.78,537937.83,1146951.44,875,91+,Active
+4737,LN-0004737,Customer 008269,Auto Loan,Mobile App,Novosibirsk Region,831867.77,504564.19,247202.81,869,91+,Active
+7856,LN-0007856,Customer 004073,Personal Loan,Mobile App,Krasnodar Region,1223951.76,1173795.62,302425.31,863,91+,Active
+11512,LN-0011512,Customer 009684,Auto Loan,Branch,Saint Petersburg,906929.36,808124.01,167604.48,862,91+,Active
+1542,LN-0001542,Customer 008837,Personal Loan,Partner,Saint Petersburg,1276357.60,700436.41,512659.98,861,91+,Active
+6866,LN-0006866,Customer 011665,Mortgage,Partner,Saint Petersburg,2890292.92,59956.85,1141748.63,858,91+,Active
+4339,LN-0004339,Customer 002960,Mortgage,Branch,Novosibirsk Region,5194355.80,101793.41,2052988.66,855,91+,Active
+4266,LN-0004266,Customer 008184,Personal Loan,Branch,Saint Petersburg,910092.25,871138.91,279125.50,855,91+,Active
+7631,LN-0007631,Customer 004107,Personal Loan,Online,Saint Petersburg,922476.06,781903.86,239067.70,848,91+,Active
+6234,LN-0006234,Customer 000230,Mortgage,Branch,Saint Petersburg,4809966.59,861384.47,874415.05,842,91+,Active
+11818,LN-0011818,Customer 002122,Auto Loan,Online,Krasnodar Region,949063.71,377383.76,362887.80,839,91+,Active
+120,LN-0000120,Customer 008048,Auto Loan,Online,Tatarstan,2979249.15,2631285.89,708273.55,838,91+,Active
+3717,LN-0003717,Customer 009194,Personal Loan,Online,Saint Petersburg,96571.80,34265.94,49401.70,838,91+,Active
+8339,LN-0008339,Customer 000234,Mortgage,Online,Tatarstan,5830653.13,387252.88,1648873.52,835,91+,Active
+2058,LN-0002058,Customer 013197,Personal Loan,Mobile App,Tatarstan,245020.17,234704.27,58445.93,834,91+,Active
+2143,LN-0002143,Customer 003707,Auto Loan,Branch,Tatarstan,863629.89,334105.07,332139.53,830,91+,Active
+5655,LN-0005655,Customer 006758,Personal Loan,Branch,Moscow,599876.89,574621.15,143091.65,828,91+,Active
+6926,LN-0006926,Customer 009827,Mortgage,Online,Tatarstan,3377308.30,375527.94,1190968.32,821,91+,Active
+4914,LN-0004914,Customer 008544,Personal Loan,Mobile App,Novosibirsk Region,482618.10,188596.03,160322.81,819,91+,Active
+2225,LN-0002225,Customer 011480,Personal Loan,Mobile App,Moscow,262617.90,262617.90,57097.49,819,91+,Active
+4196,LN-0004196,Customer 014341,Personal Loan,Online,Tatarstan,634027.70,247763.43,210620.16,815,91+,Active
+5005,LN-0005005,Customer 004582,Personal Loan,Partner,Novosibirsk Region,304799.74,97004.95,153101.45,815,91+,Active
+10955,LN-0010955,Customer 014797,Personal Loan,Online,Tatarstan,625936.43,302436.42,288315.48,814,91+,Active
+8422,LN-0008422,Customer 011997,Auto Loan,Branch,Moscow,1838766.65,968623.67,405082.06,803,91+,Active
+11359,LN-0011359,Customer 014724,Personal Loan,Online,Moscow,1011128.10,488550.66,465740.58,796,91+,Active
+1716,LN-0001716,Customer 010097,Personal Loan,Online,Tatarstan,394346.97,218273.08,146882.48,794,91+,Active
+570,LN-0000570,Customer 009803,Personal Loan,Mobile App,Saint Petersburg,292675.16,136636.80,136017.84,794,91+,Active
+6792,LN-0006792,Customer 009613,Personal Loan,Online,Krasnodar Region,1163919.97,434589.70,461178.16,791,91+,Active
+4009,LN-0004009,Customer 001664,Personal Loan,Branch,Tatarstan,823368.64,823368.64,189063.54,789,91+,Active
+3002,LN-0003002,Customer 006381,Auto Loan,Online,Sverdlovsk Region,3530873.56,2832998.74,978470.48,787,91+,Active
+6647,LN-0006647,Customer 008982,Auto Loan,Online,Tatarstan,3220799.52,2729389.62,551076.40,783,91+,Active
+9211,LN-0009211,Customer 013930,Personal Loan,Branch,Moscow,1200804.85,473098.15,383362.13,782,91+,Active
+1289,LN-0001289,Customer 011209,Personal Loan,Branch,Sverdlovsk Region,685659.80,220686.67,330922.05,778,91+,Active
+2249,LN-0002249,Customer 004253,Mortgage,Branch,Sverdlovsk Region,3652657.72,478248.79,929889.89,777,91+,Active
+3087,LN-0003087,Customer 004134,Personal Loan,Branch,Novosibirsk Region,619089.84,218717.50,294045.66,777,91+,Active
+3152,LN-0003152,Customer 003157,Personal Loan,Branch,Novosibirsk Region,531414.81,531414.81,109092.51,775,91+,Active
+4703,LN-0004703,Customer 014205,Personal Loan,Online,Saint Petersburg,287210.48,104433.10,93211.62,775,91+,Active
+6491,LN-0006491,Customer 007022,Personal Loan,Branch,Tatarstan,1265362.07,585365.69,477705.67,774,91+,Active
+11418,LN-0011418,Customer 014524,Personal Loan,Online,Novosibirsk Region,766667.72,302054.91,244762.01,774,91+,Active
+3201,LN-0003201,Customer 006235,Personal Loan,Mobile App,Saint Petersburg,550603.50,550603.50,76834.05,771,91+,Active
+2439,LN-0002439,Customer 008583,Mortgage,Online,Tatarstan,9589418.48,1523735.47,1635420.01,766,91+,Active
+10764,LN-0010764,Customer 002514,Personal Loan,Online,Krasnodar Region,939058.01,939058.01,204166.80,765,91+,Active
+1511,LN-0001511,Customer 000503,Personal Loan,Partner,Moscow,986089.38,358553.36,320026.62,763,91+,Active
+281,LN-0000281,Customer 006152,Auto Loan,Mobile App,Moscow,2977828.94,2156713.27,534951.23,761,91+,Active
+1160,LN-0001160,Customer 008094,Personal Loan,Mobile App,Moscow,1372431.16,634896.65,518126.91,761,91+,Active
+11737,LN-0011737,Customer 005387,Personal Loan,Mobile App,Tatarstan,776747.74,223618.68,366536.82,760,91+,Active
+3278,LN-0003278,Customer 004835,Personal Loan,Branch,Novosibirsk Region,1211146.88,1004052.92,349872.33,753,91+,Active
+1434,LN-0001434,Customer 006034,Personal Loan,Online,Krasnodar Region,1359463.03,471579.06,427957.44,752,91+,Active
+9025,LN-0009025,Customer 010094,Auto Loan,Online,Sverdlovsk Region,3704506.23,937328.81,1362554.94,750,91+,Active
+6207,LN-0006207,Customer 012595,Auto Loan,Mobile App,Saint Petersburg,3329243.81,2785978.05,729816.20,749,91+,Active
+9996,LN-0009996,Customer 009224,Personal Loan,Branch,Krasnodar Region,95736.82,33209.93,30137.82,748,91+,Active
+10174,LN-0010174,Customer 013161,Auto Loan,Mobile App,Moscow,1564311.07,1196282.07,427396.43,747,91+,Active
+877,LN-0000877,Customer 001817,Auto Loan,Branch,Tatarstan,923574.53,415335.16,306121.09,742,91+,Active
+2447,LN-0002447,Customer 014642,Personal Loan,Online,Tatarstan,1250970.56,1250970.56,215377.86,741,91+,Active
+5635,LN-0005635,Customer 014800,Personal Loan,Partner,Novosibirsk Region,746523.73,597996.44,178202.06,732,91+,Active
+4168,LN-0004168,Customer 009750,Personal Loan,Mobile App,Sverdlovsk Region,548859.83,195489.90,171926.35,732,91+,Active
+269,LN-0000269,Customer 001900,Personal Loan,Branch,Moscow,831836.41,374797.16,237462.28,728,91+,Active
+11275,LN-0011275,Customer 013855,Auto Loan,Online,Moscow,3492034.73,838163.99,1052455.45,724,91+,Active
+8174,LN-0008174,Customer 011713,Personal Loan,Partner,Moscow,1301093.47,851270.03,481391.65,722,91+,Active
+4477,LN-0004477,Customer 010470,Personal Loan,Online,Tatarstan,1245959.83,850738.02,452952.78,721,91+,Active
+11792,LN-0011792,Customer 012854,Personal Loan,Branch,Tatarstan,1087386.92,682327.57,408909.95,721,91+,Active
+4607,LN-0004607,Customer 014948,Personal Loan,Online,Saint Petersburg,981335.56,470374.53,275596.83,719,91+,Active
+11238,LN-0011238,Customer 002549,Auto Loan,Online,Tatarstan,3676114.81,1202564.55,1059089.37,708,91+,Active
+5492,LN-0005492,Customer 010856,Mortgage,Online,Tatarstan,5642543.84,555143.18,1779243.46,700,91+,Active
+3794,LN-0003794,Customer 001356,Mortgage,Partner,Sverdlovsk Region,4263510.77,478782.77,968877.48,700,91+,Active
+11479,LN-0011479,Customer 009467,Personal Loan,Partner,Saint Petersburg,1119358.75,468786.82,399283.34,700,91+,Active
+4980,LN-0004980,Customer 003944,Personal Loan,Branch,Saint Petersburg,984915.71,297279.43,424353.85,698,91+,Active
+840,LN-0000840,Customer 000357,Mortgage,Mobile App,Moscow,11701457.46,828990.07,1843593.14,697,91+,Active
+6122,LN-0006122,Customer 006454,Auto Loan,Partner,Krasnodar Region,1721983.76,1073148.67,400814.61,695,91+,Active
+2317,LN-0002317,Customer 001178,Auto Loan,Online,Sverdlovsk Region,2283931.70,583503.89,498650.94,689,91+,Active
+2268,LN-0002268,Customer 010652,Mortgage,Mobile App,Moscow,3372824.18,127473.31,1048426.76,683,91+,Active
+10911,LN-0010911,Customer 011814,Personal Loan,Mobile App,Sverdlovsk Region,1297069.46,630205.23,347709.23,683,91+,Active
+8916,LN-0008916,Customer 006489,Personal Loan,Mobile App,Saint Petersburg,1098681.05,1098681.05,171156.74,683,91+,Active
+7464,LN-0007464,Customer 010477,Personal Loan,Online,Tatarstan,885024.49,275770.83,320121.45,682,91+,Active
+1897,LN-0001897,Customer 008941,Personal Loan,Mobile App,Sverdlovsk Region,782836.66,368283.21,211721.13,679,91+,Active
+5887,LN-0005887,Customer 004104,Personal Loan,Branch,Moscow,1092165.13,737929.33,381876.73,678,91+,Active
+5126,LN-0005126,Customer 013568,Mortgage,Online,Moscow,6811713.02,776282.43,1546707.45,676,91+,Active
+1239,LN-0001239,Customer 001665,Mortgage,Partner,Tatarstan,10373797.83,1254747.69,2347569.81,675,91+,Active
+9020,LN-0009020,Customer 011104,Personal Loan,Branch,Moscow,1329023.83,859642.77,473018.86,675,91+,Active
+6457,LN-0006457,Customer 001439,Personal Loan,Online,Novosibirsk Region,521095.97,152427.83,225570.50,672,91+,Active
+4361,LN-0004361,Customer 001936,Auto Loan,Mobile App,Moscow,2781554.17,1973268.43,464370.24,671,91+,Active
+9631,LN-0009631,Customer 002949,Auto Loan,Partner,Novosibirsk Region,2311628.61,527815.73,671573.78,671,91+,Active
+6929,LN-0006929,Customer 009380,Auto Loan,Mobile App,Novosibirsk Region,2003320.75,1211835.28,342600.90,666,91+,Active
+10826,LN-0010826,Customer 001582,Personal Loan,Branch,Sverdlovsk Region,110188.86,68699.82,31986.48,664,91+,Active
+5506,LN-0005506,Customer 011486,Personal Loan,Partner,Krasnodar Region,310536.48,197286.47,72758.47,662,91+,Active
+5417,LN-0005417,Customer 000221,Personal Loan,Mobile App,Sverdlovsk Region,387987.12,118784.29,109773.93,660,91+,Active
+11328,LN-0011328,Customer 004622,Personal Loan,Branch,Krasnodar Region,445432.17,294454.85,102670.01,658,91+,Active
+10497,LN-0010497,Customer 006224,Mortgage,Branch,Novosibirsk Region,6704681.06,461773.07,1011397.31,655,91+,Active
+7219,LN-0007219,Customer 012445,Mortgage,Online,Sverdlovsk Region,7288032.70,104480.48,2190334.02,653,91+,Active
+11753,LN-0011753,Customer 012932,Personal Loan,Online,Saint Petersburg,1164469.75,1164469.75,224023.35,640,91+,Active
+5709,LN-0005709,Customer 002691,Mortgage,Mobile App,Sverdlovsk Region,8354229.72,872790.69,1740023.85,638,91+,Active
+124,LN-0000124,Customer 008845,Auto Loan,Partner,Sverdlovsk Region,3161164.51,1189671.11,915462.55,636,91+,Active
+11789,LN-0011789,Customer 007868,Auto Loan,Partner,Moscow,715113.64,443588.47,179904.05,631,91+,Active
+4576,LN-0004576,Customer 008988,Auto Loan,Branch,Sverdlovsk Region,680528.58,248237.99,198305.59,628,91+,Active
+9371,LN-0009371,Customer 006557,Personal Loan,Online,Sverdlovsk Region,749888.53,307220.78,191559.46,625,91+,Active
+3628,LN-0003628,Customer 003962,Personal Loan,Online,Saint Petersburg,959843.83,959843.83,157374.07,619,91+,Active
+6928,LN-0006928,Customer 010595,Personal Loan,Branch,Saint Petersburg,491078.78,491078.78,68527.63,619,91+,Active
+4424,LN-0004424,Customer 010475,Personal Loan,Mobile App,Tatarstan,108119.11,108119.11,24826.52,616,91+,Active
+6590,LN-0006590,Customer 008142,Personal Loan,Online,Krasnodar Region,1240618.18,326903.04,419753.85,614,91+,Active
+793,LN-0000793,Customer 001394,Auto Loan,Branch,Krasnodar Region,1898521.11,1151818.17,294951.43,605,91+,Active
+196,LN-0000196,Customer 007462,Personal Loan,Online,Krasnodar Region,1158415.67,309153.86,304051.34,598,91+,Active
+238,LN-0000238,Customer 000854,Personal Loan,Partner,Saint Petersburg,1054374.70,992730.94,266754.06,597,91+,Active
+962,LN-0000962,Customer 007678,Personal Loan,Branch,Moscow,1017279.81,1017279.81,208834.27,595,91+,Active
+946,LN-0000946,Customer 010991,Personal Loan,Online,Sverdlovsk Region,636770.40,369099.82,172470.38,594,91+,Active
+10934,LN-0010934,Customer 014174,Auto Loan,Mobile App,Sverdlovsk Region,3435590.32,1289326.79,611903.41,588,91+,Active
+625,LN-0000625,Customer 010392,Personal Loan,Online,Saint Petersburg,767147.11,767147.11,155405.24,588,91+,Active
+4842,LN-0004842,Customer 001586,Mortgage,Mobile App,Saint Petersburg,8530440.87,304137.36,1188518.64,584,91+,Active
+11036,LN-0011036,Customer 012523,Auto Loan,Mobile App,Moscow,1791424.91,416610.76,344201.04,581,91+,Active
+9152,LN-0009152,Customer 012774,Personal Loan,Branch,Sverdlovsk Region,565370.85,501811.63,118578.84,576,91+,Active
+11849,LN-0011849,Customer 002661,Mortgage,Partner,Novosibirsk Region,11304797.89,652102.23,1480843.66,575,91+,Active
+9124,LN-0009124,Customer 004713,Personal Loan,Mobile App,Saint Petersburg,1256557.78,733206.69,382977.95,567,91+,Active
+827,LN-0000827,Customer 000963,Personal Loan,Partner,Novosibirsk Region,461536.80,461536.80,68144.15,567,91+,Active
+6970,LN-0006970,Customer 008157,Personal Loan,Branch,Krasnodar Region,339840.51,113117.45,81878.98,567,91+,Active
+870,LN-0000870,Customer 013686,Auto Loan,Partner,Moscow,3152312.09,744333.59,888229.82,561,91+,Active
+9309,LN-0009309,Customer 001960,Personal Loan,Mobile App,Krasnodar Region,789724.34,700943.37,165633.90,561,91+,Active
+7944,LN-0007944,Customer 014562,Personal Loan,Branch,Krasnodar Region,311566.28,311566.28,48536.97,558,91+,Active
+2016,LN-0002016,Customer 001808,Personal Loan,Branch,Novosibirsk Region,965034.45,859666.12,163785.22,556,91+,Active
+7979,LN-0007979,Customer 001576,Personal Loan,Online,Novosibirsk Region,611925.65,209928.70,146636.13,556,91+,Active
+2662,LN-0002662,Customer 013556,Personal Loan,Partner,Novosibirsk Region,702108.93,659432.58,168921.06,554,91+,Active
+4606,LN-0004606,Customer 011709,Personal Loan,Online,Novosibirsk Region,216848.89,106049.02,69788.38,553,91+,Active
+9520,LN-0009520,Customer 000033,Personal Loan,Partner,Saint Petersburg,374196.20,192950.48,81426.62,550,91+,Active
+2112,LN-0002112,Customer 003880,Personal Loan,Partner,Sverdlovsk Region,319341.01,150520.12,82888.94,549,91+,Active
+6752,LN-0006752,Customer 009436,Mortgage,Branch,Saint Petersburg,8420186.00,243959.02,2056715.12,545,91+,Active
+6528,LN-0006528,Customer 008490,Personal Loan,Branch,Moscow,117340.04,58593.17,35562.31,544,91+,Active
+2052,LN-0002052,Customer 002679,Personal Loan,Branch,Krasnodar Region,167604.44,40109.45,49191.79,538,91+,Active
+4987,LN-0004987,Customer 004324,Personal Loan,Partner,Krasnodar Region,1009811.82,315974.50,232947.74,537,91+,Active
+4236,LN-0004236,Customer 013182,Personal Loan,Branch,Novosibirsk Region,1042784.49,205559.94,369953.88,535,91+,Active
+3621,LN-0003621,Customer 008144,Personal Loan,Partner,Saint Petersburg,280890.70,280890.70,57663.21,535,91+,Active
+7266,LN-0007266,Customer 005612,Personal Loan,Branch,Sverdlovsk Region,207601.60,103664.90,62917.90,535,91+,Active
+3832,LN-0003832,Customer 010373,Mortgage,Online,Saint Petersburg,11179450.24,1165068.40,1356800.54,526,91+,Active
+5736,LN-0005736,Customer 000813,Personal Loan,Branch,Krasnodar Region,256018.20,240239.14,48965.42,526,91+,Active
+11601,LN-0011601,Customer 014951,Auto Loan,Online,Saint Petersburg,3568603.36,582505.29,987389.37,524,91+,Active
+11543,LN-0011543,Customer 012534,Personal Loan,Partner,Novosibirsk Region,1147800.78,563481.97,294639.59,523,91+,Active
+1386,LN-0001386,Customer 011361,Auto Loan,Online,Saint Petersburg,1627210.71,949968.51,230999.25,520,91+,Active
+3818,LN-0003818,Customer 002663,Personal Loan,Mobile App,Novosibirsk Region,398335.84,79502.53,112605.12,513,91+,Active
+8913,LN-0008913,Customer 004614,Personal Loan,Mobile App,Novosibirsk Region,624403.63,286761.79,154121.99,512,91+,Active
+6827,LN-0006827,Customer 012700,Mortgage,Mobile App,Krasnodar Region,7077272.23,206706.52,840756.13,507,91+,Active
+4680,LN-0004680,Customer 004307,Auto Loan,Mobile App,Sverdlovsk Region,1625234.46,509844.58,393874.40,505,91+,Active
+4414,LN-0004414,Customer 003970,Personal Loan,Partner,Sverdlovsk Region,812305.52,812305.52,166755.72,505,91+,Active
+7325,LN-0007325,Customer 001716,Personal Loan,Mobile App,Sverdlovsk Region,947739.68,414543.75,193057.16,500,91+,Active
+2418,LN-0002418,Customer 013420,Personal Loan,Mobile App,Moscow,279263.95,75721.28,90227.79,499,91+,Active
+6086,LN-0006086,Customer 012872,Personal Loan,Branch,Sverdlovsk Region,1022516.28,760060.30,172617.16,498,91+,Active
+4013,LN-0004013,Customer 012146,Mortgage,Mobile App,Sverdlovsk Region,8369341.80,874442.84,959305.51,494,91+,Active
+5396,LN-0005396,Customer 008002,Personal Loan,Branch,Krasnodar Region,191971.91,81345.55,48326.20,494,91+,Active
+9717,LN-0009717,Customer 004292,Auto Loan,Online,Moscow,2753741.17,1509978.37,377551.35,488,91+,Active
+9684,LN-0009684,Customer 013075,Personal Loan,Online,Saint Petersburg,726198.09,146446.38,157622.26,487,91+,Active
+5529,LN-0005529,Customer 008682,Personal Loan,Mobile App,Saint Petersburg,112708.58,46332.79,26893.61,487,91+,Active
+7429,LN-0007429,Customer 012634,Personal Loan,Branch,Novosibirsk Region,773409.80,151989.79,168295.97,484,91+,Active
+11797,LN-0011797,Customer 003689,Mortgage,Mobile App,Moscow,6852918.12,121348.31,1132950.89,482,91+,Active
+9181,LN-0009181,Customer 004423,Personal Loan,Partner,Saint Petersburg,654356.74,249807.12,187975.44,480,91+,Active
+4207,LN-0004207,Customer 008578,Personal Loan,Online,Tatarstan,1128882.55,205588.11,358570.77,477,91+,Active
+10354,LN-0010354,Customer 012540,Personal Loan,Mobile App,Moscow,1113214.15,297297.39,286448.21,471,91+,Active
+1490,LN-0001490,Customer 011648,Mortgage,Mobile App,Moscow,5141893.74,249547.55,569755.81,470,91+,Active
+2028,LN-0002028,Customer 000192,Personal Loan,Online,Moscow,685299.83,134674.45,149122.99,463,91+,Active
+4765,LN-0004765,Customer 004755,Personal Loan,Online,Novosibirsk Region,549716.72,395669.64,129654.04,463,91+,Active
+10431,LN-0010431,Customer 008407,Personal Loan,Mobile App,Sverdlovsk Region,409623.81,126969.85,84154.15,458,91+,Active
+8512,LN-0008512,Customer 014968,Auto Loan,Mobile App,Sverdlovsk Region,1428004.69,430469.60,260810.35,453,91+,Active
+11432,LN-0011432,Customer 004300,Personal Loan,Branch,Sverdlovsk Region,572913.55,254776.31,102636.04,451,91+,Active
+1829,LN-0001829,Customer 001808,Personal Loan,Branch,Novosibirsk Region,308521.22,222626.56,46702.79,451,91+,Active
+4761,LN-0004761,Customer 011200,Personal Loan,Online,Tatarstan,165470.42,39736.42,40465.73,448,91+,Active
+6882,LN-0006882,Customer 002441,Personal Loan,Branch,Novosibirsk Region,127556.77,21433.64,32312.41,446,91+,Active
+8667,LN-0008667,Customer 007321,Auto Loan,Branch,Novosibirsk Region,993511.32,145341.10,231003.50,445,91+,Active
+6977,LN-0006977,Customer 007208,Personal Loan,Partner,Saint Petersburg,242704.32,171994.14,54067.26,444,91+,Active
+4775,LN-0004775,Customer 010768,Personal Loan,Mobile App,Sverdlovsk Region,1292162.58,223284.65,326578.90,439,91+,Active
+891,LN-0000891,Customer 006117,Personal Loan,Online,Novosibirsk Region,867158.37,659057.79,157245.51,439,91+,Active
+9542,LN-0009542,Customer 009383,Personal Loan,Online,Krasnodar Region,817606.43,621397.47,148260.03,437,91+,Active
+11464,LN-0011464,Customer 012828,Auto Loan,Partner,Saint Petersburg,1141677.09,321402.87,160599.18,435,91+,Active
+7368,LN-0007368,Customer 011727,Personal Loan,Mobile App,Sverdlovsk Region,157515.99,68140.16,34834.39,432,91+,Active
+1037,LN-0001037,Customer 014088,Mortgage,Branch,Krasnodar Region,11134837.13,181786.95,1726929.15,429,91+,Active
+3724,LN-0003724,Customer 009381,Personal Loan,Online,Krasnodar Region,423710.82,99109.23,123053.82,429,91+,Active
+11916,LN-0011916,Customer 000034,Personal Loan,Online,Krasnodar Region,855405.72,131793.18,258157.77,428,91+,Active
+3121,LN-0003121,Customer 007741,Personal Loan,Partner,Krasnodar Region,1031477.93,188905.47,197768.51,423,91+,Active
+3059,LN-0003059,Customer 000989,Personal Loan,Branch,Krasnodar Region,535635.24,128549.93,144777.95,422,91+,Active
+8354,LN-0008354,Customer 004784,Auto Loan,Online,Sverdlovsk Region,1300187.59,327369.04,268022.26,419,91+,Active
+7933,LN-0007933,Customer 008456,Personal Loan,Online,Sverdlovsk Region,999296.76,702195.02,175784.60,417,91+,Active
+8391,LN-0008391,Customer 013884,Personal Loan,Branch,Novosibirsk Region,948121.47,660230.02,198803.26,415,91+,Active
+3457,LN-0003457,Customer 014892,Personal Loan,Mobile App,Krasnodar Region,1074083.74,761522.33,153199.73,414,91+,Active
+9799,LN-0009799,Customer 004506,Personal Loan,Online,Tatarstan,1113437.08,377667.36,241705.80,409,91+,Active
+11441,LN-0011441,Customer 009940,Personal Loan,Online,Krasnodar Region,1043321.70,255540.05,237624.37,409,91+,Active
+1878,LN-0001878,Customer 010814,Mortgage,Branch,Krasnodar Region,11965633.89,175289.06,1733427.12,397,91+,Active
+1843,LN-0001843,Customer 003919,Auto Loan,Online,Moscow,2461069.30,570515.31,475976.11,395,91+,Active
+2695,LN-0002695,Customer 003576,Personal Loan,Mobile App,Krasnodar Region,1404942.40,421351.67,342353.61,394,91+,Active

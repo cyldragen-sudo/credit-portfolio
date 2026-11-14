@@ -1,0 +1,162 @@
+[
+  {
+    "from": 5,
+    "to": 4,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 4,
+    "to": 5,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": true
+  },
+  {
+    "from": 5,
+    "to": 3,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": true,
+    "loanAndTableState": null
+  },
+  {
+    "from": 3,
+    "to": 5,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": true
+  },
+  {
+    "from": 5,
+    "to": 2,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 2,
+    "to": 5,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": true
+  },
+  {
+    "from": 5,
+    "to": 1,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 1,
+    "to": 4,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 4,
+    "to": 3,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": true,
+    "loanAndTableState": null
+  },
+  {
+    "from": 3,
+    "to": 4,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 4,
+    "to": 2,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 2,
+    "to": 4,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 4,
+    "to": 1,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 1,
+    "to": 3,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": true,
+    "loanAndTableState": null
+  },
+  {
+    "from": 3,
+    "to": 2,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 2,
+    "to": 3,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": true,
+    "loanAndTableState": null
+  },
+  {
+    "from": 3,
+    "to": 1,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 1,
+    "to": 2,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 2,
+    "to": 1,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": null
+  },
+  {
+    "from": 1,
+    "to": 5,
+    "commonFilters": true,
+    "kpisMatched": true,
+    "registryState": null,
+    "loanAndTableState": true
+  }
+]

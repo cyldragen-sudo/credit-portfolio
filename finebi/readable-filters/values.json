@@ -1,0 +1,188 @@
+{
+  "p_product_id": [
+    {
+      "id": 0,
+      "label": "All Products"
+    },
+    {
+      "id": 1,
+      "label": "Personal Loan"
+    },
+    {
+      "id": 2,
+      "label": "Auto Loan"
+    },
+    {
+      "id": 3,
+      "label": "Mortgage"
+    }
+  ],
+  "p_region_id": [
+    {
+      "id": 0,
+      "label": "All Regions"
+    },
+    {
+      "id": 1,
+      "label": "Moscow"
+    },
+    {
+      "id": 2,
+      "label": "Saint Petersburg"
+    },
+    {
+      "id": 3,
+      "label": "Tatarstan"
+    },
+    {
+      "id": 4,
+      "label": "Sverdlovsk Region"
+    },
+    {
+      "id": 5,
+      "label": "Krasnodar Region"
+    },
+    {
+      "id": 6,
+      "label": "Novosibirsk Region"
+    }
+  ],
+  "p_channel_id": [
+    {
+      "id": 0,
+      "label": "All Channels"
+    },
+    {
+      "id": 1,
+      "label": "Branch"
+    },
+    {
+      "id": 2,
+      "label": "Online"
+    },
+    {
+      "id": 3,
+      "label": "Mobile App"
+    },
+    {
+      "id": 4,
+      "label": "Partner"
+    }
+  ],
+  "p_date_key": [
+    {
+      "id": 20261031,
+      "label": "October 2026"
+    },
+    {
+      "id": 20260930,
+      "label": "September 2026"
+    },
+    {
+      "id": 20260831,
+      "label": "August 2026"
+    },
+    {
+      "id": 20260731,
+      "label": "July 2026"
+    },
+    {
+      "id": 20260630,
+      "label": "June 2026"
+    },
+    {
+      "id": 20260531,
+      "label": "May 2026"
+    },
+    {
+      "id": 20260430,
+      "label": "April 2026"
+    },
+    {
+      "id": 20260331,
+      "label": "March 2026"
+    },
+    {
+      "id": 20260228,
+      "label": "February 2026"
+    },
+    {
+      "id": 20260131,
+      "label": "January 2026"
+    },
+    {
+      "id": 20251231,
+      "label": "December 2025"
+    },
+    {
+      "id": 20251130,
+      "label": "November 2025"
+    },
+    {
+      "id": 20251031,
+      "label": "October 2025"
+    },
+    {
+      "id": 20250930,
+      "label": "September 2025"
+    },
+    {
+      "id": 20250831,
+      "label": "August 2025"
+    },
+    {
+      "id": 20250731,
+      "label": "July 2025"
+    },
+    {
+      "id": 20250630,
+      "label": "June 2025"
+    },
+    {
+      "id": 20250531,
+      "label": "May 2025"
+    },
+    {
+      "id": 20250430,
+      "label": "April 2025"
+    },
+    {
+      "id": 20250331,
+      "label": "March 2025"
+    },
+    {
+      "id": 20250228,
+      "label": "February 2025"
+    },
+    {
+      "id": 20250131,
+      "label": "January 2025"
+    },
+    {
+      "id": 20241231,
+      "label": "December 2024"
+    },
+    {
+      "id": 20241130,
+      "label": "November 2024"
+    }
+  ],
+  "p_min_dpd": [
+    {
+      "id": 0,
+      "label": "All active"
+    },
+    {
+      "id": 1,
+      "label": "1+ DPD"
+    },
+    {
+      "id": 31,
+      "label": "31+ DPD"
+    },
+    {
+      "id": 91,
+      "label": "91+ DPD"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2".
+0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2
+	1 container
+		2 container root
+			3 container preview
+				4 container
+					452 container
+						453 text CREDIT ANALYTICS
+					454 container
+						455 text Sales and Funnel
+					456 container
+						457 text Retail lending · Origination, conversion and sales performance
+					458 container
+						459 text SYNTHETIC DATA  /  RUB
+					556 container
+						557 text 31 Aug 2025
+					460 container
+						461 text Overview
+					462 container
+						463 text Sales and Funnel
+					464 container
+						465 text Portfolio Quality
+					466 container
+						467 text Vintage Analysis
+					468 container
+						469 text Loan Details
+					470 container
+						471 text AS OF
+					472 container
+						473 container
+							558 container
+								559 text August 2025
+							560 text 
+					474 container
+						475 text PRODUCT
+					476 container
+						477 container
+							561 container
+								562 text Personal Loan
+							563 text 
+					478 container
+						479 text REGION
+					480 container
+						481 container
+							564 container
+								565 text Moscow
+							566 text 
+					482 container
+						483 text CHANNEL
+					484 container
+						485 container
+							567 container
+								568 text Online
+							569 text 
+					486 container
+						487 text Apply
+					488 container
+						489 text Selected month
+					490 container
+						491 text DISBURSEMENTS
+					570 container
+						571 text RUB 6.66 m
+					492 container
+						493 text Funded during selected month
+					494 container
+						495 text FUNDED LOANS
+					572 container
+						573 text 6
+					496 container
+						497 text Funded-date sales population
+					498 container
+						499 text AVG FUNDED AMOUNT
+					574 container
+						575 text RUB 1.11 m
+					500 container
+						501 text Per funded loan
+					502 container
+						503 text APPLICATIONS
+					576 container
+						577 text 6
+					504 container
+						505 text Submitted during selected month
+					506 container
+						507 text APPROVAL RATE
+					578 container
+						579 text 83.33%
+					580 container
+						581 text 5 approved applications
+					508 container
+						509 text APPROVED TO FUNDED
+					582 container
+						583 text 100.00%
+					584 container
+						585 text 5 funded from submission cohort
+					510 container
+						511 text Application funnel
+					512 container
+						513 text Submitted in selected month · Outcomes at month end
+					586 container
+						587 text Submitted: 6   ·   Approved: 5   ·   Funded: 5
+					588 container
+						589 text Declined: 1   ·   Withdrawn: 0   ·   In progress: 0
+					590 container
+						591 text Avg time to funding: 6.2 days
+					514 container
+						515 text Disbursement trend
+					516 container
+						517 text Funded-date volumes · RUB m · completed month ends
+					592 container
+						593 container
+							594 image
+								595 text Nov 24
+								596 text Dec 24
+								597 text Jan 25
+								598 text Feb 25
+								599 text Mar 25
+								600 text Apr 25
+								601 text May 25
+								602 text Jun 25
+								603 text Jul 25
+								604 text Aug 25
+								605 text 0
+								606 text 2
+								607 text 4
+								608 text 6
+								609 text 8
+								610 text 10
+								611 text 12
+					518 container
+						519 text Sales by channel
+					520 container
+						521 text Funded during selected month · RUB m
+					612 container
+						613 container
+							614 image
+								615 text Online
+								616 text 0
+								617 text 2
+								618 text 4
+								619 text 6
+								620 text 8
+					522 container
+						523 text Monthly plan vs actual
+					524 container
+						525 text ALL CHANNELS
+					526 container
+						527 text Selected month, product and region · RUB m · channel filter does not apply
+					528 container
+						529 text PRODUCT
+					530 container
+						531 text LOANS
+					532 container
+						533 text ACTUAL
+					534 container
+						535 text PLAN
+					536 container
+						537 text ATTAINMENT
+					621 container
+						622 text Personal Loan
+					623 container
+						624 text 27
+					625 container
+						626 text 21.74
+					627 container
+						628 text 24.14
+					629 container
+						630 text 90.0%
+					538 container
+						539 text Targets are synthetic monthly amounts; compare actuals within the same target scope.
+					540 container
+						541 text Channel conversion
+					542 container
+						543 text Submission cohort · selected month · outcomes through report date
+					544 container
+						545 text CHANNEL
+					546 container
+						547 text SUBMITTED
+					548 container
+						549 text APPROVAL
+					550 container
+						551 text FUNDED / APPROVED
+					552 container
+						553 text AVG DAYS
+					631 container
+						632 text Online
+					633 container
+						634 text 6
+					635 container
+						636 text 83.3%
+					637 container
+						638 text 100.0%
+					639 container
+						640 text 6.2
+					641 container
+						642 text Submission cohorts and funded-date sales are separate populations. Recent applications may still be in progress.
+					554 container
+						555 text DEMO · NOT REGULATORY REPORTING
+			449 text You are using an unregistered function FineVis Visualization Dashboard.
+		450 button alert, ID: data-sentinel-button
+			451 image alert
+
+The focused UI element is 0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2

@@ -1,0 +1,62 @@
+- generic: CREDIT ANALYTICS
+- generic: Portfolio Overview
+- generic: Retail lending · Growth, composition and credit quality
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Aug 2025
+- generic: AS OF
+- generic: August 2025
+- generic: 
+- generic: PRODUCT
+- generic: Auto Loan
+- generic: 
+- generic: REGION
+- generic: Moscow
+- generic: 
+- generic: CHANNEL
+- generic: Partner
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: PORTFOLIO BALANCE
+- generic: RUB 63.75 m
+- generic: vs 31 Jul 2025
+- generic: MTD DISBURSEMENTS
+- generic: RUB 5.35 m
+- generic: August 2025 funding
+- generic: ACTIVE BORROWERS
+- generic: "36"
+- generic: 36 active loans
+- generic: MONTHLY GROWTH
+- generic: +5.07%
+- generic: RUB 3.08 m change
+- generic: 31+ DPD EXPOSURE
+- generic: 6.07%
+- generic: RUB 3.87 m exposure
+- generic: 91+ DPD EXPOSURE
+- generic: 6.07%
+- generic: RUB 3.87 m exposure
+- generic: Portfolio trend
+- generic: Outstanding principal · RUB bn · completed month ends
+- generic: Delinquency trend
+- generic: Whole-loan principal exposure · % of portfolio
+- generic: Product composition
+- generic: Outstanding principal · RUB bn
+- generic: Regional performance
+- generic: Origination region · balances in RUB bn · growth vs previous month end
+- generic: REGION
+- generic: BALANCE
+- generic: GROWTH
+- generic: BORROWERS
+- generic: 31+ DPD
+- generic: 91+ DPD
+- generic: Moscow
+- generic: "0.06"
+- generic: +5.07%
+- generic: "36"
+- generic: 6.07%
+- generic: 6.07%
+- generic: End-of-day principal balances · Full-loan exposure by days past due
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

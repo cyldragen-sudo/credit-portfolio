@@ -1,0 +1,360 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?page_number=5&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?page_number=5&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					257 container
+						258 text CREDIT ANALYTICS
+					259 container
+						260 text Loan Details
+					359 container
+						360 text LN-0008259 · Customer 008364 · Personal Loan
+					261 container
+						262 text SYNTHETIC DATA  /  RUB
+					361 container
+						362 text 31 Oct 2026
+					263 container
+						264 text Overview
+					265 container
+						266 text Sales and Funnel
+					267 container
+						268 text Portfolio Quality
+					269 container
+						270 text Vintage Analysis
+					271 container
+						272 text Loan Details
+					273 container
+						274 text AS OF
+					363 container
+						364 container
+							365 container
+								366 text October 2026
+							367 text 
+					275 container
+						276 text PRODUCT
+					368 container
+						369 container
+							370 container
+								371 text All Products
+							372 text 
+					277 container
+						278 text REGION
+					373 container
+						374 container
+							375 container
+								376 text All Regions
+							377 text 
+					279 container
+						280 text CHANNEL
+					378 container
+						379 container
+							380 container
+								381 text All Channels
+							382 text 
+					281 container
+						282 text Apply
+					283 container
+						284 text ← Back to registry
+					285 container
+						286 text PRINCIPAL BALANCE
+					383 container
+						384 text RUB 1,395,084.91
+					287 container
+						288 text Outstanding principal · RUB
+					289 container
+						290 text OVERDUE PRINCIPAL
+					385 container
+						386 text RUB 818,787.95
+					291 container
+						292 text Unpaid scheduled principal · RUB
+					293 container
+						294 text OVERDUE INTEREST
+					387 container
+						388 text RUB 721,542.61
+					295 container
+						296 text Unpaid scheduled interest · RUB
+					297 container
+						298 text DAYS PAST DUE
+					389 container
+						390 text 945
+					299 container
+						300 text As of selected month end
+					301 container
+						302 text CONTRACT STATUS
+					391 container
+						392 text Active
+					303 container
+						304 text Observed state on selected date
+					305 container
+						306 text CASH RECEIVED
+					393 container
+						394 text RUB 96,270.66
+					307 container
+						308 text Cumulative receipts · excludes write-offs
+					309 container
+						310 text ORIGINAL PRINCIPAL
+					395 container
+						396 text RUB 1,430,000.00
+					311 container
+						312 text ANNUAL RATE
+					397 container
+						398 text 25.90%
+					313 container
+						314 text ORIGINAL TERM
+					399 container
+						400 text 48 months
+					315 container
+						316 text ISSUED
+					401 container
+						402 text 30 Dec 2023
+					317 container
+						318 text CONTRACTUAL MATURITY
+					403 container
+						404 text 30 Dec 2027
+					319 container
+						320 text OBSERVED CLOSE DATE
+					405 container
+						406 text —
+					407 container
+						408 text Krasnodar Region · Krasnodar Region Branch 03 · Mobile App · Origination risk: Medium
+					321 container
+						322 text Principal history
+					323 container
+						324 text Month-end outstanding principal · RUB m
+					409 container
+						410 container
+							411 image
+								412 text Nov 24
+								413 text Jan 25
+								414 text Mar 25
+								415 text May 25
+								416 text Jul 25
+								417 text Sep 25
+								418 text Nov 25
+								419 text Jan 26
+								420 text Mar 26
+								421 text May 26
+								422 text Jul 26
+								423 text Sep 26
+								424 text 0
+								425 text 0.5
+								426 text 1
+								427 text 1.5
+								428 text 2
+					325 container
+						326 text Delinquency history
+					327 container
+						328 text Month-end days past due · days
+					429 container
+						430 container
+							431 image
+								432 text Nov 24
+								433 text Jan 25
+								434 text Mar 25
+								435 text May 25
+								436 text Jul 25
+								437 text Sep 25
+								438 text Nov 25
+								439 text Jan 26
+								440 text Mar 26
+								441 text May 26
+								442 text Jul 26
+								443 text Sep 26
+								444 text 0
+								445 text 200
+								446 text 400
+								447 text 600
+								448 text 800
+								449 text 1000
+					329 container
+						330 text Operations
+					450 container
+						451 text Page 1 of 1 · 3 rows
+					452 container
+						453 text ← Previous 1
+					454 container
+						455 text Next → 1
+					331 container
+						332 text DATE
+					333 container
+						334 text TYPE
+					335 container
+						336 text PRINCIPAL, RUB
+					337 container
+						338 text INTEREST, RUB
+					339 container
+						340 text CASH, RUB
+					456 container
+						457 text 29 Feb 24
+					458 container
+						459 text Repayment
+					460 container
+						461 text 17,643.93
+					462 container
+						463 text 30,491.40
+					464 container
+						465 text 48,135.33
+					466 container
+						467 text 30 Jan 24
+					468 container
+						469 text Repayment
+					470 container
+						471 text 17,271.16
+					472 container
+						473 text 30,864.17
+					474 container
+						475 text 48,135.33
+					476 container
+						477 text 30 Dec 23
+					478 container
+						479 text Disbursement
+					480 container
+						481 text 1,430,000.00
+					482 container
+						483 text 0.00
+					484 container
+						485 text 0.00
+					341 container
+						342 text Payment schedule
+					486 container
+						487 text Page 1 of 6 · 48 rows
+					488 container
+						489 text ← Previous 1
+					490 container
+						491 text Next → 2
+					343 container
+						344 text #
+					345 container
+						346 text DUE DATE
+					347 container
+						348 text PRINCIPAL, RUB
+					349 container
+						350 text INTEREST, RUB
+					351 container
+						352 text PAID, RUB
+					353 container
+						354 text WRITTEN OFF, RUB
+					355 container
+						356 text STATUS
+					492 container
+						493 text 1
+					494 container
+						495 text 30 Jan 24
+					496 container
+						497 text 17,271.16
+					498 container
+						499 text 30,864.17
+					500 container
+						501 text 48,135.33
+					502 container
+						503 text 0.00
+					504 container
+						505 text Settled
+					506 container
+						507 text 2
+					508 container
+						509 text 29 Feb 24
+					510 container
+						511 text 17,643.93
+					512 container
+						513 text 30,491.40
+					514 container
+						515 text 48,135.33
+					516 container
+						517 text 0.00
+					518 container
+						519 text Settled
+					520 container
+						521 text 3
+					522 container
+						523 text 30 Mar 24
+					524 container
+						525 text 18,024.75
+					526 container
+						527 text 30,110.58
+					528 container
+						529 text 0.00
+					530 container
+						531 text 0.00
+					532 container
+						533 text Overdue
+					534 container
+						535 text 4
+					536 container
+						537 text 30 Apr 24
+					538 container
+						539 text 18,413.78
+					540 container
+						541 text 29,721.55
+					542 container
+						543 text 0.00
+					544 container
+						545 text 0.00
+					546 container
+						547 text Overdue
+					548 container
+						549 text 5
+					550 container
+						551 text 30 May 24
+					552 container
+						553 text 18,811.21
+					554 container
+						555 text 29,324.12
+					556 container
+						557 text 0.00
+					558 container
+						559 text 0.00
+					560 container
+						561 text Overdue
+					562 container
+						563 text 6
+					564 container
+						565 text 30 Jun 24
+					566 container
+						567 text 19,217.22
+					568 container
+						569 text 28,918.11
+					570 container
+						571 text 0.00
+					572 container
+						573 text 0.00
+					574 container
+						575 text Overdue
+					576 container
+						577 text 7
+					578 container
+						579 text 30 Jul 24
+					580 container
+						581 text 19,631.99
+					582 container
+						583 text 28,503.34
+					584 container
+						585 text 0.00
+					586 container
+						587 text 0.00
+					588 container
+						589 text Overdue
+					590 container
+						591 text 8
+					592 container
+						593 text 30 Aug 24
+					594 container
+						595 text 20,055.72
+					596 container
+						597 text 28,079.61
+					598 container
+						599 text 0.00
+					600 container
+						601 text 0.00
+					602 container
+						603 text Overdue
+					604 container
+						605 text Contract follows loan ID and As of; portfolio filters are retained for return.
+					357 container
+						358 text DEMO · NOT REGULATORY REPORTING
+			254 text You are using an unregistered function FineVis Visualization Dashboard.
+		255 button alert, ID: data-sentinel-button
+			256 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?page_number=5&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs

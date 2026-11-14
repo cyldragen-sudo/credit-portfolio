@@ -1,0 +1,153 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_region_id=999&p_loan_id=999999".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_region_id=999&p_loan_id=999999
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					129 container
+						130 text CREDIT ANALYTICS
+					131 container
+						132 text Vintage Analysis
+					133 container
+						134 text Retail lending · Compare origination cohorts at the same age
+					135 container
+						136 text SYNTHETIC DATA  /  RUB
+					227 container
+						228 text 31 Oct 2026
+					137 container
+						138 text Overview
+					139 container
+						140 text Sales and Funnel
+					141 container
+						142 text Portfolio Quality
+					143 container
+						144 text Vintage Analysis
+					145 container
+						146 text Loan Details
+					147 container
+						148 text AS OF
+					229 container
+						230 container
+							231 container
+								232 text October 2026
+							233 text 
+					149 container
+						150 text PRODUCT
+					234 container
+						235 container
+							236 container
+								237 text All Products
+							238 text 
+					151 container
+						152 text REGION
+					239 container
+						240 container
+							241 container
+								242 text 999
+							243 text 
+					153 container
+						154 text CHANNEL
+					244 container
+						245 container
+							246 container
+								247 text All Channels
+							248 text 
+					155 container
+						156 text Apply
+					157 container
+						158 text Month-end reporting
+					159 container
+						160 text ORIGINAL LOANS
+					249 container
+						250 text 0
+					161 container
+						162 text All contracts in selected cohorts
+					163 container
+						164 text ORIGINAL FUNDED AMOUNT
+					251 container
+						252 text RUB 0.00 m
+					165 container
+						166 text Original principal · RUB
+					167 container
+						168 text ORIGINATION COHORTS
+					253 container
+						254 text 0
+					255 container
+						256 text Nov 2024 – Oct 2026
+					169 container
+						170 text EVER 31+ · MOB 3
+					257 container
+						258 text —
+					259 container
+						260 text 0 mature cohorts · 0 loans
+					171 container
+						172 text EVER 31+ · MOB 6
+					261 container
+						262 text —
+					263 container
+						264 text 0 mature cohorts · 0 loans
+					173 container
+						174 text EVER 31+ · MOB 12
+					265 container
+						266 text —
+					267 container
+						268 text 0 mature cohorts · 0 loans
+					175 container
+						176 text Ever 31+ by origination cohort
+					177 container
+						178 text Cumulative % of original loans · MOB = completed monthly anniversary
+					179 container
+						180 text COHORT
+					181 container
+						182 text LOANS
+					183 container
+						184 text M1
+					185 container
+						186 text M2
+					187 container
+						188 text M3
+					189 container
+						190 text M4
+					191 container
+						192 text M5
+					193 container
+						194 text M6
+					195 container
+						196 text M7
+					197 container
+						198 text M8
+					199 container
+						200 text M9
+					201 container
+						202 text M10
+					203 container
+						204 text M11
+					205 container
+						206 text M12
+					207 container
+						208 text 0.0% = observed zero after rounding · — = immature or unavailable · newest cohorts first
+					209 container
+						210 text Cohort curves
+					211 container
+						212 text Ever 31+ · % of original loans · observed anniversaries only
+					213 container
+						214 text Read cohorts at equal age
+					215 container
+						216 text Each rate counts loans that ever reached 31+ DPD.
+					217 container
+						218 text A cell waits until every loan reaches that anniversary.
+					219 container
+						220 text MOB cards pool mature cohorts using original loan counts.
+					221 container
+						222 text Curves sample every sixth available cohort, oldest first.
+					223 container
+						224 text Cumulative ever delinquency is not a current loss rate.
+					269 container
+						270 text No origination cohorts match the selected filters.
+					225 container
+						226 text DEMO · NOT REGULATORY REPORTING
+			126 text You are using an unregistered function FineVis Visualization Dashboard.
+		127 button alert, ID: data-sentinel-button
+			128 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_region_id=999&p_loan_id=999999

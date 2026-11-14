@@ -1,0 +1,434 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2".
+0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2
+	1 container
+		2 container root
+			3 container preview
+				4 container
+					452 container
+						453 text CREDIT ANALYTICS
+					454 container
+						455 text Delinquency and Portfolio Quality
+					456 container
+						457 text Retail lending · Past-due balances, migrations and contract review
+					458 container
+						459 text SYNTHETIC DATA  /  RUB
+					565 container
+						566 text 31 Aug 2025
+					460 container
+						461 text Overview
+					462 container
+						463 text Sales and Funnel
+					464 container
+						465 text Portfolio Quality
+					466 container
+						467 text Vintage Analysis
+					468 container
+						469 text Loan Details
+					470 container
+						471 text AS OF
+					472 container
+						473 container
+							474 container
+								475 text August 2025
+							476 text 
+					477 container
+						478 text PRODUCT
+					479 container
+						480 container
+							481 container
+								482 text Personal Loan
+							483 text 
+					484 container
+						485 text REGION
+					486 container
+						487 container
+							488 container
+								489 text Moscow
+							490 text 
+					491 container
+						492 text CHANNEL
+					493 container
+						494 container
+							567 container
+								568 text Online
+							569 text 
+					495 container
+						496 text Apply
+					497 container
+						498 text Month-end reporting
+					499 container
+						500 text OVERDUE PRINCIPAL
+					570 container
+						571 text RUB 0.76 m
+					501 container
+						502 text Unpaid scheduled principal
+					503 container
+						504 text OVERDUE INTEREST
+					572 container
+						573 text RUB 0.62 m
+					505 container
+						506 text Unpaid scheduled interest
+					507 container
+						508 text 31+ DPD EXPOSURE
+					574 container
+						575 text 4.58%
+					576 container
+						577 text RUB 4.70 m full-loan exposure
+					509 container
+						510 text 91+ DPD EXPOSURE
+					578 container
+						579 text 1.39%
+					580 container
+						581 text RUB 1.43 m full-loan exposure
+					511 container
+						512 text PAST-DUE LOANS
+					582 container
+						583 text 20
+					584 container
+						585 text 155 active contracts in scope
+					513 container
+						514 text MONTHLY WRITE-OFFS
+					586 container
+						587 text RUB 0.00 m
+					588 container
+						589 text Aug 2025 · principal written off
+					515 container
+						516 text Exposure by DPD bucket
+					517 container
+						518 text Full outstanding principal · RUB bn · active contracts
+					590 container
+						591 container
+							592 image
+								593 text 0
+								594 text 1-30
+								595 text 31-60
+								596 text 61-90
+								597 text 91+
+								598 text 0
+								599 text 0.02
+								600 text 0.04
+								601 text 0.06
+								602 text 0.08
+								603 text 0.1
+					519 container
+						520 text Monthly transitions
+					604 container
+						605 text 31 Jul 2025 → 31 Aug 2025 · Opening cohort · % and count
+					521 container
+						522 text FROM / TO
+					523 container
+						524 text 0
+					525 container
+						526 text 1-30
+					527 container
+						528 text 31-60
+					529 container
+						530 text 61-90
+					531 container
+						532 text 91+
+					533 container
+						534 text Closed
+					535 container
+						536 text Written Off
+					606 container
+						607 text 0 (130)
+					608 container
+						609 text 98.5% · 128
+					610 container
+						611 text 1.5% · 2
+					612 container
+						613 text 0%
+					614 container
+						615 text 0%
+					616 container
+						617 text 0%
+					618 container
+						619 text 0%
+					620 container
+						621 text 0%
+					622 container
+						623 text 1-30 (13)
+					624 container
+						625 text 0%
+					626 container
+						627 text 84.6% · 11
+					628 container
+						629 text 15.4% · 2
+					630 container
+						631 text 0%
+					632 container
+						633 text 0%
+					634 container
+						635 text 0%
+					636 container
+						637 text 0%
+					638 container
+						639 text 31-60 (4)
+					640 container
+						641 text 25.0% · 1
+					642 container
+						643 text 25.0% · 1
+					644 container
+						645 text 50.0% · 2
+					646 container
+						647 text 0%
+					648 container
+						649 text 0%
+					650 container
+						651 text 0%
+					652 container
+						653 text 0%
+					654 container
+						655 text 61-90 (0)
+					656 container
+						657 text —
+					658 container
+						659 text —
+					660 container
+						661 text —
+					662 container
+						663 text —
+					664 container
+						665 text —
+					666 container
+						667 text —
+					668 container
+						669 text —
+					670 container
+						671 text 91+ (2)
+					672 container
+						673 text 0%
+					674 container
+						675 text 0%
+					676 container
+						677 text 0%
+					678 container
+						679 text 0%
+					680 container
+						681 text 100.0% · 2
+					682 container
+						683 text 0%
+					684 container
+						685 text 0%
+					686 container
+						687 text Closed (8)
+					688 container
+						689 text 0%
+					690 container
+						691 text 0%
+					692 container
+						693 text 0%
+					694 container
+						695 text 0%
+					696 container
+						697 text 0%
+					698 container
+						699 text 100.0% · 8
+					700 container
+						701 text 0%
+					702 container
+						703 text Written Off (3)
+					704 container
+						705 text 0%
+					706 container
+						707 text 0%
+					708 container
+						709 text 0%
+					710 container
+						711 text 0%
+					712 container
+						713 text 0%
+					714 container
+						715 text 0%
+					716 container
+						717 text 100.0% · 3
+					537 container
+						538 text Diagonal = unchanged state · 0% = no transitions · — = no opening contracts
+					539 container
+						540 text Loan registry · select a loan to open details
+					718 container
+						719 text Page 2 of 3   ·   20 loans
+					720 container
+						721 text Ordered by DPD, principal balance and loan ID · amounts in RUB
+					541 container
+						542 text REGISTRY THRESHOLD · APPLY TO UPDATE
+					543 container
+						544 container
+							722 container
+								723 text 1+ DPD
+							724 text 
+					725 container
+						726 text ← Previous 1
+					727 container
+						728 text Next → 3
+					545 container
+						546 text LOAN
+					547 container
+						548 text CUSTOMER
+					549 container
+						550 text PRODUCT
+					551 container
+						552 text REGION
+					553 container
+						554 text CHANNEL
+					555 container
+						556 text BALANCE, RUB
+					557 container
+						558 text OVERDUE P., RUB
+					559 container
+						560 text OVERDUE I., RUB
+					561 container
+						562 text DPD
+					729 container
+						730 text LN-0000954
+					731 container
+						732 text Customer 010321
+					733 container
+						734 text Personal Loan
+					735 container
+						736 text Moscow
+					737 container
+						738 text Online
+					739 container
+						740 text 1,200,792.14
+					741 container
+						742 text 33,231.83
+					743 container
+						744 text 25,917.10
+					745 container
+						746 text 16
+					747 container
+						748 text LN-0001740
+					749 container
+						750 text Customer 004491
+					751 container
+						752 text Personal Loan
+					753 container
+						754 text Moscow
+					755 container
+						756 text Online
+					757 container
+						758 text 1,057,644.85
+					759 container
+						760 text 30,659.73
+					761 container
+						762 text 19,302.02
+					763 container
+						764 text 15
+					765 container
+						766 text LN-0000028
+					767 container
+						768 text Customer 007142
+					769 container
+						770 text Personal Loan
+					771 container
+						772 text Moscow
+					773 container
+						774 text Online
+					775 container
+						776 text 558,322.92
+					777 container
+						778 text 6,621.72
+					779 container
+						780 text 8,328.32
+					781 container
+						782 text 15
+					783 container
+						784 text LN-0008652
+					785 container
+						786 text Customer 002693
+					787 container
+						788 text Personal Loan
+					789 container
+						790 text Moscow
+					791 container
+						792 text Online
+					793 container
+						794 text 1,247,567.57
+					795 container
+						796 text 18,119.25
+					797 container
+						798 text 22,768.11
+					799 container
+						800 text 12
+					801 container
+						802 text LN-0000250
+					803 container
+						804 text Customer 014851
+					805 container
+						806 text Personal Loan
+					807 container
+						808 text Moscow
+					809 container
+						810 text Online
+					811 container
+						812 text 232,167.24
+					813 container
+						814 text 4,747.22
+					815 container
+						816 text 3,463.16
+					817 container
+						818 text 10
+					819 container
+						820 text LN-0000429
+					821 container
+						822 text Customer 006580
+					823 container
+						824 text Personal Loan
+					825 container
+						826 text Moscow
+					827 container
+						828 text Online
+					829 container
+						830 text 492,213.28
+					831 container
+						832 text 17,207.35
+					833 container
+						834 text 7,342.18
+					835 container
+						836 text 8
+					837 container
+						838 text LN-0002924
+					839 container
+						840 text Customer 000807
+					841 container
+						842 text Personal Loan
+					843 container
+						844 text Moscow
+					845 container
+						846 text Online
+					847 container
+						848 text 1,015,226.52
+					849 container
+						850 text 22,349.14
+					851 container
+						852 text 21,911.97
+					853 container
+						854 text 5
+					855 container
+						856 text LN-0000230
+					857 container
+						858 text Customer 010373
+					859 container
+						860 text Personal Loan
+					861 container
+						862 text Moscow
+					863 container
+						864 text Online
+					865 container
+						866 text 866,276.14
+					867 container
+						868 text 14,384.20
+					869 container
+						870 text 15,809.54
+					871 container
+						872 text 3
+					873 container
+						874 text Full-loan exposure includes overdue principal. Registry threshold affects the loan list only.
+					563 container
+						564 text DEMO · NOT REGULATORY REPORTING
+			449 text You are using an unregistered function FineVis Visualization Dashboard.
+		450 button alert, ID: data-sentinel-button
+			451 image alert
+
+The focused UI element is 0 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2

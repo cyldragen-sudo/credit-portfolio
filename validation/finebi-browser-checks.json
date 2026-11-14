@@ -1,0 +1,103 @@
+{
+  "navigation": [
+    [
+      "Delinquency and Portfolio Quality",
+      "Overview"
+    ],
+    [
+      "Overview",
+      "Sales and Funnel"
+    ],
+    [
+      "Sales and Funnel",
+      "Overview"
+    ],
+    [
+      "Overview",
+      "Vintage Analysis"
+    ],
+    [
+      "Vintage Analysis",
+      "Overview"
+    ],
+    [
+      "Overview",
+      "Loan Details"
+    ],
+    [
+      "Loan Details",
+      "Overview"
+    ],
+    [
+      "Overview",
+      "Delinquency and Portfolio Quality"
+    ],
+    [
+      "Delinquency and Portfolio Quality",
+      "Sales and Funnel"
+    ],
+    [
+      "Sales and Funnel",
+      "Delinquency and Portfolio Quality"
+    ],
+    [
+      "Delinquency and Portfolio Quality",
+      "Vintage Analysis"
+    ],
+    [
+      "Vintage Analysis",
+      "Sales and Funnel"
+    ],
+    [
+      "Sales and Funnel",
+      "Vintage Analysis"
+    ],
+    [
+      "Vintage Analysis",
+      "Delinquency and Portfolio Quality"
+    ],
+    [
+      "Delinquency and Portfolio Quality",
+      "Loan Details"
+    ],
+    [
+      "Loan Details",
+      "Sales and Funnel"
+    ],
+    [
+      "Sales and Funnel",
+      "Loan Details"
+    ],
+    [
+      "Loan Details",
+      "Vintage Analysis"
+    ],
+    [
+      "Vintage Analysis",
+      "Loan Details"
+    ],
+    [
+      "Loan Details",
+      "Delinquency and Portfolio Quality"
+    ]
+  ],
+  "scope": [
+    "August 2025",
+    "Personal Loan",
+    "Moscow",
+    "Online"
+  ],
+  "threshold": "91+ DPD",
+  "jumps": [
+    11359,
+    10387,
+    6929
+  ],
+  "page2Return": true,
+  "defaultControls": [
+    "October 2026",
+    "All Products",
+    "All Regions",
+    "All Channels"
+  ]
+}

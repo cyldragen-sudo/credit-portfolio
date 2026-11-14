@@ -1,0 +1,219 @@
+[
+  {
+    "page": "Overview",
+    "date": "September 2025",
+    "controls": {
+      "As of selector": "September 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "kpis": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "actual": "RUB 107.68 m",
+        "expected": "RUB 107.68 m"
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "actual": "RUB 8.66 m",
+        "expected": "RUB 8.66 m"
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "actual": "161",
+        "expected": "161"
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "actual": "+5.11%",
+        "expected": "+5.11%"
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "actual": "4.25%",
+        "expected": "4.25%"
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "actual": "0.94%",
+        "expected": "0.94%"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "page": "Sales and Funnel",
+    "date": "August 2025",
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "kpis": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "actual": "RUB 6.66 m",
+        "expected": "RUB 6.66 m"
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "actual": "6",
+        "expected": "6"
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "actual": "RUB 1.11 m",
+        "expected": "RUB 1.11 m"
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "actual": "6",
+        "expected": "6"
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "actual": "83.33%",
+        "expected": "83.33%"
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "actual": "100.00%",
+        "expected": "100.00%"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "page": "Portfolio Quality",
+    "date": "September 2025",
+    "controls": {
+      "As of selector": "September 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow",
+      "Registry threshold · Apply to update selector": "All active"
+    },
+    "kpis": [
+      {
+        "widget": "Quality OVERDUE PRINCIPAL value",
+        "actual": "RUB 0.65 m",
+        "expected": "RUB 0.65 m"
+      },
+      {
+        "widget": "Quality OVERDUE INTEREST value",
+        "actual": "RUB 0.57 m",
+        "expected": "RUB 0.57 m"
+      },
+      {
+        "widget": "Quality 31+ DPD EXPOSURE value",
+        "actual": "4.25%",
+        "expected": "4.25%"
+      },
+      {
+        "widget": "Quality 91+ DPD EXPOSURE value",
+        "actual": "0.94%",
+        "expected": "0.94%"
+      },
+      {
+        "widget": "Quality PAST-DUE LOANS value",
+        "actual": "16",
+        "expected": "16"
+      },
+      {
+        "widget": "Quality MONTHLY WRITE-OFFS value",
+        "actual": "RUB 0.41 m",
+        "expected": "RUB 0.41 m"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "page": "Vintage Analysis",
+    "date": "August 2025",
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "MOB range · Apply to update selector": "MOB 7–12",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "kpis": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "actual": "81",
+        "expected": "81"
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "actual": "RUB 64.42 m",
+        "expected": "RUB 64.42 m"
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "actual": "10",
+        "expected": "10"
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 3 value",
+        "actual": "0.00%",
+        "expected": "0.00%"
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 6 value",
+        "actual": "6.06%",
+        "expected": "6.06%"
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 12 value",
+        "actual": "—",
+        "expected": "—"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "page": "Loan Details",
+    "date": "September 2025",
+    "controls": {
+      "As of selector": "September 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "kpis": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "actual": "RUB 1,167,560.31",
+        "expected": "RUB 1,167,560.31"
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "actual": "RUB 33,949.09",
+        "expected": "RUB 33,949.09"
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "actual": "RUB 25,199.84",
+        "expected": "RUB 25,199.84"
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "actual": "15",
+        "expected": "15"
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "actual": "Active",
+        "expected": "Active"
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "actual": "RUB 591,489.30",
+        "expected": "RUB 591,489.30"
+      }
+    ],
+    "passed": true
+  }
+]

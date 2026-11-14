@@ -1,0 +1,453 @@
+{
+  "verified_at_utc": "2026-11-14T18:32:10.986955+00:00",
+  "result": "passed",
+  "scenario_dataset_checks": 89,
+  "scope": "Read-only database parity after deterministic label macro compilation; both English labels and numeric fallback. FineBI runtime checked separately.",
+  "checks": [
+    {
+      "scenario": "default",
+      "dataset": "filter_date",
+      "rows": 24
+    },
+    {
+      "scenario": "default",
+      "dataset": "filter_product",
+      "rows": 4
+    },
+    {
+      "scenario": "default",
+      "dataset": "filter_region",
+      "rows": 7
+    },
+    {
+      "scenario": "default",
+      "dataset": "filter_channel",
+      "rows": 5
+    },
+    {
+      "scenario": "default",
+      "dataset": "filter_min_dpd",
+      "rows": 4
+    },
+    {
+      "scenario": "default",
+      "dataset": "overview_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "default",
+      "dataset": "balance_chart",
+      "rows": 24
+    },
+    {
+      "scenario": "default",
+      "dataset": "quality_chart",
+      "rows": 48
+    },
+    {
+      "scenario": "default",
+      "dataset": "product_chart",
+      "rows": 3
+    },
+    {
+      "scenario": "default",
+      "dataset": "region_table",
+      "rows": 6
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_funnel_chart",
+      "rows": 3
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_trend_chart",
+      "rows": 24
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_channel_chart",
+      "rows": 4
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_plan_table",
+      "rows": 3
+    },
+    {
+      "scenario": "default",
+      "dataset": "sales_channel_table",
+      "rows": 4
+    },
+    {
+      "scenario": "default",
+      "dataset": "quality_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "default",
+      "dataset": "quality_buckets",
+      "rows": 5
+    },
+    {
+      "scenario": "default",
+      "dataset": "quality_transitions",
+      "rows": 49
+    },
+    {
+      "scenario": "default",
+      "dataset": "quality_registry",
+      "rows": 1268
+    },
+    {
+      "scenario": "default",
+      "dataset": "vintage_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "default",
+      "dataset": "vintage_matrix",
+      "rows": 288
+    },
+    {
+      "scenario": "default",
+      "dataset": "vintage_curves",
+      "rows": 40
+    },
+    {
+      "scenario": "default",
+      "dataset": "loan_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "default",
+      "dataset": "loan_balance_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "default",
+      "dataset": "loan_dpd_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "default",
+      "dataset": "loan_operations",
+      "rows": 0
+    },
+    {
+      "scenario": "default",
+      "dataset": "loan_schedule",
+      "rows": 0
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "filter_date",
+      "rows": 24
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "filter_product",
+      "rows": 4
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "filter_region",
+      "rows": 7
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "filter_channel",
+      "rows": 5
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "filter_min_dpd",
+      "rows": 4
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "overview_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "balance_chart",
+      "rows": 10
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "quality_chart",
+      "rows": 20
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "product_chart",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "region_table",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_funnel_chart",
+      "rows": 3
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_trend_chart",
+      "rows": 10
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_channel_chart",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_plan_table",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "sales_channel_table",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "quality_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "quality_buckets",
+      "rows": 5
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "quality_transitions",
+      "rows": 49
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "quality_registry",
+      "rows": 20
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "vintage_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "vintage_matrix",
+      "rows": 120
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "vintage_curves",
+      "rows": 12
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "loan_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "loan_balance_chart",
+      "rows": 10
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "loan_dpd_chart",
+      "rows": 10
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "loan_operations",
+      "rows": 10
+    },
+    {
+      "scenario": "historical_segment",
+      "dataset": "loan_schedule",
+      "rows": 36
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "filter_date",
+      "rows": 24
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "filter_product",
+      "rows": 4
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "filter_region",
+      "rows": 7
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "filter_channel",
+      "rows": 5
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "filter_min_dpd",
+      "rows": 4
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "overview_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "balance_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "quality_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "product_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "region_table",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_funnel_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_trend_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_channel_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_plan_table",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "sales_channel_table",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "quality_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "quality_buckets",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "quality_transitions",
+      "rows": 49
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "quality_registry",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "vintage_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "vintage_matrix",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "vintage_curves",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "loan_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "loan_balance_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "loan_dpd_chart",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "loan_operations",
+      "rows": 0
+    },
+    {
+      "scenario": "empty_segment_no_loan",
+      "dataset": "loan_schedule",
+      "rows": 0
+    },
+    {
+      "scenario": "selected_loan_2170",
+      "dataset": "loan_kpis",
+      "rows": 1
+    },
+    {
+      "scenario": "selected_loan_2170",
+      "dataset": "loan_balance_chart",
+      "rows": 24
+    },
+    {
+      "scenario": "selected_loan_2170",
+      "dataset": "loan_dpd_chart",
+      "rows": 24
+    },
+    {
+      "scenario": "selected_loan_2170",
+      "dataset": "loan_operations",
+      "rows": 3
+    },
+    {
+      "scenario": "selected_loan_2170",
+      "dataset": "loan_schedule",
+      "rows": 36
+    }
+  ]
+}

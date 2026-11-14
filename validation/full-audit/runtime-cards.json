@@ -1,0 +1,705 @@
+[
+  {
+    "page": 5,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "value": "RUB 268,047.59",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "value": "RUB 258,087.52",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "value": "RUB 75,497.27",
+        "present": true
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "value": "991",
+        "present": true
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "value": "Active",
+        "present": true
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "value": "RUB 20,217.26",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "value": "RUB 19.55 bn",
+        "present": true
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "value": "RUB 800.88 m",
+        "present": true
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "value": "7,573",
+        "present": true
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "value": "+2.52%",
+        "present": true
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "value": "6.94%",
+        "present": true
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "value": "4.95%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "value": "RUB 800.88 m",
+        "present": true
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "value": "400",
+        "present": true
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "value": "RUB 2.00 m",
+        "present": true
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "value": "1,654",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "value": "45.41%",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "value": "43.41%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Quality OVERDUE PRINCIPAL value",
+        "value": "RUB 185.88 m",
+        "present": true
+      },
+      {
+        "widget": "Quality OVERDUE INTEREST value",
+        "value": "RUB 168.53 m",
+        "present": true
+      },
+      {
+        "widget": "Quality 31+ DPD EXPOSURE value",
+        "value": "6.94%",
+        "present": true
+      },
+      {
+        "widget": "Quality 91+ DPD EXPOSURE value",
+        "value": "4.95%",
+        "present": true
+      },
+      {
+        "widget": "Quality PAST-DUE LOANS value",
+        "value": "1,268",
+        "present": true
+      },
+      {
+        "widget": "Quality MONTHLY WRITE-OFFS value",
+        "value": "RUB 25.50 m",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "value": "8,759",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "value": "RUB 18.49 bn",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "value": "24",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 3 value",
+        "value": "1.12%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 6 value",
+        "value": "11.72%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 12 value",
+        "value": "18.50%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2",
+    "cards": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "value": "RUB 1,200,792.14",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "value": "RUB 33,231.83",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "value": "RUB 25,917.10",
+        "present": true
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "value": "16",
+        "present": true
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "value": "Active",
+        "present": true
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "value": "RUB 532,340.37",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2",
+    "cards": [
+      {
+        "widget": "Quality OVERDUE PRINCIPAL value",
+        "value": "RUB 0.76 m",
+        "present": true
+      },
+      {
+        "widget": "Quality OVERDUE INTEREST value",
+        "value": "RUB 0.62 m",
+        "present": true
+      },
+      {
+        "widget": "Quality 31+ DPD EXPOSURE value",
+        "value": "4.58%",
+        "present": true
+      },
+      {
+        "widget": "Quality 91+ DPD EXPOSURE value",
+        "value": "1.39%",
+        "present": true
+      },
+      {
+        "widget": "Quality PAST-DUE LOANS value",
+        "value": "20",
+        "present": true
+      },
+      {
+        "widget": "Quality MONTHLY WRITE-OFFS value",
+        "value": "RUB 0.00 m",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2",
+    "cards": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "value": "RUB 6.66 m",
+        "present": true
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "value": "6",
+        "present": true
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "value": "RUB 1.11 m",
+        "present": true
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "value": "6",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "value": "83.33%",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "value": "100.00%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2",
+    "cards": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "value": "RUB 102.45 m",
+        "present": true
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "value": "RUB 6.66 m",
+        "present": true
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "value": "153",
+        "present": true
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "value": "+4.35%",
+        "present": true
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "value": "4.58%",
+        "present": true
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "value": "1.39%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_date_key=20250831&p_product_id=1&p_region_id=1&p_channel_id=2&p_min_dpd=1&p_quality_page=2&p_loan_id=954&p_operation_page=2&p_schedule_page=2",
+    "cards": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "value": "81",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "value": "RUB 64.42 m",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "value": "10",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 3 value",
+        "value": "0.00%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 6 value",
+        "value": "6.06%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 12 value",
+        "value": "—",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "scope": "filtered",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?page_number=1&viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs",
+    "cards": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "value": "RUB 102.45 m",
+        "present": true
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "value": "RUB 6.66 m",
+        "present": true
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "value": "153",
+        "present": true
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "value": "+4.35%",
+        "present": true
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "value": "4.58%",
+        "present": true
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "value": "1.39%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 1,
+    "scope": "empty",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_region_id=999&p_loan_id=999999",
+    "cards": [
+      {
+        "widget": "PORTFOLIO BALANCE value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "MTD DISBURSEMENTS value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "ACTIVE BORROWERS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "MONTHLY GROWTH value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "31+ DPD EXPOSURE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "91+ DPD EXPOSURE value",
+        "value": "—",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "scope": "empty",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_region_id=999&p_loan_id=999999",
+    "cards": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "value": "—",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 3,
+    "scope": "empty",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=3&p_region_id=999&p_loan_id=999999",
+    "cards": [
+      {
+        "widget": "Quality OVERDUE PRINCIPAL value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "Quality OVERDUE INTEREST value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "Quality 31+ DPD EXPOSURE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Quality 91+ DPD EXPOSURE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Quality PAST-DUE LOANS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "Quality MONTHLY WRITE-OFFS value",
+        "value": "RUB 0.00 m",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "scope": "empty",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_region_id=999&p_loan_id=999999",
+    "cards": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "value": "RUB 0.00 m",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "value": "0",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 3 value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 6 value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 12 value",
+        "value": "—",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "scope": "empty",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_region_id=999&p_loan_id=999999",
+    "cards": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "value": "—",
+        "present": true
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "value": "—",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "scope": "historical_all",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=5&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Loan PRINCIPAL BALANCE value",
+        "value": "RUB 268,047.59",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE PRINCIPAL value",
+        "value": "RUB 133,080.22",
+        "present": true
+      },
+      {
+        "widget": "Loan OVERDUE INTEREST value",
+        "value": "RUB 58,983.75",
+        "present": true
+      },
+      {
+        "widget": "Loan DAYS PAST DUE value",
+        "value": "565",
+        "present": true
+      },
+      {
+        "widget": "Loan CONTRACT STATUS value",
+        "value": "Active",
+        "present": true
+      },
+      {
+        "widget": "Loan CASH RECEIVED value",
+        "value": "RUB 20,217.26",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "scope": "default",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=4&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Vintage ORIGINAL LOANS value",
+        "value": "8,759",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+        "value": "RUB 18.49 bn",
+        "present": true
+      },
+      {
+        "widget": "Vintage ORIGINATION COHORTS value",
+        "value": "24",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 3 value",
+        "value": "1.12%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 6 value",
+        "value": "11.72%",
+        "present": true
+      },
+      {
+        "widget": "Vintage EVER 31+ · MOB 12 value",
+        "value": "18.50%",
+        "present": true
+      }
+    ]
+  },
+  {
+    "page": 2,
+    "scope": "historical_all",
+    "url": "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=2&p_loan_id=2170",
+    "cards": [
+      {
+        "widget": "Sales DISBURSEMENTS value",
+        "value": "RUB 709.27 m",
+        "present": true
+      },
+      {
+        "widget": "Sales FUNDED LOANS value",
+        "value": "326",
+        "present": true
+      },
+      {
+        "widget": "Sales AVG FUNDED AMOUNT value",
+        "value": "RUB 2.18 m",
+        "present": true
+      },
+      {
+        "widget": "Sales APPLICATIONS value",
+        "value": "511",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVAL RATE value",
+        "value": "70.45%",
+        "present": true
+      },
+      {
+        "widget": "Sales APPROVED TO FUNDED value",
+        "value": "76.11%",
+        "present": true
+      }
+    ]
+  }
+]

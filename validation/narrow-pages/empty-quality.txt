@@ -1,0 +1,196 @@
+- generic: CREDIT ANALYTICS
+- generic: Delinquency and Portfolio Quality
+- generic: Retail lending · Past-due balances, migrations and contract review
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: "999"
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 0.00 m
+- generic: Unpaid scheduled principal
+- generic: OVERDUE INTEREST
+- generic: RUB 0.00 m
+- generic: Unpaid scheduled interest
+- generic: 31+ DPD EXPOSURE
+- generic: —
+- generic: RUB 0.00 m full-loan exposure
+- generic: 91+ DPD EXPOSURE
+- generic: —
+- generic: RUB 0.00 m full-loan exposure
+- generic: PAST-DUE LOANS
+- generic: "0"
+- generic: 0 active contracts in scope
+- generic: MONTHLY WRITE-OFFS
+- generic: RUB 0.00 m
+- generic: Oct 2026 · principal written off
+- generic: Exposure by DPD bucket
+- generic: Full outstanding principal · RUB bn · active contracts
+- generic: Monthly transitions
+- generic: 30 Sep 2026 → 31 Oct 2026 · Opening cohort · % and count
+- generic: FROM / TO
+- generic: "0"
+- generic: 1-30
+- generic: 31-60
+- generic: 61-90
+- generic: 91+
+- generic: Closed
+- generic: Written Off
+- generic: 0 (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: 1-30 (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: 31-60 (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: 61-90 (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: 91+ (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Closed (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Written Off (0)
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: —
+- generic: Diagonal = unchanged state · 0% = no transitions · — = no opening contracts
+- generic: Loan registry · select a loan to open details
+- generic: Page 1 of 1 · 0 loans
+- generic: No loans meet the registry threshold.
+- generic: REGISTRY THRESHOLD · APPLY TO UPDATE
+- generic: 1+ DPD
+- generic: 
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: No active loans match the selected filters.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

@@ -1,0 +1,203 @@
+- generic: CREDIT ANALYTICS
+- generic: Delinquency and Portfolio Quality
+- generic: Retail lending · Past-due balances, migrations and contract review
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: Month-end reporting
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 185.88 m
+- generic: Unpaid scheduled principal
+- generic: OVERDUE INTEREST
+- generic: RUB 168.53 m
+- generic: Unpaid scheduled interest
+- generic: 31+ DPD EXPOSURE
+- generic: 6.94%
+- generic: RUB 1.36 bn full-loan exposure
+- generic: 91+ DPD EXPOSURE
+- generic: 4.95%
+- generic: RUB 967.15 m full-loan exposure
+- generic: PAST-DUE LOANS
+- generic: 1,268
+- generic: 10,555 active contracts in scope
+- generic: MONTHLY WRITE-OFFS
+- generic: RUB 25.50 m
+- generic: Oct 2026 · principal written off
+- generic: Exposure by DPD bucket
+- generic: Full outstanding principal · RUB bn · active contracts
+- generic: Monthly transitions
+- generic: 30 Sep 2026 → 31 Oct 2026 · Opening cohort · % and count
+- generic: FROM / TO
+- generic: "0"
+- generic: 1-30
+- generic: 31-60
+- generic: 61-90
+- generic: 91+
+- generic: Closed
+- generic: Written Off
+- generic: 0 (8,986)
+- generic: 97.9% · 8,794
+- generic: 1.4% · 129
+- generic: 0.0% · 2
+- generic: 0%
+- generic: 0%
+- generic: 0.7% · 61
+- generic: 0%
+- generic: 1-30 (641)
+- generic: 14.5% · 93
+- generic: 71.3% · 457
+- generic: 13.9% · 89
+- generic: 0.3% · 2
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 31-60 (106)
+- generic: 0%
+- generic: 33.0% · 35
+- generic: 19.8% · 21
+- generic: 46.2% · 49
+- generic: 0.9% · 1
+- generic: 0%
+- generic: 0%
+- generic: 61-90 (50)
+- generic: 0%
+- generic: 0%
+- generic: 22.0% · 11
+- generic: 0%
+- generic: 78.0% · 39
+- generic: 0%
+- generic: 0%
+- generic: 91+ (444)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 97.5% · 433
+- generic: 0%
+- generic: 2.5% · 11
+- generic: Closed (1,196)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 1,196
+- generic: 0%
+- generic: Written Off (177)
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 0%
+- generic: 100.0% · 177
+- generic: Diagonal = unchanged state · 0% = no transitions · — = no opening contracts
+- generic: Loan registry
+- generic: Page 2 of 159 · 1,268 loans
+- generic: Ordered by DPD, principal balance and loan ID · amounts in RUB
+- generic: REGISTRY THRESHOLD · APPLY TO UPDATE
+- generic: 1+ DPD
+- generic: 
+- generic: ← Previous 1
+- generic: Next → 3
+- generic: LOAN
+- generic: CUSTOMER
+- generic: PRODUCT
+- generic: REGION
+- generic: CHANNEL
+- generic: BALANCE, RUB
+- generic: OVERDUE P., RUB
+- generic: OVERDUE I., RUB
+- generic: DPD
+- generic: LN-0008259
+- generic: Customer 008364
+- generic: Personal Loan
+- generic: Krasnodar Region
+- generic: Mobile App
+- generic: 1,395,084.91
+- generic: 818,787.95
+- generic: 721,542.61
+- generic: "945"
+- generic: LN-0010676
+- generic: Customer 000887
+- generic: Personal Loan
+- generic: Tatarstan
+- generic: Partner
+- generic: 93,482.26
+- generic: 93,482.26
+- generic: 24,930.90
+- generic: "945"
+- generic: LN-0008170
+- generic: Customer 003594
+- generic: Mortgage
+- generic: Tatarstan
+- generic: Partner
+- generic: 10,528,169.53
+- generic: 2,005,905.60
+- generic: 2,106,699.79
+- generic: "927"
+- generic: LN-0010074
+- generic: Customer 010255
+- generic: Personal Loan
+- generic: Krasnodar Region
+- generic: Branch
+- generic: 657,606.70
+- generic: 631,995.11
+- generic: 173,807.11
+- generic: "916"
+- generic: LN-0009209
+- generic: Customer 003845
+- generic: Personal Loan
+- generic: Novosibirsk Region
+- generic: Branch
+- generic: 131,750.26
+- generic: 80,226.72
+- generic: 42,928.98
+- generic: "902"
+- generic: LN-0003653
+- generic: Customer 004219
+- generic: Personal Loan
+- generic: Saint Petersburg
+- generic: Online
+- generic: 777,388.87
+- generic: 777,388.87
+- generic: 133,841.98
+- generic: "886"
+- generic: LN-0011657
+- generic: Customer 003796
+- generic: Auto Loan
+- generic: Novosibirsk Region
+- generic: Branch
+- generic: 2,942,097.44
+- generic: 1,275,901.06
+- generic: 1,182,858.44
+- generic: "885"
+- generic: LN-0001851
+- generic: Customer 003368
+- generic: Auto Loan
+- generic: Saint Petersburg
+- generic: Online
+- generic: 2,098,330.52
+- generic: 923,586.31
+- generic: 540,687.29
+- generic: "885"
+- generic: Full-loan exposure includes overdue principal. Registry threshold affects the loan list only.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

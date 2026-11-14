@@ -1,0 +1,217 @@
+table_name,column_name,data_type,is_nullable,numeric_scale,description
+application,application_id,bigint,NO,0,Application Id. Synthetic data; monetary amounts are RUB.
+application,customer_id,integer,NO,0,Customer Id. Synthetic data; monetary amounts are RUB.
+application,product_id,integer,NO,0,Product Id. Synthetic data; monetary amounts are RUB.
+application,channel_id,integer,NO,0,Channel Id. Synthetic data; monetary amounts are RUB.
+application,branch_id,integer,NO,0,Branch Id. Synthetic data; monetary amounts are RUB.
+application,submitted_date,date,NO,,Submitted Date. Synthetic data; monetary amounts are RUB.
+application,requested_amount,numeric,NO,2,Requested Amount. Synthetic data; monetary amounts are RUB.
+application,approved_date,date,YES,,Approved Date. Synthetic data; monetary amounts are RUB.
+application,funded_date,date,YES,,Funded Date. Synthetic data; monetary amounts are RUB.
+application,terminal_date,date,YES,,Terminal Date. Synthetic data; monetary amounts are RUB.
+application,outcome,text,NO,,Outcome. Synthetic data; monetary amounts are RUB.
+application_event,application_id,bigint,NO,0,Application Id. Synthetic data; monetary amounts are RUB.
+application_event,event_date,date,NO,,Event Date. Synthetic data; monetary amounts are RUB.
+application_event,event_sequence,integer,NO,0,Event Sequence. Synthetic data; monetary amounts are RUB.
+application_event,event_status,text,NO,,Event Status. Synthetic data; monetary amounts are RUB.
+branch,branch_id,integer,NO,0,Branch Id. Synthetic data; monetary amounts are RUB.
+branch,branch_name,text,NO,,Branch Name. Synthetic data; monetary amounts are RUB.
+branch,region_id,integer,NO,0,Region Id. Synthetic data; monetary amounts are RUB.
+calendar,calendar_date,date,NO,,Calendar Date. Synthetic data; monetary amounts are RUB.
+calendar,month_start,date,NO,,Month Start. Synthetic data; monetary amounts are RUB.
+calendar,month_end,date,NO,,Month End. Synthetic data; monetary amounts are RUB.
+calendar,year_number,integer,NO,0,Year Number. Synthetic data; monetary amounts are RUB.
+calendar,month_number,integer,NO,0,Month Number. Synthetic data; monetary amounts are RUB.
+channel,channel_id,integer,NO,0,Channel Id. Synthetic data; monetary amounts are RUB.
+channel,channel_name,text,NO,,Channel Name. Synthetic data; monetary amounts are RUB.
+customer,customer_id,integer,NO,0,Customer Id. Synthetic data; monetary amounts are RUB.
+customer,customer_label,text,NO,,Customer Label. Synthetic data; monetary amounts are RUB.
+customer,segment,text,NO,,Segment. Synthetic data; monetary amounts are RUB.
+customer,region_id,integer,NO,0,Region Id. Synthetic data; monetary amounts are RUB.
+customer,relationship_start,date,NO,,Relationship Start. Synthetic data; monetary amounts are RUB.
+dataset_run,run_id,integer,NO,0,Run Id. Synthetic data; monetary amounts are RUB.
+dataset_run,seed,integer,NO,0,Seed. Synthetic data; monetary amounts are RUB.
+dataset_run,history_start,date,NO,,History Start. Synthetic data; monetary amounts are RUB.
+dataset_run,report_start,date,NO,,Report Start. Synthetic data; monetary amounts are RUB.
+dataset_run,as_of_date,date,NO,,As Of Date. Synthetic data; monetary amounts are RUB.
+dataset_run,loan_count,integer,NO,0,Loan Count. Synthetic data; monetary amounts are RUB.
+dataset_run,is_synthetic,boolean,NO,,Is Synthetic. Synthetic data; monetary amounts are RUB.
+dataset_run,generator_version,text,NO,,Generator Version. Synthetic data; monetary amounts are RUB.
+loan,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+loan,loan_reference,text,NO,,Loan Reference. Synthetic data; monetary amounts are RUB.
+loan,application_id,bigint,NO,0,Application Id. Synthetic data; monetary amounts are RUB.
+loan,customer_id,integer,NO,0,Customer Id. Synthetic data; monetary amounts are RUB.
+loan,product_id,integer,NO,0,Product Id. Synthetic data; monetary amounts are RUB.
+loan,channel_id,integer,NO,0,Channel Id. Synthetic data; monetary amounts are RUB.
+loan,branch_id,integer,NO,0,Branch Id. Synthetic data; monetary amounts are RUB.
+loan,issue_date,date,NO,,Issue Date. Synthetic data; monetary amounts are RUB.
+loan,original_principal,numeric,NO,2,Original Principal. Synthetic data; monetary amounts are RUB.
+loan,annual_rate,numeric,NO,3,Annual Rate. Synthetic data; monetary amounts are RUB.
+loan,term_months,integer,NO,0,Term Months. Synthetic data; monetary amounts are RUB.
+loan,maturity_date,date,NO,,Maturity Date. Synthetic data; monetary amounts are RUB.
+loan,currency,character,NO,,Currency. Synthetic data; monetary amounts are RUB.
+loan,risk_at_origination,text,NO,,Risk At Origination. Synthetic data; monetary amounts are RUB.
+loan,actual_close_date,date,YES,,Actual Close Date. Synthetic data; monetary amounts are RUB.
+loan,close_reason,text,YES,,Close Reason. Synthetic data; monetary amounts are RUB.
+loan_month_age,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+loan_month_age,months_on_book,integer,NO,0,"Completed monthly anniversary relative to the original issue date, with month-end clamping."
+loan_month_age,observation_date,date,NO,,Observation Date. Synthetic data; monetary amounts are RUB.
+loan_month_age,ever_31_plus,boolean,NO,,Ever 31 Plus. Synthetic data; monetary amounts are RUB.
+loan_operation,operation_id,bigint,NO,0,Operation Id. Synthetic data; monetary amounts are RUB.
+loan_operation,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+loan_operation,operation_date,date,NO,,Operation Date. Synthetic data; monetary amounts are RUB.
+loan_operation,operation_type,text,NO,,Positive amounts. DISBURSEMENT adds principal; REPAYMENT/PREPAYMENT remove principal and receive interest; WRITE_OFF extinguishes debt without receiving cash.
+loan_operation,principal_amount,numeric,NO,2,Principal Amount. Synthetic data; monetary amounts are RUB.
+loan_operation,interest_amount,numeric,NO,2,Interest Amount. Synthetic data; monetary amounts are RUB.
+loan_snapshot,snapshot_date,date,NO,,Snapshot Date. Synthetic data; monetary amounts are RUB.
+loan_snapshot,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+loan_snapshot,principal_balance,numeric,NO,2,Principal Balance. Synthetic data; monetary amounts are RUB.
+loan_snapshot,overdue_principal,numeric,NO,2,Overdue Principal. Synthetic data; monetary amounts are RUB.
+loan_snapshot,overdue_interest,numeric,NO,2,Overdue Interest. Synthetic data; monetary amounts are RUB.
+loan_snapshot,dpd,integer,NO,0,Days since earliest unpaid principal or interest obligation strictly before snapshot_date; due day is DPD zero.
+loan_snapshot,dpd_bucket,text,NO,,Dpd Bucket. Synthetic data; monetary amounts are RUB.
+loan_snapshot,loan_status,text,NO,,Loan Status. Synthetic data; monetary amounts are RUB.
+loan_snapshot,ever_31_plus,boolean,NO,,"True once a loan has reached DPD >=31 on any observed end-of-day date, including before report_start."
+payment_allocation,allocation_id,bigint,NO,0,Allocation Id. Synthetic data; monetary amounts are RUB.
+payment_allocation,operation_id,bigint,NO,0,Operation Id. Synthetic data; monetary amounts are RUB.
+payment_allocation,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+payment_allocation,schedule_version,integer,NO,0,Schedule Version. Synthetic data; monetary amounts are RUB.
+payment_allocation,installment_no,integer,NO,0,Installment No. Synthetic data; monetary amounts are RUB.
+payment_allocation,component,text,NO,,Component. Synthetic data; monetary amounts are RUB.
+payment_allocation,allocated_amount,numeric,NO,2,Allocated Amount. Synthetic data; monetary amounts are RUB.
+payment_schedule,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+payment_schedule,schedule_version,integer,NO,0,Schedule Version. Synthetic data; monetary amounts are RUB.
+payment_schedule,installment_no,integer,NO,0,Installment No. Synthetic data; monetary amounts are RUB.
+payment_schedule,effective_from,date,NO,,Effective From. Synthetic data; monetary amounts are RUB.
+payment_schedule,due_date,date,NO,,Due Date. Synthetic data; monetary amounts are RUB.
+payment_schedule,principal_due,numeric,NO,2,Principal Due. Synthetic data; monetary amounts are RUB.
+payment_schedule,interest_due,numeric,NO,2,Interest Due. Synthetic data; monetary amounts are RUB.
+payment_schedule,cancelled_on,date,YES,,Future installment cancelled following observed closure; historical detail must compare this date to its as-of parameter.
+product,product_id,integer,NO,0,Product Id. Synthetic data; monetary amounts are RUB.
+product,product_name,text,NO,,Product Name. Synthetic data; monetary amounts are RUB.
+region,region_id,integer,NO,0,Region Id. Synthetic data; monetary amounts are RUB.
+region,region_name,text,NO,,Region Name. Synthetic data; monetary amounts are RUB.
+sales_plan,plan_month,date,NO,,Plan Month. Synthetic data; monetary amounts are RUB.
+sales_plan,product_id,integer,NO,0,Product Id. Synthetic data; monetary amounts are RUB.
+sales_plan,branch_id,integer,NO,0,Branch Id. Synthetic data; monetary amounts are RUB.
+sales_plan,planned_amount,numeric,NO,2,Planned Amount. Synthetic data; monetary amounts are RUB.
+sales_plan,planned_count,integer,NO,0,Planned Count. Synthetic data; monetary amounts are RUB.
+simulation_scenario,loan_id,bigint,NO,0,Loan Id. Synthetic data; monetary amounts are RUB.
+simulation_scenario,scenario_code,text,NO,,Scenario Code. Synthetic data; monetary amounts are RUB.
+simulation_scenario,scenario_description,text,NO,,Scenario Description. Synthetic data; monetary amounts are RUB.
+v_loan_dimension,loan_id,bigint,YES,0,
+v_loan_dimension,loan_reference,text,YES,,
+v_loan_dimension,application_id,bigint,YES,0,
+v_loan_dimension,customer_id,integer,YES,0,
+v_loan_dimension,product_id,integer,YES,0,
+v_loan_dimension,channel_id,integer,YES,0,
+v_loan_dimension,branch_id,integer,YES,0,
+v_loan_dimension,issue_date,date,YES,,
+v_loan_dimension,original_principal,numeric,YES,2,
+v_loan_dimension,annual_rate,numeric,YES,3,
+v_loan_dimension,term_months,integer,YES,0,
+v_loan_dimension,maturity_date,date,YES,,
+v_loan_dimension,currency,character,YES,,
+v_loan_dimension,risk_at_origination,text,YES,,
+v_loan_dimension,actual_close_date,date,YES,,
+v_loan_dimension,close_reason,text,YES,,
+v_loan_dimension,product_name,text,YES,,
+v_loan_dimension,channel_name,text,YES,,
+v_loan_dimension,branch_name,text,YES,,
+v_loan_dimension,region_id,integer,YES,0,
+v_loan_dimension,region_name,text,YES,,
+v_loan_dimension,customer_label,text,YES,,
+v_loan_dimension,segment,text,YES,,
+v_loan_dimension,cohort_month,date,YES,,
+v_month_end_snapshot,snapshot_date,date,YES,,
+v_month_end_snapshot,loan_id,bigint,YES,0,
+v_month_end_snapshot,principal_balance,numeric,YES,2,
+v_month_end_snapshot,overdue_principal,numeric,YES,2,
+v_month_end_snapshot,overdue_interest,numeric,YES,2,
+v_month_end_snapshot,dpd,integer,YES,0,
+v_month_end_snapshot,dpd_bucket,text,YES,,
+v_month_end_snapshot,loan_status,text,YES,,
+v_month_end_snapshot,ever_31_plus,boolean,YES,,
+v_month_end_snapshot,loan_reference,text,YES,,
+v_month_end_snapshot,customer_id,integer,YES,0,
+v_month_end_snapshot,customer_label,text,YES,,
+v_month_end_snapshot,product_id,integer,YES,0,
+v_month_end_snapshot,product_name,text,YES,,
+v_month_end_snapshot,channel_id,integer,YES,0,
+v_month_end_snapshot,channel_name,text,YES,,
+v_month_end_snapshot,branch_id,integer,YES,0,
+v_month_end_snapshot,branch_name,text,YES,,
+v_month_end_snapshot,region_id,integer,YES,0,
+v_month_end_snapshot,region_name,text,YES,,
+v_month_end_snapshot,issue_date,date,YES,,
+v_month_end_snapshot,cohort_month,date,YES,,
+v_month_end_snapshot,risk_at_origination,text,YES,,
+v_monthly_transition,from_date,date,YES,,
+v_monthly_transition,to_date,date,YES,,
+v_monthly_transition,loan_id,bigint,YES,0,
+v_monthly_transition,product_id,integer,YES,0,
+v_monthly_transition,channel_id,integer,YES,0,
+v_monthly_transition,branch_id,integer,YES,0,
+v_monthly_transition,region_id,integer,YES,0,
+v_monthly_transition,from_bucket,text,YES,,
+v_monthly_transition,to_bucket,text,YES,,
+v_monthly_transition,opening_principal,numeric,YES,2,
+v_monthly_transition,closing_principal,numeric,YES,2,
+v_portfolio_monthly,snapshot_date,date,YES,,
+v_portfolio_monthly,product_id,integer,YES,0,
+v_portfolio_monthly,product_name,text,YES,,
+v_portfolio_monthly,region_id,integer,YES,0,
+v_portfolio_monthly,region_name,text,YES,,
+v_portfolio_monthly,principal_balance,numeric,YES,,
+v_portfolio_monthly,exposure_31_plus,numeric,YES,,
+v_portfolio_monthly,exposure_91_plus,numeric,YES,,
+v_portfolio_monthly,overdue_principal,numeric,YES,,
+v_portfolio_monthly,overdue_interest,numeric,YES,,
+v_portfolio_monthly,active_loans,bigint,YES,0,
+v_sales_monthly,plan_month,date,YES,,
+v_sales_monthly,product_id,integer,YES,0,
+v_sales_monthly,branch_id,integer,YES,0,
+v_sales_monthly,planned_amount,numeric,YES,2,
+v_sales_monthly,planned_count,integer,YES,0,
+v_sales_monthly,product_name,text,YES,,
+v_sales_monthly,branch_name,text,YES,,
+v_sales_monthly,region_id,integer,YES,0,
+v_sales_monthly,region_name,text,YES,,
+v_sales_monthly,funded_amount,numeric,YES,,
+v_sales_monthly,funded_count,bigint,YES,0,
+v_sales_monthly,plan_attainment,numeric,YES,,
+v_schedule_actual,loan_id,bigint,YES,0,
+v_schedule_actual,schedule_version,integer,YES,0,
+v_schedule_actual,installment_no,integer,YES,0,
+v_schedule_actual,effective_from,date,YES,,
+v_schedule_actual,due_date,date,YES,,
+v_schedule_actual,principal_due,numeric,YES,2,
+v_schedule_actual,interest_due,numeric,YES,2,
+v_schedule_actual,cancelled_on,date,YES,,
+v_schedule_actual,principal_paid,numeric,YES,,
+v_schedule_actual,interest_paid,numeric,YES,,
+v_schedule_actual,principal_written_off,numeric,YES,,
+v_schedule_actual,interest_written_off,numeric,YES,,
+v_snapshot,snapshot_date,date,YES,,
+v_snapshot,loan_id,bigint,YES,0,
+v_snapshot,principal_balance,numeric,YES,2,
+v_snapshot,overdue_principal,numeric,YES,2,
+v_snapshot,overdue_interest,numeric,YES,2,
+v_snapshot,dpd,integer,YES,0,
+v_snapshot,dpd_bucket,text,YES,,
+v_snapshot,loan_status,text,YES,,
+v_snapshot,ever_31_plus,boolean,YES,,
+v_snapshot,loan_reference,text,YES,,
+v_snapshot,customer_id,integer,YES,0,
+v_snapshot,customer_label,text,YES,,
+v_snapshot,product_id,integer,YES,0,
+v_snapshot,product_name,text,YES,,
+v_snapshot,channel_id,integer,YES,0,
+v_snapshot,channel_name,text,YES,,
+v_snapshot,branch_id,integer,YES,0,
+v_snapshot,branch_name,text,YES,,
+v_snapshot,region_id,integer,YES,0,
+v_snapshot,region_name,text,YES,,
+v_snapshot,issue_date,date,YES,,
+v_snapshot,cohort_month,date,YES,,
+v_snapshot,risk_at_origination,text,YES,,

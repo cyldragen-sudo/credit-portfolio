@@ -1,0 +1,131 @@
+Browser tab: 1, Title: "Portfolio_Overview", URL: "http://localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_region_id=999&p_loan_id=999999".
+1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_region_id=999&p_loan_id=999999
+	2 container
+		3 container root
+			4 container preview
+				5 container
+					6 container
+						7 text CREDIT ANALYTICS
+					8 container
+						9 text Portfolio Overview
+					10 container
+						11 text Retail lending · Growth, composition and credit quality
+					12 container
+						13 text SYNTHETIC DATA  /  RUB
+					14 container
+						15 text 31 Oct 2026
+					16 container
+						17 text AS OF
+					18 container
+						19 container
+							20 container
+								21 text October 2026
+							22 text 
+					23 container
+						24 text PRODUCT
+					25 container
+						26 container
+							27 container
+								28 text All Products
+							29 text 
+					30 container
+						31 text REGION
+					32 container
+						33 container
+							34 container
+								35 text 999
+							36 text 
+					37 container
+						38 text CHANNEL
+					39 container
+						40 container
+							41 container
+								42 text All Channels
+							43 text 
+					44 container
+						45 text Apply
+					46 container
+						47 text Month-end reporting
+					48 container
+						49 text PORTFOLIO BALANCE
+					50 container
+						51 text RUB 0.00 m
+					52 container
+						53 text vs 30 Sep 2026
+					54 container
+						55 text MTD DISBURSEMENTS
+					56 container
+						57 text RUB 0.00 m
+					58 container
+						59 text October 2026 funding
+					60 container
+						61 text ACTIVE BORROWERS
+					62 container
+						63 text 0
+					64 container
+						65 text 0 active loans
+					66 container
+						67 text MONTHLY GROWTH
+					68 container
+						69 text —
+					70 container
+						71 text RUB 0.00 m change
+					72 container
+						73 text 31+ DPD EXPOSURE
+					74 container
+						75 text —
+					76 container
+						77 text RUB 0.00 m exposure
+					78 container
+						79 text 91+ DPD EXPOSURE
+					80 container
+						81 text —
+					82 container
+						83 text RUB 0.00 m exposure
+					84 container
+						85 text Portfolio trend
+					86 container
+						87 text Outstanding principal · RUB bn · completed month ends
+					88 container
+						89 text Delinquency trend
+					90 container
+						91 text Whole-loan principal exposure · % of portfolio
+					92 container
+						93 text Product composition
+					94 container
+						95 text Outstanding principal · RUB bn
+					96 container
+						97 text Regional performance
+					98 container
+						99 text Origination region · balances in RUB bn · growth vs previous month end
+					100 container
+						101 text REGION
+					102 container
+						103 text BALANCE
+					104 container
+						105 text GROWTH
+					106 container
+						107 text BORROWERS
+					108 container
+						109 text 31+ DPD
+					110 container
+						111 text 91+ DPD
+					112 container
+						113 text No loans match the selected filters.
+					114 container
+						115 text DEMO · NOT REGULATORY REPORTING
+					116 container
+						117 text Overview
+					118 container
+						119 text Sales and Funnel
+					120 container
+						121 text Portfolio Quality
+					122 container
+						123 text Vintage Analysis
+					124 container
+						125 text Loan Details
+			126 text You are using an unregistered function FineVis Visualization Dashboard.
+		127 button alert, ID: data-sentinel-button
+			128 image alert
+
+The focused UI element is 1 AXWebArea Portfolio_Overview, URL: localhost:8075/webroot/decision/view/duchamp?viewlet=CREDIT_PORTFOLIO%252FPortfolio_Overview.fvs&page_number=1&p_region_id=999&p_loan_id=999999

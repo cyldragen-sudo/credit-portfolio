@@ -1,0 +1,23 @@
+{
+  "automated_tests_passed": 26,
+  "pages": [
+    "Portfolio Overview",
+    "Sales and Funnel"
+  ],
+  "native_widgets": 230,
+  "datasets": 16,
+  "native_charts": 6,
+  "native_funnel": true,
+  "bidirectional_navigation_observed": true,
+  "all_four_filters_retained": true,
+  "historical_scope_observed": true,
+  "explicit_parameter_reload_observed": true,
+  "empty_sales_charts_and_tables_cleared": true,
+  "plan_all_channels_scope_observed": true,
+  "original_overview_balance_unchanged": true,
+  "browser_errors": 0,
+  "viewport_restored": true,
+  "vendor_trial_notice_preserved": true,
+  "base_data_changed": false,
+  "other_projects_modified": false
+}

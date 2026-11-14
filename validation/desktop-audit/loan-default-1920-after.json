@@ -1,0 +1,27 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 13,
+      "name": "Operations principal_label1",
+      "renderedFontApprox": 12.59375
+    },
+    {
+      "fontCss": 13,
+      "name": "Payment schedule principal_label1",
+      "renderedFontApprox": 12.59375
+    }
+  ],
+  "overlaps": [],
+  "file": "loan-default-1920-after",
+  "notice": {
+    "bottom": 1050,
+    "height": 60,
+    "left": 1051.1953125,
+    "right": 1900,
+    "top": 990,
+    "width": 848.8046875,
+    "x": 1051.1953125,
+    "y": 990
+  }
+}

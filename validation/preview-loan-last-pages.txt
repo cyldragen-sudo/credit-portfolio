@@ -1,0 +1,175 @@
+- generic: CREDIT ANALYTICS
+- generic: Loan Details
+- generic: LN-0000001 · Customer 007146 · Personal Loan
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: ← Back to registry
+- generic: PRINCIPAL BALANCE
+- generic: RUB 50,045.20
+- generic: Outstanding principal · RUB
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 0.00
+- generic: Unpaid scheduled principal · RUB
+- generic: OVERDUE INTEREST
+- generic: RUB 0.00
+- generic: Unpaid scheduled interest · RUB
+- generic: DAYS PAST DUE
+- generic: "0"
+- generic: As of selected month end
+- generic: CONTRACT STATUS
+- generic: Active
+- generic: Observed state on selected date
+- generic: CASH RECEIVED
+- generic: RUB 568,382.98
+- generic: Cumulative receipts · excludes write-offs
+- generic: ORIGINAL PRINCIPAL
+- generic: RUB 480,000.00
+- generic: ANNUAL RATE
+- generic: 25.90%
+- generic: ORIGINAL TERM
+- generic: 24 months
+- generic: ISSUED
+- generic: 22 Dec 2024
+- generic: CONTRACTUAL MATURITY
+- generic: 22 Dec 2026
+- generic: OBSERVED CLOSE DATE
+- generic: —
+- generic: "Sverdlovsk Region · Sverdlovsk Region Branch 03 · Branch · Origination risk: Low"
+- generic: Principal history
+- generic: Month-end outstanding principal · RUB m
+- generic: Delinquency history
+- generic: Month-end days past due · days
+- generic: Operations
+- generic: Page 3 of 3 · 23 rows
+- generic: ← Previous 2
+- generic: Next → 3
+- generic: DATE
+- generic: TYPE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: CASH, RUB
+- generic: 22 Jun 25
+- generic: Repayment
+- generic: 17,219.33
+- generic: 8,616.26
+- generic: 25,835.59
+- generic: 22 May 25
+- generic: Repayment
+- generic: 16,855.53
+- generic: 8,980.06
+- generic: 25,835.59
+- generic: 22 Apr 25
+- generic: Repayment
+- generic: 16,499.42
+- generic: 9,336.17
+- generic: 25,835.59
+- generic: 22 Mar 25
+- generic: Repayment
+- generic: 16,150.83
+- generic: 9,684.76
+- generic: 25,835.59
+- generic: 22 Feb 25
+- generic: Repayment
+- generic: 15,809.60
+- generic: 10,025.99
+- generic: 25,835.59
+- generic: 22 Jan 25
+- generic: Repayment
+- generic: 15,475.59
+- generic: 10,360.00
+- generic: 25,835.59
+- generic: 22 Dec 24
+- generic: Disbursement
+- generic: 480,000.00
+- generic: "0.00"
+- generic: "0.00"
+- generic: Payment schedule
+- generic: Page 3 of 3 · 24 rows
+- generic: ← Previous 2
+- generic: Next → 3
+- generic: "#"
+- generic: DUE DATE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: PAID, RUB
+- generic: WRITTEN OFF, RUB
+- generic: STATUS
+- generic: "17"
+- generic: 22 May 26
+- generic: 21,778.50
+- generic: 4,057.09
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "18"
+- generic: 22 Jun 26
+- generic: 22,248.55
+- generic: 3,587.04
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "19"
+- generic: 22 Jul 26
+- generic: 22,728.75
+- generic: 3,106.84
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "20"
+- generic: 22 Aug 26
+- generic: 23,219.31
+- generic: 2,616.28
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "21"
+- generic: 22 Sep 26
+- generic: 23,720.46
+- generic: 2,115.13
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "22"
+- generic: 22 Oct 26
+- generic: 24,232.43
+- generic: 1,603.16
+- generic: 25,835.59
+- generic: "0.00"
+- generic: Settled
+- generic: "23"
+- generic: 22 Nov 26
+- generic: 24,755.45
+- generic: 1,080.14
+- generic: "0.00"
+- generic: "0.00"
+- generic: Scheduled
+- generic: "24"
+- generic: 22 Dec 26
+- generic: 25,289.75
+- generic: "545.84"
+- generic: "0.00"
+- generic: "0.00"
+- generic: Scheduled
+- generic: Contract follows loan ID and As of; portfolio filters are retained for return.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

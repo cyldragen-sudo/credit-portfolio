@@ -1,0 +1,66 @@
+[
+  {
+    "action": "Operations ← Previous",
+    "marker": "Page 1 of 2 · 11 rows",
+    "changedField": "Operations date_label1",
+    "before": "02 Jan 25",
+    "after": "02 Sep 25",
+    "passed": true
+  },
+  {
+    "action": "Operations Next →",
+    "marker": "Page 2 of 2 · 11 rows",
+    "changedField": "Operations date_label1",
+    "before": "02 Sep 25",
+    "after": "02 Jan 25",
+    "passed": true
+  },
+  {
+    "action": "Payment schedule Next →",
+    "marker": "Page 3 of 5 · 36 rows",
+    "changedField": "Payment schedule installment_label1",
+    "before": "9",
+    "after": "17",
+    "passed": true
+  },
+  {
+    "action": "Payment schedule ← Previous",
+    "marker": "Page 2 of 5 · 36 rows",
+    "changedField": "Payment schedule installment_label1",
+    "before": "17",
+    "after": "9",
+    "passed": true
+  },
+  {
+    "action": "Registry Next →",
+    "marker": "Page 3 of 21 · 163 loans",
+    "changedField": "Registry loan_reference1",
+    "before": "LN-0001740",
+    "after": "LN-0009435",
+    "passed": true
+  },
+  {
+    "action": "Registry ← Previous",
+    "marker": "Page 2 of 21 · 163 loans",
+    "changedField": "Registry loan_reference1",
+    "before": "LN-0009435",
+    "after": "LN-0001740",
+    "passed": true
+  },
+  {
+    "action": "Vintage ← Previous",
+    "marker": "Cohorts 1–6 of 11",
+    "changedField": "Vintage cohort 0",
+    "before": "Mar 25",
+    "after": "Sep 25",
+    "passed": true
+  },
+  {
+    "action": "Vintage Next →",
+    "marker": "Cohorts 7–11 of 11",
+    "changedField": "Vintage cohort 0",
+    "before": "Sep 25",
+    "after": "Mar 25",
+    "passed": true
+  }
+]

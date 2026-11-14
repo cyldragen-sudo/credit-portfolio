@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-04T23:08:36.770265+00:00",
+  "scope": "Read-only review following 0.9 vertical-spacing notice-clearance fix",
+  "summary": {
+    "checks": 870,
+    "passed": 870,
+    "failures": [],
+    "inherited_previous_checks": 618,
+    "native_test_suite": "4 tests passed in 1.108 seconds"
+  },
+  "artifact_sha256": {
+    "portable": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+    "private": "4c36d06b99f02d4532afa89be93906727ad90a71f554583d0b0ab741975eafd1",
+    "installed": "4c36d06b99f02d4532afa89be93906727ad90a71f554583d0b0ab741975eafd1"
+  },
+  "check_groups": {
+    "geometry": {
+      "checked": 784,
+      "passed": 784,
+      "failures": []
+    },
+    "store_identical_after_reversing_only_y_and_background_chart_heights": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "chart_assets_unchanged": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "datasets_and_parameters_unchanged": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "compute": {
+      "checked": 37,
+      "passed": 37,
+      "failures": []
+    },
+    "tab11": {
+      "checked": 20,
+      "passed": 20,
+      "failures": []
+    },
+    "pager_isolated": {
+      "checked": 8,
+      "passed": 8,
+      "failures": []
+    },
+    "drill": {
+      "checked": 8,
+      "passed": 8,
+      "failures": []
+    },
+    "return_retains11": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "all521computes_reachable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "counts_20tabs_8drills_8pagers": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_installed_byteidentical": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "private_store_and_assets_equal_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "installed_store_and_assets_equal_portable": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "fresh_source_matches_delivered": {
+      "checked": 1,
+      "passed": 1,
+      "failures": []
+    },
+    "data_boxes_clear_90px_notice": {
+      "checked": 3,
+      "passed": 3,
+      "failures": []
+    }
+  },
+  "table_clearance": [
+    {
+      "section": "Registry",
+      "data_cells": 72,
+      "last_box_bottom_canvas": 902.2,
+      "bottom_at_1366x768": 641.564,
+      "assumed_notice_top_1366x768": 678,
+      "box_clearance_px": 36.436,
+      "min_font_unchanged": 14
+    },
+    {
+      "section": "Operations",
+      "data_cells": 40,
+      "last_box_bottom_canvas": 908.75,
+      "bottom_at_1366x768": 646.222,
+      "assumed_notice_top_1366x768": 678,
+      "box_clearance_px": 31.778,
+      "min_font_unchanged": 13
+    },
+    {
+      "section": "Payment schedule",
+      "data_cells": 56,
+      "last_box_bottom_canvas": 908.75,
+      "bottom_at_1366x768": 646.222,
+      "assumed_notice_top_1366x768": 678,
+      "box_clearance_px": 31.778,
+      "min_font_unchanged": 13
+    }
+  ],
+  "semantic_conclusion": "Exact old/new store equality after reversing only per-widget y and background/chart heights proves events, formulas, computes, parameters, fonts, text/control heights, x-grid, dictionaries, colors and native chart assets unchanged. Prior 618 state-contract checks remain applicable.",
+  "findings": [],
+  "limits": [
+    "No browser use: actual glyph readability and vendor notice position still require lead browser verification at 1366 and 1920.",
+    "Keeping text heights while reducing row pitch makes some cell boxes overlap; this alone is not evidence of visible glyph collision. Loan row pitch is 17.55 canvas px at unchanged font13, registry pitch20.7 at font14.",
+    "Notice-clearance calculation uses observed 90px lower exclusion zone and supported 1366x768 scale, matching regression test; arbitrary shorter viewports not covered."
+  ]
+}

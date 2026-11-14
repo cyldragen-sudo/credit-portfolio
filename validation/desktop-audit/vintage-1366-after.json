@@ -1,0 +1,22 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 38,
+      "name": "Vintage cell 0 0",
+      "renderedFontApprox": 26.71513921564276
+    }
+  ],
+  "overlaps": [],
+  "file": "vintage-1366-after",
+  "notice": {
+    "bottom": 738,
+    "height": 60,
+    "left": 497.1953125,
+    "right": 1346,
+    "top": 678,
+    "width": 848.8046875,
+    "x": 497.1953125,
+    "y": 678
+  }
+}

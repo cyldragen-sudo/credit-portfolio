@@ -1,0 +1,22 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 15,
+      "name": "balance_label 1",
+      "renderedFontApprox": 10.666701372931986
+    }
+  ],
+  "overlaps": [],
+  "file": "overview-1366-after",
+  "notice": {
+    "bottom": 738,
+    "height": 60,
+    "left": 497.1953125,
+    "right": 1346,
+    "top": 678,
+    "width": 848.8046875,
+    "x": 497.1953125,
+    "y": 678
+  }
+}

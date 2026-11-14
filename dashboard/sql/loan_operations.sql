@@ -1,0 +1,67 @@
+WITH selected AS (SELECT l.loan_id,l.loan_reference,l.customer_label,l.product_name,l.channel_name,l.branch_name,
+ l.region_name,l.issue_date,l.original_principal,l.annual_rate,l.term_months,l.maturity_date,
+ l.currency,l.risk_at_origination,s.snapshot_date,s.principal_balance,s.overdue_principal,
+ s.overdue_interest,s.dpd,s.dpd_bucket,s.loan_status,
+ CASE WHEN l.actual_close_date<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) THEN l.actual_close_date END AS actual_close_date,
+ CASE WHEN l.actual_close_date<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) THEN l.close_reason END AS close_reason
+FROM credit.v_loan_dimension l JOIN credit.loan_snapshot s USING(loan_id)
+WHERE l.loan_id=${INT(p_loan_id)} AND s.snapshot_date=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date)),
+      operations AS (SELECT o.* FROM (SELECT operation_id,operation_date,operation_type,principal_amount,interest_amount,
+ CASE WHEN operation_type IN ('REPAYMENT','PREPAYMENT') THEN principal_amount+interest_amount
+ ELSE 0 END AS cash_received
+FROM credit.loan_operation WHERE loan_id=${INT(p_loan_id)} AND operation_date<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date)
+ORDER BY operation_date,operation_id) o WHERE EXISTS(SELECT 1 FROM selected)),
+      schedule AS (SELECT s.*,s.principal_paid+s.interest_paid paid_amount,
+        s.principal_written_off+s.interest_written_off written_off_amount
+        FROM (WITH allocations AS (
+ SELECT a.loan_id,a.schedule_version,a.installment_no,
+ coalesce(sum(allocated_amount) FILTER(WHERE component='Principal' AND operation_type<>'WRITE_OFF'),0) AS principal_paid,
+ coalesce(sum(allocated_amount) FILTER(WHERE component='Interest' AND operation_type<>'WRITE_OFF'),0) AS interest_paid,
+ coalesce(sum(allocated_amount) FILTER(WHERE component='Principal' AND operation_type='WRITE_OFF'),0) AS principal_written_off,
+ coalesce(sum(allocated_amount) FILTER(WHERE component='Interest' AND operation_type='WRITE_OFF'),0) AS interest_written_off
+ FROM credit.payment_allocation a JOIN credit.loan_operation o USING(operation_id)
+ WHERE a.loan_id=${INT(p_loan_id)} AND o.operation_date<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) GROUP BY 1,2,3
+)
+SELECT s.installment_no,s.due_date,s.principal_due,s.interest_due,
+ coalesce(a.principal_paid,0) AS principal_paid,coalesce(a.interest_paid,0) AS interest_paid,
+ coalesce(a.principal_written_off,0) AS principal_written_off,
+ coalesce(a.interest_written_off,0) AS interest_written_off,
+ CASE WHEN s.cancelled_on<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) THEN s.cancelled_on END AS cancelled_on,
+ CASE WHEN s.due_date<(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) THEN s.principal_due-coalesce(a.principal_paid,0)-coalesce(a.principal_written_off,0) ELSE 0 END AS overdue_principal,
+ CASE WHEN s.due_date<(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) AND (s.cancelled_on IS NULL OR s.cancelled_on>(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date))
+ THEN s.interest_due-coalesce(a.interest_paid,0)-coalesce(a.interest_written_off,0) ELSE 0 END AS overdue_interest
+FROM credit.payment_schedule s LEFT JOIN allocations a USING(loan_id,schedule_version,installment_no)
+WHERE s.loan_id=${INT(p_loan_id)} AND s.effective_from<=(SELECT calendar_date FROM credit.calendar CROSS JOIN credit.dataset_run
+ WHERE calendar_date=month_end AND to_char(calendar_date,'YYYYMMDD')::integer=${INT(p_date_key)}
+ AND calendar_date BETWEEN report_start AND as_of_date) ORDER BY s.installment_no) s WHERE EXISTS(SELECT 1 FROM selected)),
+      counts AS (SELECT (SELECT count(*) FROM operations) operation_count,
+        (SELECT count(*) FROM schedule) schedule_count),
+      page_counts AS (SELECT *,greatest(1,ceil(operation_count::numeric/8))::integer operation_page_count,
+        greatest(1,ceil(schedule_count::numeric/8))::integer schedule_page_count FROM counts),
+      paging AS (SELECT *,least(greatest(${INT(p_operation_page)},1),operation_page_count)::integer operation_page_no,
+        least(greatest(${INT(p_schedule_page)},1),schedule_page_count)::integer schedule_page_no FROM page_counts), ordered AS (SELECT *,row_number() OVER(ORDER BY operation_date DESC,operation_id DESC) row_no FROM operations)
+      SELECT o.*,to_char(operation_date,'DD Mon YY') date_label,
+        initcap(replace(operation_type,'_',' ')) type_label,
+        to_char(principal_amount,'FM999,999,990.00') principal_label,
+        to_char(interest_amount,'FM999,999,990.00') interest_label,
+        to_char(cash_received,'FM999,999,990.00') cash_label
+      FROM ordered o CROSS JOIN paging p
+      WHERE row_no BETWEEN (p.operation_page_no-1)*8+1 AND p.operation_page_no*8 ORDER BY row_no;

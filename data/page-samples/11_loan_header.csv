@@ -1,0 +1,2 @@
+loan_id,loan_reference,customer_label,product_name,channel_name,branch_name,region_name,issue_date,original_principal,annual_rate,term_months,maturity_date,currency,risk_at_origination,snapshot_date,principal_balance,overdue_principal,overdue_interest,dpd,dpd_bucket,loan_status,actual_close_date,close_reason
+1,LN-0000001,Customer 007146,Personal Loan,Branch,Sverdlovsk Region Branch 03,Sverdlovsk Region,2024-12-22,480000.00,25.900,24,2026-12-22,RUB,Low,2026-10-31,50045.20,0.00,0.00,0,0,Active,,

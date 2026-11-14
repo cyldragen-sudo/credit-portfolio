@@ -1,0 +1,17 @@
+filter_type,option_id,option_label
+Channel,0,All Channels
+Channel,1,Branch
+Channel,2,Online
+Channel,3,Mobile App
+Channel,4,Partner
+Product,0,All Products
+Product,1,Personal Loan
+Product,2,Auto Loan
+Product,3,Mortgage
+Region,0,All Regions
+Region,1,Moscow
+Region,2,Saint Petersburg
+Region,3,Tatarstan
+Region,4,Sverdlovsk Region
+Region,5,Krasnodar Region
+Region,6,Novosibirsk Region

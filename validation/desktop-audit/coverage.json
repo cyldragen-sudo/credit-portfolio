@@ -1,0 +1,2705 @@
+{
+  "version": 1,
+  "artifact": {
+    "identity": "CREDIT_PORTFOLIO/Portfolio_Overview.fvs",
+    "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+    "view": "Five desktop pages at1366x768 and1920x1080; all20 directed routes; five Apply buttons; independent paging and loan return"
+  },
+  "categories": [
+    {
+      "id": "source",
+      "label": "Source authority and confidence",
+      "applicable": true,
+      "assessment": "The 49 numerical components retain the declared synthetic source, valid native bindings and unchanged SQL; portable/private/installed parity verified."
+    },
+    {
+      "id": "value",
+      "label": "SQL/value accuracy",
+      "applicable": false,
+      "reason": "This request is a desktop readability/navigation audit, not a new independent raw-ledger reconciliation. All30 refreshed headline labels matched current native SQL in dated UI tests; prior numerical audits are retained."
+    },
+    {
+      "id": "within",
+      "label": "Within-chart agreement",
+      "applicable": true,
+      "assessment": "All ten charts retain coherent titles, axes, units, legends and native series bindings. Final desktop renders checked; individual marks were not independently recomputed."
+    },
+    {
+      "id": "details",
+      "label": "Complete source details",
+      "applicable": false,
+      "reason": "This native FineVIS report has no interactive SQL/source-inspector surface. Delivered SQL and bindings were inspected separately."
+    },
+    {
+      "id": "cross",
+      "label": "Cross-artifact consistency",
+      "applicable": true,
+      "assessment": "All twenty directed tab transitions retained shared filters and visible local context; source review verifies explicit forwarding of all eleven parameters."
+    },
+    {
+      "id": "quality",
+      "label": "Data-quality controls",
+      "applicable": false,
+      "reason": "Underlying fixture completeness/duplicates/freshness were not reprofiled in this UI audit. Source data and SQL were unchanged; the PostgreSQL regression suite passed."
+    },
+    {
+      "id": "conclusion",
+      "label": "Conclusion support",
+      "applicable": false,
+      "reason": "The report presents descriptive measurements, with no causal or prescriptive business conclusions to validate."
+    },
+    {
+      "id": "clarity",
+      "label": "Analytical clarity",
+      "applicable": true,
+      "assessment": "All five page purposes and material definitions remain clear, including sales cohorts versus funded flow, all-channel plans, whole-loan exposure and cohort maturity."
+    },
+    {
+      "id": "visual",
+      "label": "Visual and interaction consistency",
+      "applicable": true,
+      "assessment": "All35 control paths passed and notice overlap was repaired. Four page units retain a P2 small-table-text caveat at1366x768 (approximately9\u201311px); FullHD is more comfortable. No clipping or notice/data overlap remains in ten final renders."
+    },
+    {
+      "id": "useful",
+      "label": "Dashboard usefulness and completeness",
+      "applicable": true,
+      "assessment": "All five requested analytical jobs and their existing major sections remain available in the desktop composition; no requested view was removed."
+    }
+  ],
+  "units": [
+    {
+      "id": "page-1",
+      "label": "Portfolio Overview",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "overview-1366-after.json",
+                "overview-1366-after.jpg",
+                "overview-1920-after.json",
+                "overview-1920-after.jpg",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": [
+            {
+              "id": "small-table-text-1366-1",
+              "status": "open",
+              "severity": "P2",
+              "evidence": [
+                "overview-1366-after.json",
+                "overview-1366-after.jpg"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ]
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "visual-review.md",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "overview-1920-after.jpg",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-bb9e3ba5-aa5e-51c9-a511-15b1d2ccf45f",
+      "label": "PORTFOLIO BALANCE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-61128ae8-6afa-5c15-8ce8-85dd8e1b32ac",
+      "label": "MTD DISBURSEMENTS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-32de3633-dff6-533c-8927-3fb1a628d5d1",
+      "label": "ACTIVE BORROWERS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-eab9bade-69ea-5d9e-bda0-99bfa3368ce8",
+      "label": "MONTHLY GROWTH value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-1b212502-3625-5df0-a8f2-31bc6deacd36",
+      "label": "31+ DPD EXPOSURE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-1-aff40ec9-c1d3-51c9-a274-dc1d93dcfb9d",
+      "label": "91+ DPD EXPOSURE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-1-a51e829d-008c-538c-a5b3-120a12bf4d60",
+      "label": "Portfolio trend",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "overview-1366-after.json",
+                "overview-1366-after.jpg",
+                "overview-1920-after.json",
+                "overview-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-1-1dd243e9-8a9d-5c1d-89ec-4d8373e086a0",
+      "label": "Delinquency trend",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "overview-1366-after.json",
+                "overview-1366-after.jpg",
+                "overview-1920-after.json",
+                "overview-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-1-4f9a3c07-d808-5d34-abb1-83b78ab37bf5",
+      "label": "Product composition",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "overview-1366-after.json",
+                "overview-1366-after.jpg",
+                "overview-1920-after.json",
+                "overview-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "page-2",
+      "label": "Sales and Funnel",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "sales-1366-after.json",
+                "sales-1366-after.jpg",
+                "sales-1920-after.json",
+                "sales-1920-after.jpg",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": [
+            {
+              "id": "small-table-text-1366-2",
+              "status": "open",
+              "severity": "P2",
+              "evidence": [
+                "sales-1366-after.json",
+                "sales-1366-after.jpg"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ]
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "visual-review.md",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "sales-1920-after.jpg",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-aed21249-ad01-5e62-917c-fe8f0881cce9",
+      "label": "Sales DISBURSEMENTS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-05118ed6-fd1e-5d2b-aa2b-66d45cb1df50",
+      "label": "Sales FUNDED LOANS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-4709d67b-bcd5-50ee-8600-ffe0d8cd25cf",
+      "label": "Sales AVG FUNDED AMOUNT value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-9ecf87f2-00b6-521d-9120-ef01510be6c3",
+      "label": "Sales APPLICATIONS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-27dab067-147b-59fd-87c3-8958114da39f",
+      "label": "Sales APPROVAL RATE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-2-7686b94d-4d0e-5ad3-9ee5-f14332d87ec8",
+      "label": "Sales APPROVED TO FUNDED value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-2-37cd94c4-5c4f-558e-9b07-b6c60a31774c",
+      "label": "Application funnel",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "sales-1366-after.json",
+                "sales-1366-after.jpg",
+                "sales-1920-after.json",
+                "sales-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-2-80c37368-2664-53e2-90e2-55563581e32c",
+      "label": "Disbursement trend",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "sales-1366-after.json",
+                "sales-1366-after.jpg",
+                "sales-1920-after.json",
+                "sales-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-2-e45d74ba-8693-5157-ae17-b2a87b452a99",
+      "label": "Sales by channel",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "sales-1366-after.json",
+                "sales-1366-after.jpg",
+                "sales-1920-after.json",
+                "sales-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "page-3",
+      "label": "Delinquency and Portfolio Quality",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "quality-1366-after.json",
+                "quality-1366-after.jpg",
+                "quality-1920-after.json",
+                "quality-1920-after.jpg",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": [
+            {
+              "id": "small-table-text-1366-3",
+              "status": "open",
+              "severity": "P2",
+              "evidence": [
+                "quality-1366-after.json",
+                "quality-1366-after.jpg"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            },
+            {
+              "id": "trial-notice-overlap-3",
+              "status": "fixed",
+              "checkIds": [
+                "current"
+              ],
+              "beforeEvidence": [
+                "quality-1920-notice-overlap.json"
+              ]
+            }
+          ]
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "visual-review.md",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "quality-1920-after.jpg",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-055f9fd2-1b2a-59a5-a615-195e56fe0cd9",
+      "label": "Quality OVERDUE PRINCIPAL value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-d0006889-6086-5142-9edd-83362a2491a1",
+      "label": "Quality OVERDUE INTEREST value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-9b27212e-5925-553c-93a4-1d099c3ec8ca",
+      "label": "Quality 31+ DPD EXPOSURE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-02fc5172-810f-5a48-9311-969125a747ff",
+      "label": "Quality 91+ DPD EXPOSURE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-4dcee0ce-d50c-519c-b76c-fe915f04950d",
+      "label": "Quality PAST-DUE LOANS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-3-56c6ac04-d1d9-5435-bf68-5169cdc9ba04",
+      "label": "Quality MONTHLY WRITE-OFFS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-3-dce67b85-ce7a-5bcf-84c6-5e5211cf9a4d",
+      "label": "Exposure by DPD bucket",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "quality-1366-after.json",
+                "quality-1366-after.jpg",
+                "quality-1920-after.json",
+                "quality-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "page-4",
+      "label": "Vintage Analysis",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "vintage-1366-after.json",
+                "vintage-1366-after.jpg",
+                "vintage-1920-after.json",
+                "vintage-1920-after.jpg",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "visual-review.md",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "vintage-1920-after.jpg",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-129d4815-b7cd-59d1-a8d3-8dc4515aa85a",
+      "label": "Vintage ORIGINAL LOANS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-595600df-30a9-5cee-ab06-756fc0b289db",
+      "label": "Vintage ORIGINAL FUNDED AMOUNT value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-1de7e737-6f4d-56c1-8901-67dbec9465a0",
+      "label": "Vintage ORIGINATION COHORTS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-8c4fa1a8-c51d-5711-80f9-a37df2e5083f",
+      "label": "Vintage EVER 31+ \u00b7 MOB 3 value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-fb7b7c97-10db-5dfc-a965-035c3f5a1240",
+      "label": "Vintage EVER 31+ \u00b7 MOB 6 value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-4-d024882c-032a-5ca4-9277-7efc5c04ee1d",
+      "label": "Vintage EVER 31+ \u00b7 MOB 12 value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-4-1b55f4a3-88e4-51c8-b02a-01830a0358a8",
+      "label": "Cohort curves",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "vintage-1366-after.json",
+                "vintage-1366-after.jpg",
+                "vintage-1920-after.json",
+                "vintage-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "page-5",
+      "label": "Loan Details",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "loan-default-1366-after.json",
+                "loan-default-1366-after.jpg",
+                "loan-default-1920-after.json",
+                "loan-default-1920-after.jpg",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": [
+            {
+              "id": "small-table-text-1366-5",
+              "status": "open",
+              "severity": "P2",
+              "evidence": [
+                "loan-default-1366-after.json",
+                "loan-default-1366-after.jpg"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            },
+            {
+              "id": "trial-notice-overlap-5",
+              "status": "fixed",
+              "checkIds": [
+                "current"
+              ],
+              "beforeEvidence": [
+                "loan-1366-before.json",
+                "loan-1366-before.jpg"
+              ]
+            }
+          ]
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "visual-review.md",
+                "visual-review-after.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "loan-default-1920-after.jpg",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-3e0834f0-2009-57ee-9a69-18f944db11c2",
+      "label": "Loan PRINCIPAL BALANCE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-9ddb19e9-7af9-5b7b-b567-716d852058c8",
+      "label": "Loan OVERDUE PRINCIPAL value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-8cc4b9f7-8304-5693-b955-1a1bd1d195be",
+      "label": "Loan OVERDUE INTEREST value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-c4238ae3-41d4-5bc3-a055-a30f1034053f",
+      "label": "Loan DAYS PAST DUE value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-8e24fb94-9918-513f-8c06-55e7fd6f283e",
+      "label": "Loan CONTRACT STATUS value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "kpi-5-640ec8b7-347c-551b-a5a3-028a32d38564",
+      "label": "Loan CASH RECEIVED value",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json",
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-5-3cf9a674-24a9-5196-9074-a005d6242b5a",
+      "label": "Principal history",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "loan-default-1366-after.json",
+                "loan-default-1366-after.jpg",
+                "loan-default-1920-after.json",
+                "loan-default-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "chart-5-a17f40e6-9a57-5992-94bf-83da8ae66c64",
+      "label": "Delinquency history",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "loan-default-1366-after.json",
+                "loan-default-1366-after.jpg",
+                "loan-default-1920-after.json",
+                "loan-default-1920-after.jpg",
+                "visual-review-after.md",
+                "visual-review.md"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Regional-performance",
+      "label": "Regional performance",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Monthly-plan-vs-actual",
+      "label": "Monthly plan vs actual",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Channel-conversion",
+      "label": "Channel conversion",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Monthly-transitions",
+      "label": "Monthly transitions",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Loan-registry",
+      "label": "Loan registry",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Vintage-matrix",
+      "label": "Vintage matrix",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Operations",
+      "label": "Operations",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Payment-schedule",
+      "label": "Payment schedule",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "source-Contract-attributes",
+      "label": "Contract attributes",
+      "kind": "component",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "source": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "state-review-after.json",
+                "inventory.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-0",
+      "label": "Overview \u2192 Sales and Funnel",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-1",
+      "label": "Sales and Funnel \u2192 Overview",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-2",
+      "label": "Overview \u2192 Portfolio Quality",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-3",
+      "label": "Portfolio Quality \u2192 Overview",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-4",
+      "label": "Overview \u2192 Vintage Analysis",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-5",
+      "label": "Vintage Analysis \u2192 Overview",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-6",
+      "label": "Overview \u2192 Loan Details",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-7",
+      "label": "Loan Details \u2192 Sales and Funnel",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-8",
+      "label": "Sales and Funnel \u2192 Portfolio Quality",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-9",
+      "label": "Portfolio Quality \u2192 Sales and Funnel",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-10",
+      "label": "Sales and Funnel \u2192 Vintage Analysis",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-11",
+      "label": "Vintage Analysis \u2192 Sales and Funnel",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-12",
+      "label": "Sales and Funnel \u2192 Loan Details",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-13",
+      "label": "Loan Details \u2192 Portfolio Quality",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-14",
+      "label": "Portfolio Quality \u2192 Vintage Analysis",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-15",
+      "label": "Vintage Analysis \u2192 Portfolio Quality",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-16",
+      "label": "Portfolio Quality \u2192 Loan Details",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-17",
+      "label": "Loan Details \u2192 Vintage Analysis",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-18",
+      "label": "Vintage Analysis \u2192 Loan Details",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "route-19",
+      "label": "Loan Details \u2192 Overview",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "routes-after-fix.json",
+                "state-review-after.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "apply-0",
+      "label": "Apply on Overview",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "apply-1",
+      "label": "Apply on Sales and Funnel",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "apply-2",
+      "label": "Apply on Portfolio Quality",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "apply-3",
+      "label": "Apply on Vintage Analysis",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "apply-4",
+      "label": "Apply on Loan Details",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "apply.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-0",
+      "label": "Operations \u2190 Previous",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-1",
+      "label": "Operations Next \u2192",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-2",
+      "label": "Payment schedule Next \u2192",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-3",
+      "label": "Payment schedule \u2190 Previous",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-4",
+      "label": "Registry Next \u2192",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-5",
+      "label": "Registry \u2190 Previous",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-6",
+      "label": "Vintage \u2190 Previous",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pager-7",
+      "label": "Vintage Next \u2192",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "pagers.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "Selected-row-loan-drill",
+      "label": "Selected-row loan drill",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "drill-return.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "Back-to-saved-registry",
+      "label": "Back to saved registry",
+      "kind": "control",
+      "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "current",
+              "state": "passed",
+              "evidence": [
+                "drill-return.json"
+              ],
+              "revision": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    }
+  ]
+}

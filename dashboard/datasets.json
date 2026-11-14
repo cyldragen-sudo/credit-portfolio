@@ -1,0 +1,285 @@
+[
+  {
+    "name": "overview_kpis",
+    "file": "dashboard/sql/overview_kpis.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "overview_trend",
+    "file": "dashboard/sql/overview_trend.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "balance_chart",
+    "file": "dashboard/sql/balance_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "quality_chart",
+    "file": "dashboard/sql/quality_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "product_chart",
+    "file": "dashboard/sql/product_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "region_table",
+    "file": "dashboard/sql/region_table.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "filter_date",
+    "file": "dashboard/sql/filter_date.sql",
+    "parameters": {}
+  },
+  {
+    "name": "filter_product",
+    "file": "dashboard/sql/filter_product.sql",
+    "parameters": {}
+  },
+  {
+    "name": "filter_region",
+    "file": "dashboard/sql/filter_region.sql",
+    "parameters": {}
+  },
+  {
+    "name": "filter_channel",
+    "file": "dashboard/sql/filter_channel.sql",
+    "parameters": {}
+  },
+  {
+    "name": "sales_kpis",
+    "file": "dashboard/sql/sales_kpis.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "sales_funnel_chart",
+    "file": "dashboard/sql/sales_funnel_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "sales_trend_chart",
+    "file": "dashboard/sql/sales_trend_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "sales_channel_chart",
+    "file": "dashboard/sql/sales_channel_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "sales_plan_table",
+    "file": "dashboard/sql/sales_plan_table.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0
+    }
+  },
+  {
+    "name": "sales_channel_table",
+    "file": "dashboard/sql/sales_channel_table.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "quality_kpis",
+    "file": "dashboard/sql/quality_kpis.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0,
+      "p_min_dpd": 1,
+      "p_quality_page": 1
+    }
+  },
+  {
+    "name": "quality_buckets",
+    "file": "dashboard/sql/quality_buckets.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "quality_transitions",
+    "file": "dashboard/sql/quality_transitions.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "quality_registry",
+    "file": "dashboard/sql/quality_registry.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0,
+      "p_min_dpd": 1,
+      "p_quality_page": 1
+    }
+  },
+  {
+    "name": "filter_min_dpd",
+    "file": "dashboard/sql/filter_min_dpd.sql",
+    "parameters": {}
+  },
+  {
+    "name": "vintage_kpis",
+    "file": "dashboard/sql/vintage_kpis.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0,
+      "p_vintage_page": 1,
+      "p_vintage_mob_start": 1
+    }
+  },
+  {
+    "name": "vintage_matrix",
+    "file": "dashboard/sql/vintage_matrix.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "vintage_matrix_view",
+    "file": "dashboard/sql/vintage_matrix_view.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0,
+      "p_vintage_page": 1,
+      "p_vintage_mob_start": 1
+    }
+  },
+  {
+    "name": "vintage_curves",
+    "file": "dashboard/sql/vintage_curves.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_product_id": 0,
+      "p_region_id": 0,
+      "p_channel_id": 0
+    }
+  },
+  {
+    "name": "filter_vintage_mob",
+    "file": "dashboard/sql/filter_vintage_mob.sql",
+    "parameters": {}
+  },
+  {
+    "name": "loan_kpis",
+    "file": "dashboard/sql/loan_kpis.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_loan_id": 0,
+      "p_operation_page": 1,
+      "p_schedule_page": 1
+    }
+  },
+  {
+    "name": "loan_operations",
+    "file": "dashboard/sql/loan_operations.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_loan_id": 0,
+      "p_operation_page": 1,
+      "p_schedule_page": 1
+    }
+  },
+  {
+    "name": "loan_schedule",
+    "file": "dashboard/sql/loan_schedule.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_loan_id": 0,
+      "p_operation_page": 1,
+      "p_schedule_page": 1
+    }
+  },
+  {
+    "name": "loan_balance_chart",
+    "file": "dashboard/sql/loan_balance_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_loan_id": 0
+    }
+  },
+  {
+    "name": "loan_dpd_chart",
+    "file": "dashboard/sql/loan_dpd_chart.sql",
+    "parameters": {
+      "p_date_key": 20261031,
+      "p_loan_id": 0
+    }
+  }
+]

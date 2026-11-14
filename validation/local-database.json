@@ -1,0 +1,8 @@
+{
+  "host": "127.0.0.1",
+  "port": 55433,
+  "database": "credit_portfolio_demo",
+  "loans": 12000,
+  "snapshots": 5405234,
+  "reader_can_update": false
+}

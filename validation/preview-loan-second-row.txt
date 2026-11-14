@@ -1,0 +1,155 @@
+- generic: CREDIT ANALYTICS
+- generic: Loan Details
+- generic: LN-0009183 · Customer 005886 · Personal Loan
+- generic: SYNTHETIC DATA / RUB
+- generic: 31 Oct 2026
+- generic: Overview
+- generic: Sales and Funnel
+- generic: Portfolio Quality
+- generic: Vintage Analysis
+- generic: Loan Details
+- generic: AS OF
+- generic: October 2026
+- generic: 
+- generic: PRODUCT
+- generic: All Products
+- generic: 
+- generic: REGION
+- generic: All Regions
+- generic: 
+- generic: CHANNEL
+- generic: All Channels
+- generic: 
+- generic: Apply
+- generic: ← Back to registry
+- generic: PRINCIPAL BALANCE
+- generic: RUB 575,915.74
+- generic: Outstanding principal · RUB
+- generic: OVERDUE PRINCIPAL
+- generic: RUB 553,442.47
+- generic: Unpaid scheduled principal · RUB
+- generic: OVERDUE INTEREST
+- generic: RUB 201,704.45
+- generic: Unpaid scheduled interest · RUB
+- generic: DAYS PAST DUE
+- generic: "981"
+- generic: As of selected month end
+- generic: CONTRACT STATUS
+- generic: Active
+- generic: Observed state on selected date
+- generic: CASH RECEIVED
+- generic: RUB 45,766.48
+- generic: Cumulative receipts · excludes write-offs
+- generic: ORIGINAL PRINCIPAL
+- generic: RUB 600,000.00
+- generic: ANNUAL RATE
+- generic: 21.90%
+- generic: ORIGINAL TERM
+- generic: 36 months
+- generic: ISSUED
+- generic: 23 Nov 2023
+- generic: CONTRACTUAL MATURITY
+- generic: 23 Nov 2026
+- generic: OBSERVED CLOSE DATE
+- generic: —
+- generic: "Krasnodar Region · Krasnodar Region Branch 03 · Branch · Origination risk: High"
+- generic: Principal history
+- generic: Month-end outstanding principal · RUB m
+- generic: Delinquency history
+- generic: Month-end days past due · days
+- generic: Operations
+- generic: Page 1 of 1 · 3 rows
+- generic: ← Previous 1
+- generic: Next → 1
+- generic: DATE
+- generic: TYPE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: CASH, RUB
+- generic: 23 Jan 24
+- generic: Repayment
+- generic: 12,151.02
+- generic: 10,732.22
+- generic: 22,883.24
+- generic: 23 Dec 23
+- generic: Repayment
+- generic: 11,933.24
+- generic: 10,950.00
+- generic: 22,883.24
+- generic: 23 Nov 23
+- generic: Disbursement
+- generic: 600,000.00
+- generic: "0.00"
+- generic: "0.00"
+- generic: Payment schedule
+- generic: Page 1 of 5 · 36 rows
+- generic: ← Previous 1
+- generic: Next → 2
+- generic: "#"
+- generic: DUE DATE
+- generic: PRINCIPAL, RUB
+- generic: INTEREST, RUB
+- generic: PAID, RUB
+- generic: WRITTEN OFF, RUB
+- generic: STATUS
+- generic: "1"
+- generic: 23 Dec 23
+- generic: 11,933.24
+- generic: 10,950.00
+- generic: 22,883.24
+- generic: "0.00"
+- generic: Settled
+- generic: "2"
+- generic: 23 Jan 24
+- generic: 12,151.02
+- generic: 10,732.22
+- generic: 22,883.24
+- generic: "0.00"
+- generic: Settled
+- generic: "3"
+- generic: 23 Feb 24
+- generic: 12,372.78
+- generic: 10,510.46
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: "4"
+- generic: 23 Mar 24
+- generic: 12,598.58
+- generic: 10,284.66
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: "5"
+- generic: 23 Apr 24
+- generic: 12,828.51
+- generic: 10,054.73
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: "6"
+- generic: 23 May 24
+- generic: 13,062.63
+- generic: 9,820.61
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: "7"
+- generic: 23 Jun 24
+- generic: 13,301.02
+- generic: 9,582.22
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: "8"
+- generic: 23 Jul 24
+- generic: 13,543.76
+- generic: 9,339.48
+- generic: "0.00"
+- generic: "0.00"
+- generic: Overdue
+- generic: Contract follows loan ID and As of; portfolio filters are retained for return.
+- generic: DEMO · NOT REGULATORY REPORTING
+- generic: You are using an unregistered function FineVis Visualization Dashboard.
+- button "alert":
+  - img "alert":

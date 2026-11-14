@@ -1,0 +1,292 @@
+{
+  "scope": "Readability of tables/charts, all20 common transitions, retained filters and paging/drill state",
+  "started_utc": "2026-11-04T22:55:02Z",
+  "target_finish_utc": "2026-11-04T23:15:02Z",
+  "deadline_utc": "2026-11-04T23:25:02Z",
+  "portable_sha256": "0f34ad1bf8d45f988e739c2e1898c31f4830c8f1778c8e9b79c8c9993636b698",
+  "previous_desktop_sha256": "0f34ad1bf8d45f988e739c2e1898c31f4830c8f1778c8e9b79c8c9993636b698",
+  "pages": [
+    {
+      "name": "Portfolio Overview",
+      "charts": [
+        "Portfolio trend",
+        "Delinquency trend",
+        "Product composition"
+      ],
+      "kpis": [
+        "PORTFOLIO BALANCE value",
+        "MTD DISBURSEMENTS value",
+        "ACTIVE BORROWERS value",
+        "MONTHLY GROWTH value",
+        "31+ DPD EXPOSURE value",
+        "91+ DPD EXPOSURE value"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_bindings": [
+        {
+          "widget": "PORTFOLIO BALANCE value",
+          "dataset": "overview_kpis",
+          "column": "portfolio_label"
+        },
+        {
+          "widget": "MTD DISBURSEMENTS value",
+          "dataset": "overview_kpis",
+          "column": "funding_label"
+        },
+        {
+          "widget": "ACTIVE BORROWERS value",
+          "dataset": "overview_kpis",
+          "column": "borrowers_label"
+        },
+        {
+          "widget": "MONTHLY GROWTH value",
+          "dataset": "overview_kpis",
+          "column": "growth_label"
+        },
+        {
+          "widget": "31+ DPD EXPOSURE value",
+          "dataset": "overview_kpis",
+          "column": "ratio_31_label"
+        },
+        {
+          "widget": "91+ DPD EXPOSURE value",
+          "dataset": "overview_kpis",
+          "column": "ratio_91_label"
+        }
+      ]
+    },
+    {
+      "name": "Sales and Funnel",
+      "charts": [
+        "Application funnel",
+        "Disbursement trend",
+        "Sales by channel"
+      ],
+      "kpis": [
+        "Sales DISBURSEMENTS value",
+        "Sales FUNDED LOANS value",
+        "Sales AVG FUNDED AMOUNT value",
+        "Sales APPLICATIONS value",
+        "Sales APPROVAL RATE value",
+        "Sales APPROVED TO FUNDED value"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_bindings": [
+        {
+          "widget": "Sales DISBURSEMENTS value",
+          "dataset": "sales_kpis",
+          "column": "funded_amount_label"
+        },
+        {
+          "widget": "Sales FUNDED LOANS value",
+          "dataset": "sales_kpis",
+          "column": "funded_loans_label"
+        },
+        {
+          "widget": "Sales AVG FUNDED AMOUNT value",
+          "dataset": "sales_kpis",
+          "column": "average_amount_label"
+        },
+        {
+          "widget": "Sales APPLICATIONS value",
+          "dataset": "sales_kpis",
+          "column": "applications_label"
+        },
+        {
+          "widget": "Sales APPROVAL RATE value",
+          "dataset": "sales_kpis",
+          "column": "approval_label"
+        },
+        {
+          "widget": "Sales APPROVED TO FUNDED value",
+          "dataset": "sales_kpis",
+          "column": "conversion_label"
+        }
+      ]
+    },
+    {
+      "name": "Delinquency and Portfolio Quality",
+      "charts": [
+        "Exposure by DPD bucket"
+      ],
+      "kpis": [
+        "Quality OVERDUE PRINCIPAL value",
+        "Quality OVERDUE INTEREST value",
+        "Quality 31+ DPD EXPOSURE value",
+        "Quality 91+ DPD EXPOSURE value",
+        "Quality PAST-DUE LOANS value",
+        "Quality MONTHLY WRITE-OFFS value"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector",
+        "Registry threshold \u00b7 Apply to update selector"
+      ],
+      "kpi_bindings": [
+        {
+          "widget": "Quality OVERDUE PRINCIPAL value",
+          "dataset": "quality_kpis",
+          "column": "overdue_principal_label"
+        },
+        {
+          "widget": "Quality OVERDUE INTEREST value",
+          "dataset": "quality_kpis",
+          "column": "overdue_interest_label"
+        },
+        {
+          "widget": "Quality 31+ DPD EXPOSURE value",
+          "dataset": "quality_kpis",
+          "column": "ratio31_label"
+        },
+        {
+          "widget": "Quality 91+ DPD EXPOSURE value",
+          "dataset": "quality_kpis",
+          "column": "ratio91_label"
+        },
+        {
+          "widget": "Quality PAST-DUE LOANS value",
+          "dataset": "quality_kpis",
+          "column": "past_due_loans_label"
+        },
+        {
+          "widget": "Quality MONTHLY WRITE-OFFS value",
+          "dataset": "quality_kpis",
+          "column": "writeoff_label"
+        }
+      ]
+    },
+    {
+      "name": "Vintage Analysis",
+      "charts": [
+        "Cohort curves"
+      ],
+      "kpis": [
+        "Vintage ORIGINAL LOANS value",
+        "Vintage ORIGINAL FUNDED AMOUNT value",
+        "Vintage ORIGINATION COHORTS value",
+        "Vintage EVER 31+ \u00b7 MOB 3 value",
+        "Vintage EVER 31+ \u00b7 MOB 6 value",
+        "Vintage EVER 31+ \u00b7 MOB 12 value"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector",
+        "MOB range \u00b7 Apply to update selector"
+      ],
+      "kpi_bindings": [
+        {
+          "widget": "Vintage ORIGINAL LOANS value",
+          "dataset": "vintage_kpis",
+          "column": "original_loans_label"
+        },
+        {
+          "widget": "Vintage ORIGINAL FUNDED AMOUNT value",
+          "dataset": "vintage_kpis",
+          "column": "original_amount_label"
+        },
+        {
+          "widget": "Vintage ORIGINATION COHORTS value",
+          "dataset": "vintage_kpis",
+          "column": "cohort_count_label"
+        },
+        {
+          "widget": "Vintage EVER 31+ \u00b7 MOB 3 value",
+          "dataset": "vintage_kpis",
+          "column": "mob3_label"
+        },
+        {
+          "widget": "Vintage EVER 31+ \u00b7 MOB 6 value",
+          "dataset": "vintage_kpis",
+          "column": "mob6_label"
+        },
+        {
+          "widget": "Vintage EVER 31+ \u00b7 MOB 12 value",
+          "dataset": "vintage_kpis",
+          "column": "mob12_label"
+        }
+      ]
+    },
+    {
+      "name": "Loan Details",
+      "charts": [
+        "Principal history",
+        "Delinquency history"
+      ],
+      "kpis": [
+        "Loan PRINCIPAL BALANCE value",
+        "Loan OVERDUE PRINCIPAL value",
+        "Loan OVERDUE INTEREST value",
+        "Loan DAYS PAST DUE value",
+        "Loan CONTRACT STATUS value",
+        "Loan CASH RECEIVED value"
+      ],
+      "controls": [
+        "As of selector",
+        "Product selector",
+        "Region selector",
+        "Channel selector"
+      ],
+      "kpi_bindings": [
+        {
+          "widget": "Loan PRINCIPAL BALANCE value",
+          "dataset": "loan_kpis",
+          "column": "balance_label"
+        },
+        {
+          "widget": "Loan OVERDUE PRINCIPAL value",
+          "dataset": "loan_kpis",
+          "column": "overdue_principal_label"
+        },
+        {
+          "widget": "Loan OVERDUE INTEREST value",
+          "dataset": "loan_kpis",
+          "column": "overdue_interest_label"
+        },
+        {
+          "widget": "Loan DAYS PAST DUE value",
+          "dataset": "loan_kpis",
+          "column": "dpd_label"
+        },
+        {
+          "widget": "Loan CONTRACT STATUS value",
+          "dataset": "loan_kpis",
+          "column": "status_label"
+        },
+        {
+          "widget": "Loan CASH RECEIVED value",
+          "dataset": "loan_kpis",
+          "column": "cash_label"
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    "p_date_key",
+    "p_product_id",
+    "p_region_id",
+    "p_channel_id",
+    "p_min_dpd",
+    "p_quality_page",
+    "p_loan_id",
+    "p_operation_page",
+    "p_schedule_page",
+    "p_vintage_page",
+    "p_vintage_mob_start"
+  ],
+  "repaired_portable_sha256": "09b448a7304ac210a21744323c865287ad3d3c99944e54727f158f03dfa3abf4",
+  "repair": "Reserve bottom strip through10% tighter vertical spacing; fonts, desktop grid and all source/state semantics unchanged"
+}

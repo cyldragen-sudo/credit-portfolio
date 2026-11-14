@@ -1,0 +1,133 @@
+{
+  "clips": [],
+  "fonts": [
+    {
+      "fontCss": 13,
+      "name": "Operations principal_label1",
+      "renderedFontApprox": 12.59375
+    },
+    {
+      "fontCss": 13,
+      "name": "Payment schedule principal_label1",
+      "renderedFontApprox": 12.59375
+    }
+  ],
+  "overlaps": [
+    {
+      "name": "Payment schedule date_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1017,
+        "right": 1075.546875,
+        "top": 990.25,
+        "width": 58.546875,
+        "x": 1017,
+        "y": 990.25
+      },
+      "text": "15 Feb 26"
+    },
+    {
+      "name": "Payment schedule principal_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1209.1640625,
+        "right": 1267,
+        "top": 990.25,
+        "width": 57.8359375,
+        "x": 1209.1640625,
+        "y": 990.25
+      },
+      "text": "37,774.36"
+    },
+    {
+      "name": "Payment schedule interest_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1349.1640625,
+        "right": 1407,
+        "top": 990.25,
+        "width": 57.8359375,
+        "x": 1349.1640625,
+        "y": 990.25
+      },
+      "text": "21,374.57"
+    },
+    {
+      "name": "Payment schedule paid_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1541.6953125,
+        "right": 1567,
+        "top": 990.25,
+        "width": 25.3046875,
+        "x": 1541.6953125,
+        "y": 990.25
+      },
+      "text": "0.00"
+    },
+    {
+      "name": "Payment schedule writeoff_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1686.6953125,
+        "right": 1712,
+        "top": 990.25,
+        "width": 25.3046875,
+        "x": 1686.6953125,
+        "y": 990.25
+      },
+      "text": "0.00"
+    },
+    {
+      "name": "Payment schedule status_label8",
+      "overlapHeight": 15.5,
+      "rect": {
+        "bottom": 1005.75,
+        "height": 15.5,
+        "left": 1722,
+        "right": 1783.4453125,
+        "top": 990.25,
+        "width": 61.4453125,
+        "x": 1722,
+        "y": 990.25
+      },
+      "text": "Scheduled"
+    },
+    {
+      "name": "Loan synthetic footer",
+      "overlapHeight": 10.5,
+      "rect": {
+        "bottom": 1052.5,
+        "height": 13,
+        "left": 1672.515625,
+        "right": 1884,
+        "top": 1039.5,
+        "width": 211.484375,
+        "x": 1672.515625,
+        "y": 1039.5
+      },
+      "text": "DEMO · NOT REGULATORY REPORTING"
+    }
+  ],
+  "file": "loan-1920-before",
+  "notice": {
+    "bottom": 1050,
+    "height": 60,
+    "left": 1051.1953125,
+    "right": 1900,
+    "top": 990,
+    "width": 848.8046875,
+    "x": 1051.1953125,
+    "y": 990
+  }
+}

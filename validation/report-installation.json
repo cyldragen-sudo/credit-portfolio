@@ -1,0 +1,12 @@
+{
+  "report": "CREDIT_PORTFOLIO/Portfolio_Overview.fvs",
+  "pages": [
+    "Portfolio Overview",
+    "Sales and Funnel",
+    "Delinquency and Portfolio Quality",
+    "Vintage Analysis",
+    "Loan Details"
+  ],
+  "local_read_only_connection": true,
+  "credentials_in_portable_report": false
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "from": "Overview",
+    "to": "Sales and Funnel",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Sales and Funnel",
+    "to": "Overview",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Overview",
+    "to": "Portfolio Quality",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow",
+      "Registry threshold · Apply to update selector": "All active"
+    },
+    "localContext": {
+      "registry": "Page 2 of 20 · 155 loans"
+    }
+  },
+  {
+    "from": "Portfolio Quality",
+    "to": "Overview",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Overview",
+    "to": "Vintage Analysis",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "MOB range · Apply to update selector": "MOB 7–12",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "vintage": "Cohorts 7–10 of 10"
+    }
+  },
+  {
+    "from": "Vintage Analysis",
+    "to": "Overview",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Overview",
+    "to": "Loan Details",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "loan": "LN-0000954 · Customer 010321 · Personal Loan",
+      "operations": "Page 2 of 2 · 10 rows",
+      "schedule": "Page 2 of 5 · 36 rows"
+    }
+  },
+  {
+    "from": "Loan Details",
+    "to": "Sales and Funnel",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Sales and Funnel",
+    "to": "Portfolio Quality",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow",
+      "Registry threshold · Apply to update selector": "All active"
+    },
+    "localContext": {
+      "registry": "Page 2 of 20 · 155 loans"
+    }
+  },
+  {
+    "from": "Portfolio Quality",
+    "to": "Sales and Funnel",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Sales and Funnel",
+    "to": "Vintage Analysis",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "MOB range · Apply to update selector": "MOB 7–12",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "vintage": "Cohorts 7–10 of 10"
+    }
+  },
+  {
+    "from": "Vintage Analysis",
+    "to": "Sales and Funnel",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  },
+  {
+    "from": "Sales and Funnel",
+    "to": "Loan Details",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "loan": "LN-0000954 · Customer 010321 · Personal Loan",
+      "operations": "Page 2 of 2 · 10 rows",
+      "schedule": "Page 2 of 5 · 36 rows"
+    }
+  },
+  {
+    "from": "Loan Details",
+    "to": "Portfolio Quality",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow",
+      "Registry threshold · Apply to update selector": "All active"
+    },
+    "localContext": {
+      "registry": "Page 2 of 20 · 155 loans"
+    }
+  },
+  {
+    "from": "Portfolio Quality",
+    "to": "Vintage Analysis",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "MOB range · Apply to update selector": "MOB 7–12",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "vintage": "Cohorts 7–10 of 10"
+    }
+  },
+  {
+    "from": "Vintage Analysis",
+    "to": "Portfolio Quality",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow",
+      "Registry threshold · Apply to update selector": "All active"
+    },
+    "localContext": {
+      "registry": "Page 2 of 20 · 155 loans"
+    }
+  },
+  {
+    "from": "Portfolio Quality",
+    "to": "Loan Details",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "loan": "LN-0000954 · Customer 010321 · Personal Loan",
+      "operations": "Page 2 of 2 · 10 rows",
+      "schedule": "Page 2 of 5 · 36 rows"
+    }
+  },
+  {
+    "from": "Loan Details",
+    "to": "Vintage Analysis",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "MOB range · Apply to update selector": "MOB 7–12",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "vintage": "Cohorts 7–10 of 10"
+    }
+  },
+  {
+    "from": "Vintage Analysis",
+    "to": "Loan Details",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {
+      "loan": "LN-0000954 · Customer 010321 · Personal Loan",
+      "operations": "Page 2 of 2 · 10 rows",
+      "schedule": "Page 2 of 5 · 36 rows"
+    }
+  },
+  {
+    "from": "Loan Details",
+    "to": "Overview",
+    "passed": true,
+    "errors": [],
+    "controls": {
+      "As of selector": "August 2025",
+      "Channel selector": "Online",
+      "Product selector": "Personal Loan",
+      "Region selector": "Moscow"
+    },
+    "localContext": {}
+  }
+]

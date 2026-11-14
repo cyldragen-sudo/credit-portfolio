@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "overview-1440",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 900,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "scrollHeight": 900,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "check": "sales-1440",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 900,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "scrollHeight": 900,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "check": "quality-1440",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 900,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "scrollHeight": 900,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "check": "registry next/previous and loan 2170 drill",
+      "passed": true
+    },
+    {
+      "check": "loan-1440",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 900,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "scrollHeight": 900,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "check": "schedule page2 and back to saved registry",
+      "passed": true
+    },
+    {
+      "check": "Vintage MOB7-12 Apply and two cohort pages",
+      "passed": true
+    },
+    {
+      "check": "vintage-1440",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 900,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "scrollHeight": 900,
+        "scrollWidth": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "check": "Combined historical filters Apply match RUB102.45m",
+      "passed": true
+    },
+    {
+      "check": "historical filters retained on Sales and Funnel",
+      "passed": true
+    },
+    {
+      "check": "historical filters retained on Portfolio Quality",
+      "passed": true
+    },
+    {
+      "check": "historical filters retained on Vintage Analysis",
+      "passed": true
+    },
+    {
+      "check": "Vintage view range retained with historical page clamping",
+      "passed": true
+    },
+    {
+      "check": "historical filters retained on Loan Details",
+      "passed": true
+    },
+    {
+      "check": "Historical registry page2 and detail schedule page2 retained across navigation and back",
+      "passed": true
+    },
+    {
+      "check": "Empty Overview clears balances",
+      "passed": true
+    },
+    {
+      "check": "Empty Quality clears loan references",
+      "passed": true
+    },
+    {
+      "check": "Empty Vintage clears matrix rows",
+      "passed": true
+    },
+    {
+      "check": "overview-1920",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 1080,
+        "scrollHeight": 1080,
+        "scrollWidth": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "check": "sales-1920",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 1080,
+        "scrollHeight": 1080,
+        "scrollWidth": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "check": "quality-1920",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 1080,
+        "scrollHeight": 1080,
+        "scrollWidth": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "check": "loan-1920",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 1080,
+        "scrollHeight": 1080,
+        "scrollWidth": 1920,
+        "width": 1920
+      }
+    },
+    {
+      "check": "vintage-1920",
+      "passed": true,
+      "textOverflow": [],
+      "stats": {
+        "height": 1080,
+        "scrollHeight": 1080,
+        "scrollWidth": 1920,
+        "width": 1920
+      }
+    }
+  ],
+  "notes": [
+    "Normal desktop viewports 1440x900 and1920x1080; no content scrolling or detected text overflow on all five pages.",
+    "Historical filters, registry paging/drill/return, schedule paging and Vintage MOB/page state checked.",
+    "Original default portfolio slice restored; temporary viewport override reset."
+  ]
+}

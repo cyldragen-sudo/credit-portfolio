@@ -1,0 +1,5 @@
+{
+  "occupied_schema_rejected": true,
+  "existing_loan_count_preserved": 12000,
+  "schema_and_data_rolled_back_after_sql_failure": true
+}

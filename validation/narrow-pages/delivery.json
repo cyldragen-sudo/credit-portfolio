@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "stories": 5,
+  "widgets": 951,
+  "datasets": 31,
+  "charts": 10,
+  "parameters": 11,
+  "canvas": {
+    "width": 1920,
+    "height": 6600,
+    "adaptive_mode": "WIDTH_FILL"
+  },
+  "tested_viewports": [
+    [
+      640,
+      900
+    ],
+    [
+      722,
+      1030
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "runtime_checks": 34,
+  "runtime_passed": true,
+  "portable_sha256": "209d197958ac0adbbb6c7024fb1ca029e04141f4329cd107d10fa844bd2f211a",
+  "installed_sha256": "8553f33fc4930b860b90750ef28a484b64740da80f7c9ac8736044d15c950585",
+  "installed_matches_local_build": true,
+  "sql_unchanged": true,
+  "original_widget_events_unchanged": true,
+  "review": "Fresh read-only source review and follow-up: no actionable findings",
+  "notes": [
+    "Normal login restored after session expiry; final screenshot and Apply/navigation repetition passed.",
+    "Shared scrolling layout at every width; phone widths below 640 px are not verified.",
+    "Existing FineReport vendor trial notice retained."
+  ],
+  "tests": 55,
+  "tests_passed": 55,
+  "tests_skipped": 0
+}

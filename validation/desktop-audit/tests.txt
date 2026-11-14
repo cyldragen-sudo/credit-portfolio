@@ -1,0 +1,9 @@
+........................................................
+----------------------------------------------------------------------
+Ran 56 tests in 20.772s
+
+OK
+Built portable named-connection report: 5 pages, 784 native widgets, 31 datasets, 10 native charts.
+Built portable named-connection report: 5 pages, 784 native widgets, 31 datasets, 10 native charts.
+Built portable named-connection report: 5 pages, 784 native widgets, 31 datasets, 10 native charts.
+Built portable named-connection report: 5 pages, 784 native widgets, 31 datasets, 10 native charts.

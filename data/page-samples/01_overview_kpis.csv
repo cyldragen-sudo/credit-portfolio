@@ -1,0 +1,2 @@
+as_of_date,portfolio_balance,active_loans,active_borrowers,exposure_31_plus,exposure_91_plus,overdue_principal,overdue_interest,previous_balance,balance_change,balance_change_ratio,dpd_31_plus_ratio,dpd_91_plus_ratio,month_to_date_disbursements
+2026-10-31,19550693343.27,10555,7573,1357400315.29,967154822.67,185878893.27,168526708.29,19070999514.41,479693828.86,0.02515305128593519868,0.06942977885524773021,0.04946908049186536455,800880000.00

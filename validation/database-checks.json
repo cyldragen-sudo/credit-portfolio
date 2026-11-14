@@ -1,0 +1,367 @@
+{
+  "database_version": "16.2",
+  "checks": [
+    {
+      "name": "schedule_principal_equals_original",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.1
+    },
+    {
+      "name": "operation_components_equal_allocations",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.21
+    },
+    {
+      "name": "no_schedule_component_overallocation",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.76
+    },
+    {
+      "name": "all_daily_balances_reconcile_to_ledger",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 1.32
+    },
+    {
+      "name": "snapshot_history_is_complete",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 4.83
+    },
+    {
+      "name": "current_dpd_and_overdue_reconcile_to_obligations",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.64
+    },
+    {
+      "name": "no_future_observations",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.05
+    },
+    {
+      "name": "historical_dpd_and_overdue_reconcile",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 1.39
+    },
+    {
+      "name": "vintage_ever_flags_reconcile_to_payment_obligations",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 1.04
+    },
+    {
+      "name": "closure_matches_zero_balance_and_ledger",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.09
+    },
+    {
+      "name": "ever_flag_is_monotonic",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 3.36
+    },
+    {
+      "name": "monthly_transitions_retain_entire_opening_cohort",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 19.19
+    },
+    {
+      "name": "month_age_dates_are_true_anniversaries",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.07
+    },
+    {
+      "name": "documented_objects",
+      "inconsistent_records": 0,
+      "elapsed_seconds": 0.09
+    },
+    {
+      "name": "immature_vintage_cells_absent",
+      "inconsistent_records": 0
+    }
+  ],
+  "datasets": [
+    {
+      "file": "01_overview_kpis.sql",
+      "default_rows": 1,
+      "historical_rows": 1,
+      "empty_scope_rows": 1
+    },
+    {
+      "file": "02_overview_trend.sql",
+      "default_rows": 24,
+      "historical_rows": 9,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "03_overview_breakdown.sql",
+      "default_rows": 18,
+      "historical_rows": 18,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "04_sales_funnel.sql",
+      "default_rows": 1,
+      "historical_rows": 1,
+      "empty_scope_rows": 1
+    },
+    {
+      "file": "05_sales_actual.sql",
+      "default_rows": 1639,
+      "historical_rows": 667,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "06_sales_plan.sql",
+      "default_rows": 1296,
+      "historical_rows": 540,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "07_delinquency_buckets.sql",
+      "default_rows": 5,
+      "historical_rows": 5,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "08_monthly_transitions.sql",
+      "default_rows": 18,
+      "historical_rows": 19,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "09_loan_registry.sql",
+      "default_rows": 200,
+      "historical_rows": 200,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "10_vintage.sql",
+      "default_rows": 276,
+      "historical_rows": 36,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "11_loan_header.sql",
+      "default_rows": 1,
+      "historical_rows": 1,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "12_loan_operations.sql",
+      "default_rows": 23,
+      "historical_rows": 8,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "13_loan_schedule.sql",
+      "default_rows": 24,
+      "historical_rows": 24,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "14_loan_history.sql",
+      "default_rows": 679,
+      "historical_rows": 237,
+      "empty_scope_rows": 0
+    },
+    {
+      "file": "15_filter_options.sql",
+      "default_rows": 16,
+      "historical_rows": 16,
+      "empty_scope_rows": 16
+    }
+  ],
+  "row_counts": {
+    "dataset_run": 1,
+    "region": 6,
+    "branch": 18,
+    "product": 3,
+    "channel": 4,
+    "calendar": 10227,
+    "customer": 15000,
+    "application": 19200,
+    "application_event": 50724,
+    "loan": 12000,
+    "simulation_scenario": 12000,
+    "payment_schedule": 783336,
+    "loan_operation": 179767,
+    "payment_allocation": 395315,
+    "loan_snapshot": 5405234,
+    "loan_month_age": 190355,
+    "sales_plan": 1296
+  },
+  "sample_kpis": [
+    {
+      "as_of_date": "2026-10-31",
+      "portfolio_balance": "19550693343.27",
+      "active_loans": "10555",
+      "active_borrowers": "7573",
+      "exposure_31_plus": "1357400315.29",
+      "exposure_91_plus": "967154822.67",
+      "overdue_principal": "185878893.27",
+      "overdue_interest": "168526708.29",
+      "previous_balance": "19070999514.41",
+      "balance_change": "479693828.86",
+      "balance_change_ratio": "0.02515305128593519868",
+      "dpd_31_plus_ratio": "0.06942977885524773021",
+      "dpd_91_plus_ratio": "0.04946908049186536455",
+      "month_to_date_disbursements": "800880000.00"
+    }
+  ],
+  "scenario_examples": [
+    {
+      "scenario_code": "CURE",
+      "loan_id": "2661",
+      "loan_reference": "LN-0002661",
+      "loan_status": "Active",
+      "dpd": "72"
+    },
+    {
+      "scenario_code": "EARLY_SETTLEMENT",
+      "loan_id": "2",
+      "loan_reference": "LN-0000002",
+      "loan_status": "Closed",
+      "dpd": "0"
+    },
+    {
+      "scenario_code": "ON_TIME",
+      "loan_id": "1",
+      "loan_reference": "LN-0000001",
+      "loan_status": "Active",
+      "dpd": "0"
+    },
+    {
+      "scenario_code": "PERSISTENT_ARREARS",
+      "loan_id": "2170",
+      "loan_reference": "LN-0002170",
+      "loan_status": "Active",
+      "dpd": "991"
+    },
+    {
+      "scenario_code": "SHORT_DELAY",
+      "loan_id": "794",
+      "loan_reference": "LN-0000794",
+      "loan_status": "Active",
+      "dpd": "19"
+    },
+    {
+      "scenario_code": "WRITE_OFF",
+      "loan_id": "10109",
+      "loan_reference": "LN-0010109",
+      "loan_status": "Active",
+      "dpd": "207"
+    }
+  ],
+  "channel_quality": [
+    {
+      "channel_name": "Branch",
+      "issue_year": "2023-01-01",
+      "original_loans": "179",
+      "ever_31_plus_at_mob6": "17",
+      "ratio": "0.09497206703910614525"
+    },
+    {
+      "channel_name": "Branch",
+      "issue_year": "2024-01-01",
+      "original_loans": "1035",
+      "ever_31_plus_at_mob6": "82",
+      "ratio": "0.07922705314009661836"
+    },
+    {
+      "channel_name": "Branch",
+      "issue_year": "2025-01-01",
+      "original_loans": "1212",
+      "ever_31_plus_at_mob6": "135",
+      "ratio": "0.11138613861386138614"
+    },
+    {
+      "channel_name": "Branch",
+      "issue_year": "2026-01-01",
+      "original_loans": "485",
+      "ever_31_plus_at_mob6": "52",
+      "ratio": "0.10721649484536082474"
+    },
+    {
+      "channel_name": "Mobile App",
+      "issue_year": "2023-01-01",
+      "original_loans": "150",
+      "ever_31_plus_at_mob6": "21",
+      "ratio": "0.14000000000000000000"
+    },
+    {
+      "channel_name": "Mobile App",
+      "issue_year": "2024-01-01",
+      "original_loans": "852",
+      "ever_31_plus_at_mob6": "76",
+      "ratio": "0.08920187793427230047"
+    },
+    {
+      "channel_name": "Mobile App",
+      "issue_year": "2025-01-01",
+      "original_loans": "989",
+      "ever_31_plus_at_mob6": "96",
+      "ratio": "0.09706774519716885743"
+    },
+    {
+      "channel_name": "Mobile App",
+      "issue_year": "2026-01-01",
+      "original_loans": "385",
+      "ever_31_plus_at_mob6": "40",
+      "ratio": "0.10389610389610389610"
+    },
+    {
+      "channel_name": "Online",
+      "issue_year": "2023-01-01",
+      "original_loans": "141",
+      "ever_31_plus_at_mob6": "15",
+      "ratio": "0.10638297872340425532"
+    },
+    {
+      "channel_name": "Online",
+      "issue_year": "2024-01-01",
+      "original_loans": "847",
+      "ever_31_plus_at_mob6": "89",
+      "ratio": "0.10507674144037780401"
+    },
+    {
+      "channel_name": "Online",
+      "issue_year": "2025-01-01",
+      "original_loans": "1083",
+      "ever_31_plus_at_mob6": "121",
+      "ratio": "0.11172668513388734995"
+    },
+    {
+      "channel_name": "Online",
+      "issue_year": "2026-01-01",
+      "original_loans": "342",
+      "ever_31_plus_at_mob6": "36",
+      "ratio": "0.10526315789473684211"
+    },
+    {
+      "channel_name": "Partner",
+      "issue_year": "2023-01-01",
+      "original_loans": "102",
+      "ever_31_plus_at_mob6": "12",
+      "ratio": "0.11764705882352941176"
+    },
+    {
+      "channel_name": "Partner",
+      "issue_year": "2024-01-01",
+      "original_loans": "652",
+      "ever_31_plus_at_mob6": "69",
+      "ratio": "0.10582822085889570552"
+    },
+    {
+      "channel_name": "Partner",
+      "issue_year": "2025-01-01",
+      "original_loans": "817",
+      "ever_31_plus_at_mob6": "123",
+      "ratio": "0.15055079559363525092"
+    },
+    {
+      "channel_name": "Partner",
+      "issue_year": "2026-01-01",
+      "original_loans": "278",
+      "ever_31_plus_at_mob6": "56",
+      "ratio": "0.20143884892086330935"
+    }
+  ],
+  "elapsed_seconds": 40.68
+}

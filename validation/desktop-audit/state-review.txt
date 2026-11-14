@@ -1,0 +1,25 @@
+Current compact desktop state review
+{
+  "checks": 618,
+  "passed": 618,
+  "failed": [],
+  "pages": 5,
+  "widgets": 784,
+  "parameters": 11,
+  "datasets": 31,
+  "native_charts": 10,
+  "native_formulas": 430,
+  "computes": 521,
+  "directed_tabs": 20,
+  "guarded_drills": 8,
+  "pager_actions": 8,
+  "Apply_controls": 5,
+  "combos": 22
+}
+No actionable source/state-contract defect found.
+All 20 directed tabs forward all 11 parameters; 8 guarded drills reset only operation/schedule pages plus loan ID; Back forwards all 11.
+Five native Apply controls, 22 native dictionary selectors, 8 independent pager actions.
+Portable/private/installed stores and all nonconnection XML/assets are identical; private and installed bytes match. All 31 embedded SQL definitions match current source after trimming XML serializer boundary whitespace. Fresh source build matches portable semantics.
+Current test_native_report.py: 3 tests passed in 0.861 seconds.
+Bounds, VALUE columns, chart resources, dictionary and action/formula compute registrations checked. No credentials emitted.
+Limits: source-only; no new browser/data tests. Older full-audit receipt says nine params, therefore cannot substantiate live retention of the two newer Vintage params.
